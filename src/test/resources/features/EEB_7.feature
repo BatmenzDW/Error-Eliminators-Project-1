@@ -9,14 +9,17 @@ Feature: Users should be able to add Moons to the Planetarium associated with a 
  | Moons should be "owned" by the Planet and the User adding the moon associated with it | 
  | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | 
 		Given User is on the Home Page
-			"""
-			http://localhost:8080/planetarium
-			"""
 		And User is logged in
 		When User selects moon from Dropdown
-		When User inputs <Moon Name> in the moon name section with assiociated planet ID  <Planet ID>>
-		When User attaches moon image: <photo attached>
-		Then Moon is created in DB with image in DB
+		When User inputs "<Moon Name>" in the moon name section with assiociated planet ID  <Planet ID>
+		When User optionally attaches moon image: <Photo Attached>
+		Then The moon creation is a <Result>
 
 	Examples: 
-		| Photo Attached | Planet ID | Moon Attached |
+		| Moon Name     | Planet ID | Photo Attached | Result  |
+		| moonerEclipse | 1         | yes            | Success |
+		| Luna          | 1         | yes            | Fail    |
+		| Luna          | 2         | yes            | Fail    |
+		| <null>        | 1         | yes            | Fail    |
+		| Titan         | 2         | yes            | Fail    |
+		| Sun           | 1         | no             | Success |

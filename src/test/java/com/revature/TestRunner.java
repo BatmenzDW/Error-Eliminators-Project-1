@@ -1,13 +1,22 @@
 package com.revature;
 
 import com.revature.poms.PlanetariumHome;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 /*
     When creating automated test suites, it is common to have a "test runner" used to
@@ -38,7 +47,11 @@ public class TestRunner {
 
     @BeforeClass
     public static void setup() {
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("headless");
+
+        driver = new ChromeDriver(options);
+
         planetariumHome = new PlanetariumHome(driver);
     }
 
