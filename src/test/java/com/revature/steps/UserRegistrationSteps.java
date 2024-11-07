@@ -23,11 +23,6 @@ import java.time.Duration;
 
 public class UserRegistrationSteps {
 
-    @Given("^User is on the Login Page$")
-    public void userOnLoginPage() throws Throwable {
-        TestRunner.planetariumHome.goToPlanetariumHome();
-    }
-
     @And("User with username {string} Doesn't Exist in database")
     public void userWithUsernameNotExistsInDatabase(String username) throws Throwable {
         Connection conn = Setup.getConnection();
