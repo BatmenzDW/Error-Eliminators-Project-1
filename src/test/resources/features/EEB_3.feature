@@ -5,10 +5,11 @@ Feature: Users should be able to securely access their account
 	Scenario Outline: User Login - Unique Username
 	Validating users can log in to their account utilizing their unique username with matching password, and if a different existing username is provided with their password they should not be logged in.
 		Given User is on the Login Page
+		Given User with username "<Username>" Exists in database
 		When The user provides username "<Username>"
 		And User provides password "<Password>"
 		And User clicks the login button
-		Then The user should receive the result "<Result>"
+		Then The user should receive the result <Result>
 
 	Examples: 
 		| Username       | Password       | Result                                          |
@@ -19,6 +20,7 @@ Feature: Users should be able to securely access their account
 	Scenario Outline: User Login - Password Visibility
 	Validating users can login to their account securely with their password not being visible in plaintext.
 		Given User is on the Login Page
+		Given User with username "<Username>" Exists in database
 		When The user provides username "<Username>"
 		And User provides password "<Password>"
 		And User clicks the login button
@@ -26,5 +28,5 @@ Feature: Users should be able to securely access their account
 
 	Examples: 
 		| Username | Password       | Result                                          |
-		| Batman   | I am the night | Success and User Redirect to Home Page          |
+		| Batman   | I am the night | Logged in successfully, redirected to home page |
 		| Batman   | JokerAndHarley | Alert -  login attempt failed: please try again |
