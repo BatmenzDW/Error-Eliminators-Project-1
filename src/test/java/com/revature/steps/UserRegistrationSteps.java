@@ -45,8 +45,11 @@ public class UserRegistrationSteps {
             return;
         }
 
-        PreparedStatement ps2 = conn.prepareStatement("INSERT INTO users (username, password) VALUES (?, 'loremipsos')");
+        String pass = username.equals("Batman") ? "I am the night" : "Lorem ipsus";
+
+        PreparedStatement ps2 = conn.prepareStatement("INSERT INTO users (username, password) VALUES (?, ?)");
         ps2.setString(1, username);
+        ps2.setString(2, pass);
         ps2.executeUpdate();
         conn.close();
     }
@@ -78,7 +81,7 @@ public class UserRegistrationSteps {
 
     @Then("The User is given an Alert with text {string}")
     public void theUserIsGivenAnAlertWithText(String alertText) throws Throwable {
-        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(1));
+        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
         wait.until(ExpectedConditions.alertIsPresent());
 
         String result = TestRunner.planetariumHome.getAlertText();
@@ -98,6 +101,8 @@ public class UserRegistrationSteps {
     @And("Account Creation Failed")
     public void accountCreationFailed() throws Throwable {
         TestRunner.driver.switchTo().alert().accept();
+
+        Assert.assertEquals("Account Creation", TestRunner.driver.getTitle());
     }
 
     @Before
@@ -110,7 +115,7 @@ public class UserRegistrationSteps {
     public static void after(){
         System.out.println("After");
         try {
-            WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(1));
+            WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
             wait.until(ExpectedConditions.alertIsPresent());
             TestRunner.driver.switchTo().alert().accept();
         } catch (NoAlertPresentException nape) {
