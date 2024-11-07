@@ -14,9 +14,15 @@ Feature: Users should be able to add Moons to the Planetarium associated with a 
 			"""
 		And User is logged in
 		When User selects moon from Dropdown
-		When User inputs <Moon Name> in the moon name section with assiociated planet ID  <Planet ID>>
+		When User inputs "<Moon Name>" in the moon name section with assiociated planet ID  "<Planet ID>"
 		When User attaches moon image: <photo attached>
 		Then Moon is created in DB with image in DB
 
 	Examples: 
-		| Photo Attached | Planet ID | Moon Attached |
+		| Moon Name     | Planet ID | Photo Attached |
+		| moonerEclipse | 1         | yes            |
+		| Luna          | 1         | yes            |
+		| Luna          | 2         | yes            |
+		| <null>        | 1         | yes            |
+		| Titan         | 2         | yes            |
+		| Sun           | 1         | no             |

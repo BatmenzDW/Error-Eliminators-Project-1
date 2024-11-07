@@ -13,8 +13,11 @@ Feature: Users should be able to remove Moons from the Planetarium
 			http://localhost:8080/planetarium
 			"""
 		When User selects moon from Dropdown
-		When User enters a valid moon name in deletion box
-		Then Moon is deleted from their DB
+		When User enters moon name "<Moon Name>"
+		And User clicks the delete button
+		Then Moon "<Moon Name>" is deleted
 
 	Examples: 
 		| Moon Name |
+		| Luna      |
+		| Jira      |

@@ -8,29 +8,41 @@ Feature: Users should be able to securely access their account
 			"""
 			<Login Page URL>
 			"""
-		When The user provides username <Username> and password <Password>
+		When The user provides username "<Username>"
 			"""
 			Username: <Username>
+			"""
+		And User provides password "<Password>"
+			"""
 			Password: <Password>
 			"""
 		And User clicks the login button
-		Then The user should receive the result <Account Login Result> and <Redirect>
+		Then The user should receive the result "<Result>"
 
 	Examples: 
-		| Login Page URL         |
-		| http://localhost:8080/ |
+		| Username       | Password       | Result                                          |
+		| Batman         | I am the night | Logged in successfully, redirected to home page |
+		| BatmanAndRobin | I am the night | Alert -  login attempt failed: please try again |
 
 	@EEB-TC-5
-	Scenario: User Login - Password Visibility
+	Scenario Outline: User Login - Password Visibility
 	Validating users can login to their account securely with their password not being visible in plaintext.
-		Given The User is on the Login Page
+		Given User is on the Login Page
 			"""
-			http://localhost:8080/
+			<Login Page URL>
 			"""
-		When The user provides username <Username> and password <Password>
+		When The user provides username "<Username>"
 			"""
 			Username: <Username>
+			"""
+		And User provides password "<Password>"
+			"""
 			Password: <Password>
 			"""
 		And User clicks the login button
-		Then The user should receive the result <Account Login Result> and <Redirect>
+		Then The user should receive the result <Result>
+
+	Examples: 
+		| Username | Password       | Result                                          |
+		| Batman   | I am the night | Success and User Redirect to Home Page          |
+		| Batman   | JokerAndHarley | Alert -  login attempt failed: please try again |
