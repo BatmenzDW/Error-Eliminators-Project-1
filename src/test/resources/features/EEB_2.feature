@@ -21,9 +21,6 @@ Feature: Users should be able to open a new User account with the Planetarium
 	@EEB-TC-6
 	Scenario Outline: User Registration - Username/Password Length
 		Given User is on the Login Page
-			"""
-			http://localhost:8080/
-			"""
 		When User clicks Create Account
 		Then User is taken to the Account Creation Page
 		When User provides a username of "<Username>"
