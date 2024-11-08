@@ -104,7 +104,7 @@ public class AddPlanetSteps {
         conn.close();
     }
 
-    @Then("User can provide an image Yes")
+    @Then("User provides an image Yes")
     public void userCanProvideAnImageCanAddImageYes() throws Throwable {
         String relPath = "src/test/resources/Celestial-Images/planet-1.jpg";
         File file = new File(relPath);
@@ -114,7 +114,7 @@ public class AddPlanetSteps {
         TestRunner.driver.findElement(By.id("planetImageInput")).sendKeys(filePath);
     }
 
-    @Then("User can provide an image No")
+    @Then("User provides an image No")
     public void userCanProvideAnImageCanAddImageNo() throws Throwable {
 
     }

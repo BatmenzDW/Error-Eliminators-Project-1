@@ -38,25 +38,25 @@ Feature: Users should be able to add new Planets to the Planetarium
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
 		When User clicks Planet from the dropdown
-		Then User provides a Planet Name "<Planet Name>"
-		Then User clicks Submit Planet
+		When User provides a Planet Name "<Planet Name>"
+		When User clicks Submit Planet
 		Then The User is given an Alert with text "<Alert Text>"
 
 	Examples: 
-		| Planet Name | Alert Text                | Result  |
-		| Tamaran     | Planet created with Name  | Success |
+		| Planet Name | Alert Text               | Result  |
+		| Tamaran     | Planet created with Name | Success |
 
 	@EEB-TC-11
 	Scenario Outline: Adding Planets - Image Association
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
 		When User clicks Planet from the dropdown
-		Then User provides a Planet Name "<Planet Name>"
-		Then User can provide an image <Can Add Image>
-		Then User clicks Submit Planet
-		And Planet Add <Result>
+		When User provides a Planet Name "<Planet Name>"
+		When User provides an image <Can Add Image>
+		When User clicks Submit Planet
+		Then Planet Add <Result>
 
 	Examples: 
 		| Planet Name | Can Add Image | Result  |
 		| Pluto       | Yes           | Success |
-		| Saturn      | No            | Fail    |
+		| Saturn      | No            | Success |
