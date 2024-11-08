@@ -18,6 +18,22 @@ Feature: Users should be able to open a new User account with the Planetarium
 		| Batman   | Doesn't Exist | I am the night | Account created successfully with username | Success and User Redirected to Login |
 		| Batman   | Exists        | I am the night | Account creation failed with username      | Failed                               |
 
+	@EEB-TC-5
+	Scenario Outline: User Login - Password Visibility
+	Validating users can login to their account securely with their password not being visible in plaintext.
+		Given User is on the Login Page
+		Given User with username "<Username>" Exists in database
+		When The user provides username "<Username>"
+		And User provides password "<Password>"
+		And User clicks the login button
+		Then Password should not be visible in plaintext
+		Then The user should receive the result <Result>
+
+	Examples: 
+		| Username | Password       | Result                                          |
+		| Batman   | I am the night | Logged in successfully, redirected to home page |
+		| Batman   | JokerAndHarley | Alert -  login attempt failed: please try again |
+
 	@EEB-TC-6
 	Scenario Outline: User Registration - Username/Password Length
 		Given User is on the Login Page
