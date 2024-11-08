@@ -1,12 +1,15 @@
 package com.revature.poms;
 
-import com.revature.Setup;
-import com.revature.TestRunner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -16,54 +19,92 @@ import java.sql.ResultSet;
 import java.time.Duration;
 
 public class PlanetariumHome {
-
     private WebDriver driver;
 
-    public PlanetariumHome(WebDriver driver) {
+    @FindBy(id = "greeting")
+    private WebElement greeting;
+
+    // Other possibility for celestial drop down selection
+    // private Select celestialDropDown = new Select(driver.findElement(By.id("locationSelect")));
+
+    @FindBy(id = "locationSelect")
+    private Select celestialDropDown;
+
+    @FindBy(id = "planetNameInput")
+    private WebElement createPlanetNameInput;
+
+    @FindBy(id = "planetImageInput")
+    private WebElement planetImageInput;
+
+    @FindBy(className = "submit-button")
+    private WebElement submitPlanetButton;
+
+    @FindBy(id = "celestialTable")
+    private WebElement celestialTable;
+
+    @FindBy(id = "deleteInput")
+    private WebElement deletePlanetNameInput;
+
+    @FindBy(id = "deleteButton")
+    private WebElement deletePlanetButton;
+
+    public PlanetariumHome(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void goToPlanetariumHome()
-    {
-        driver.get("http://localhost:8080/");
+    public String getHomePageGreeting(){
+        return greeting.getText();
     }
 
-    public void clickCreateAccount()
-    {
-        driver.findElement(By.linkText("Create an Account")).click();
+    public void goToPlanetariumHome() {
+        driver.get("http://localhost:8080/planetarium");
     }
 
-    public String getAlertText()
-    {
-        return driver.switchTo().alert().getText();
+    public void selectPlanet(){
+        celestialDropDown.selectByVisibleText("Planet");
     }
 
-    public void setupTestLogin() throws Throwable
-    {
-        Connection conn = Setup.getConnection();
+    public void inputCreatePlanetName(String planetName){
+        createPlanetNameInput.sendKeys(planetName);
+    }
 
-        PreparedStatement ps = conn.prepareStatement("SELECT * FROM users WHERE username = ?");
-        ps.setString(1, "TestUser");
-        ResultSet rs = ps.executeQuery();
+    public void inputPlanetImage(String planetImagePath){
+        //TODO: ENSURE THAT JUST SENDING THE PLANET IMAGE PATH WILL WORK HERE
+        planetImageInput.sendKeys(planetImagePath);
+    }
 
-        if (rs.next()) {
-            conn.close();
-            return;
+    public void clickSubmitButton(){
+        submitPlanetButton.click();
+    }
+
+    public boolean findPlanetByName(String planetName){
+        List<WebElement> tableRows = celestialTable.findElements(By.tagName("tr"));
+
+        for(int i = 1; i <= tableRows.size();){
+            String rowText = tableRows.get(i).toString();
+
+            //TODO: FIGURE OUT HOW THE TABLE ROW IS CONVERTED TO A STRING AND FORMAT APPROPRIATELY
+            if(rowText.equals(planetName)){
+                return true;
+            }
+            else{
+                i++;
+            }
         }
-
-        PreparedStatement ps2 = conn.prepareStatement("INSERT INTO users (username, password) VALUES (?, ?)");
-        ps2.setString(1, "TestUser");
-        ps2.setString(2, "TestPassword");
-        ps2.executeUpdate();
-        conn.close();
+        return false;
     }
 
-    public void login(String username, String password) throws Throwable
-    {
-        TestRunner.driver.findElement(By.id("usernameInput")).sendKeys(username);
-        TestRunner.driver.findElement(By.id("passwordInput")).sendKeys(password);
-        TestRunner.driver.findElement(By.xpath("//input[3]")).click();
+    public void inputDeletePlanetName(String planetName){
+        deletePlanetNameInput.sendKeys(planetName);
+    }
+
+    public void clickDeleteButton(){
+        deletePlanetButton.click();
+    }
+
+    public String getAlertText(){
+        return driver.switchTo().alert().getText();
     }
 
 

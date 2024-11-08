@@ -15,17 +15,19 @@ public class UserLoginSteps {
 
     @When("The user provides username {string}")
     public void userProvidesUsername(String username) throws Throwable {
-        TestRunner.driver.findElement(By.id("usernameInput")).sendKeys(username);
+        TestRunner.planetariumLogin.inputUsername(username);
+//        TestRunner.driver.findElement(By.id("usernameInput")).sendKeys(username);
     }
 
     @And("User provides password {string}")
     public void userProvidesAPasswordOf(String password) throws Throwable {
-        TestRunner.driver.findElement(By.id("passwordInput")).sendKeys(password);
+        TestRunner.planetariumLogin.inputPassword(password);
+//        TestRunner.driver.findElement(By.id("passwordInput")).sendKeys(password);
     }
 
     @And("User clicks the login button")
     public void userClicksTheRegisterButton() {
-        TestRunner.driver.findElement(By.xpath("//input[3]")).click();
+        TestRunner.planetariumLogin.clickLoginButton();
     }
 
     @Then("The user should receive the result Logged in successfully, redirected to home page")
@@ -40,7 +42,7 @@ public class UserLoginSteps {
         WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
         wait.until(ExpectedConditions.alertIsPresent());
 
-        String result = TestRunner.planetariumHome.getAlertText();
+        String result = TestRunner.planetariumLogin.getAlertText();
 
         TestRunner.driver.switchTo().alert().accept();
 

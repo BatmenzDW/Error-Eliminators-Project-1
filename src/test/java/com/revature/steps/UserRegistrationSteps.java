@@ -55,7 +55,7 @@ public class UserRegistrationSteps {
 
     @When("User clicks Create Account")
     public void userClicksCreateAccount() {
-        TestRunner.planetariumHome.clickCreateAccount();
+        TestRunner.planetariumLogin.clickCreateAccount();
     }
 
     @Then("User is taken to the Account Creation Page")
@@ -65,24 +65,26 @@ public class UserRegistrationSteps {
 
     @When("User provides a username of {string}")
     public void userProvidesAUsernameOf(String username) throws Throwable {
-        TestRunner.driver.findElement(By.id("usernameInput")).sendKeys(username);
+        TestRunner.planetariumRegistration.inputUsername(username);
+//        TestRunner.driver.findElement(By.id("usernameInput")).sendKeys(username);
     }
 
     @And("User provides a password of {string}")
     public void userProvidesAPasswordOf(String password) throws Throwable {
-        TestRunner.driver.findElement(By.id("passwordInput")).sendKeys(password);
+        TestRunner.planetariumRegistration.inputPassword(password);
+//        TestRunner.driver.findElement(By.id("passwordInput")).sendKeys(password);
     }
 
     @And("User clicks the Register button")
     public void userClicksTheRegisterButton() {
-        TestRunner.driver.findElement(By.xpath("//input[3]")).click();
+        TestRunner.planetariumRegistration.clickRegisterButton();
     }
 
     @Then("The User is given an Alert with text {string}")
     public void theUserIsGivenAnAlertWithText(String alertText) throws Throwable {
         Assert.assertTrue(TestRunner.planetariumHome.isAlertPresent());
 
-        String result = TestRunner.planetariumHome.getAlertText();
+        String result = TestRunner.planetariumRegistration.getAlertText();
 
         Assert.assertTrue(result.contains(alertText));
     }
@@ -116,7 +118,6 @@ public class UserRegistrationSteps {
             Assert.assertFalse(alertText.contains(password));
         }
     }
-
     @Before
     public static void before(){
 //        System.out.println("Before");
