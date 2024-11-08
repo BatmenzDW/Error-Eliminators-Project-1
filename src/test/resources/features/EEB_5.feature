@@ -30,8 +30,7 @@ Feature: Users should be able to add new Planets to the Planetarium
 	Examples: 
 		| Planet Name | Exists        | Alert Text                          | Result  |
 		| Earth       | Doesn't Exist | Planet added successfully with name | Success |
-		| Venus       | Exists        | Planet add failed
- with name        | Failed  |
+		| Venus       | Exists        | Planet add failed with name         | Failed  |
 
 	@EEB-TC-11
 	Scenario Outline: Adding Planets - Image Association
