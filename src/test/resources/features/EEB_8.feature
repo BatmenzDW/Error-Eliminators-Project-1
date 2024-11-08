@@ -1,7 +1,7 @@
-@JREQ-EEB-8
-Feature: Users should be able to remove Moons from the Planetarium
+@EEB-8
+Feature: EEB-8
 
-	@EEB-TC-4
+	@EEB-TC-4 @JREQ-EEB-21 @AIO-FOLDER-EEB-8
 	Scenario Outline: User Interaction - Remove Moons
 	
  | Users should only be able to interact with resources they have added to the Planetarium | 

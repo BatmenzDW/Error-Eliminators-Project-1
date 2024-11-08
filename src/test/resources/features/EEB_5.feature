@@ -1,7 +1,7 @@
-@JREQ-EEB-5
-Feature: Users should be able to add new Planets to the Planetarium
+@EEB-5
+Feature: EEB-5
 
-	@EEB-TC-8
+	@EEB-TC-8 @JREQ-EEB-13 @AIO-FOLDER-EEB-5
 	Scenario Outline: Adding Planets - Planet Name Length
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
@@ -17,7 +17,7 @@ Feature: Users should be able to add new Planets to the Planetarium
 		| PlanetNameWithThirtyCharacters  | Planet created with Name         | Success |
 		| PlanetNameOfThirtyOneCharacters | Planet creation failed with Name | Fail    |
 
-	@EEB-TC-9
+	@EEB-TC-9 @AIO-FOLDER-EEB-5
 	Scenario Outline: Adding Planets - Unique Planet Names
 		Given User is on the Home Page
 		And Planet with name "<Planet Name>" <Exists> in database
@@ -30,10 +30,10 @@ Feature: Users should be able to add new Planets to the Planetarium
 
 	Examples: 
 		| Planet Name | Exists        | Alert Text                          | Result  |
-		| Earth       | Doesn't Exist | Planet added successfully with name | Success |
+		| Krypton     | Doesn't Exist | Planet added successfully with name | Success |
 		| Venus       | Exists        | Planet add failed with name         | Failed  |
 
-	@EEB-TC-10
+	@EEB-TC-10 @AIO-FOLDER-EEB-5
 	Scenario Outline: Adding Planets - Planet Ownership
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
@@ -46,7 +46,7 @@ Feature: Users should be able to add new Planets to the Planetarium
 		| Planet Name | Alert Text               | Result  |
 		| Tamaran     | Planet created with Name | Success |
 
-	@EEB-TC-11
+	@EEB-TC-11 @JREQ-EEB-14 @AIO-FOLDER-EEB-5
 	Scenario Outline: Adding Planets - Image Association
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option

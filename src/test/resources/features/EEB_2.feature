@@ -1,7 +1,7 @@
-@JREQ-EEB-2
-Feature: Users should be able to open a new User account with the Planetarium
+@EEB-2
+Feature: EEB-2
 
-	@EEB-TC-1
+	@EEB-TC-1 @JREQ-EEB-9 @JREQ-EEB-11 @AIO-FOLDER-EEB-2
 	Scenario Outline: User Registration - Unique Username
 		Given User is on the Login Page
 		And User with username "<Username>" <User Exists> in database
@@ -18,7 +18,7 @@ Feature: Users should be able to open a new User account with the Planetarium
 		| Batman   | Doesn't Exist | I am the night | Account created successfully with username | Success and User Redirected to Login |
 		| Batman   | Exists        | I am the night | Account creation failed with username      | Failed                               |
 
-	@EEB-TC-6
+	@EEB-TC-6 @JREQ-EEB-9 @JREQ-EEB-10 @JREQ-EEB-11 @AIO-FOLDER-EEB-2
 	Scenario Outline: User Registration - Username/Password Length
 		Given User is on the Login Page
 		When User clicks Create Account
