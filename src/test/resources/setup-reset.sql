@@ -16,7 +16,7 @@ create table users(
 	password text not null check (length(password) <= 30)
 );
 
-insert into users (username, password) values ('Batman', 'I am the night');
+insert into users (username, password) values ('TheBatman', 'I am the night');
 
 create table planets(
 	id integer primary key,

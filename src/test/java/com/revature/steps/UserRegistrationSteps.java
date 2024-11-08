@@ -105,6 +105,12 @@ public class UserRegistrationSteps {
         Assert.assertEquals("Account Creation", TestRunner.driver.getTitle());
     }
 
+    @Then("Password should not be visible in plaintext")
+    public void passwordNotVisibleInPlaintext() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
     @Before
     public static void before(){
         System.out.println("Before");
