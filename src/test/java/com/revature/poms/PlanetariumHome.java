@@ -1,6 +1,8 @@
 package com.revature.poms;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,6 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.time.Duration;
 
 public class PlanetariumHome {
     private WebDriver driver;
@@ -96,5 +105,22 @@ public class PlanetariumHome {
 
     public String getAlertText(){
         return driver.switchTo().alert().getText();
+    }
+
+
+
+    public boolean isAlertPresent()
+    {
+        try
+        {
+            WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(10));
+            wait.until(ExpectedConditions.alertIsPresent());
+            driver.switchTo().alert();
+            return true;
+        }   // try
+        catch (NoAlertPresentException | TimeoutException Ex)
+        {
+            return false;
+        }   // catch
     }
 }

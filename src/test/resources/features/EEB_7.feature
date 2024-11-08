@@ -1,8 +1,6 @@
-@JREQ-EEB-7
-Feature: Users should be able to add Moons to the Planetarium associated with a Planet
+Feature: Add Moons
 
-	@EEB-TC-7
-	Scenario Outline: User Interaction - Add Moons
+	Scenario Outline: User Interaction - Add Moons -
 	
  | Planet and Moon names should not have more than 30 characters | 
  | Planets and moons should have unique names | 

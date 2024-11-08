@@ -27,7 +27,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
         features = "classpath:features",
         // this tells Cucumber to use a better format for the test results
         // the html plugin tells Cucumber to generate an HTML test report
-        plugin = {"pretty","html:src/test/resources/reports/html-report.html"}
+        plugin = {"pretty", "html:src/test/resources/reports/html-report.html", "json:src/test/resources/reports/json-report.json"}
 )
 public class TestRunner {
     /*
