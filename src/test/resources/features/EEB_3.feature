@@ -24,6 +24,7 @@ Feature: Users should be able to securely access their account
 		When The user provides username "<Username>"
 		And User provides password "<Password>"
 		And User clicks the login button
+		Then Password should not be visible in plaintext
 		Then The user should receive the result <Result>
 
 	Examples: 

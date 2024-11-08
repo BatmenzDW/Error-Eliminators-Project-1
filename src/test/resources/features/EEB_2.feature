@@ -14,9 +14,9 @@ Feature: Users should be able to open a new User account with the Planetarium
 		And Account Creation <Result>
 
 	Examples: 
-		| Username       | User Exists   | Password       | Alert Text                                 | Result                               |
-		| BatmanAndRobin | Doesn't Exist | JokerAndHarley | Account created successfully with username | Success and User Redirected to Login |
-		| BatmanAndRobin | Exists        | JokerAndHarley | Account creation failed with username      | Failed                               |
+		| Username | User Exists   | Password       | Alert Text                                 | Result                               |
+		| Batman   | Doesn't Exist | I am the night | Account created successfully with username | Success and User Redirected to Login |
+		| Batman   | Exists        | I am the night | Account creation failed with username      | Failed                               |
 
 	@EEB-TC-6
 	Scenario Outline: User Registration - Username/Password Length

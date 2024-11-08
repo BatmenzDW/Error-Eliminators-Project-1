@@ -15,7 +15,7 @@ Feature: Users should be able to remove Moons from the Planetarium
 		When User selects moon from Dropdown
 		When User enters moon name "<Moon Name>"
 		And User clicks the delete button
-		Then Moon "<Moon Name>" is deleted <Result>
+		Then Moon "<Moon Name>" is deleted "<Result>"
 
 	Examples: 
 		| Moon Name | Result  |
