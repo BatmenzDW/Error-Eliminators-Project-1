@@ -1,8 +1,6 @@
-@EEB-7
-Feature: EEB-7
+Feature: Add Moons
 
-	@EEB-TC-7 @JREQ-EEB-17 @JREQ-EEB-18 @JREQ-EEB-19 @JREQ-EEB-20 @AIO-FOLDER-EEB-7
-	Scenario Outline: User Interaction - Add Moons
+	Scenario Outline: User Interaction - Add Moons -
 	
  | Planet and Moon names should not have more than 30 characters | 
  | Planets and moons should have unique names | 

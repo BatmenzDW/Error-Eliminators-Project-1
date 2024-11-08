@@ -1,8 +1,6 @@
-@EEB-5
-Feature: EEB-5
+Feature: Add Planets
 
-	@EEB-TC-8 @JREQ-EEB-13 @AIO-FOLDER-EEB-5
-	Scenario Outline: Adding Planets - Planet Name Length
+	Scenario Outline: Adding Planets - Planet Name Length -
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
 		When User clicks Planet from the dropdown
@@ -17,8 +15,7 @@ Feature: EEB-5
 		| PlanetNameWithThirtyCharacters  | Planet created with Name         | Success |
 		| PlanetNameOfThirtyOneCharacters | Planet creation failed with Name | Fail    |
 
-	@EEB-TC-9 @AIO-FOLDER-EEB-5
-	Scenario Outline: Adding Planets - Unique Planet Names
+	Scenario Outline: Adding Planets - Unique Planet Names -
 		Given User is on the Home Page
 		And Planet with name "<Planet Name>" <Exists> in database
 		When User clicks the Moon Dropdown option
@@ -33,8 +30,7 @@ Feature: EEB-5
 		| Krypton     | Doesn't Exist | Planet added successfully with name | Success |
 		| Venus       | Exists        | Planet add failed with name         | Failed  |
 
-	@EEB-TC-10 @AIO-FOLDER-EEB-5
-	Scenario Outline: Adding Planets - Planet Ownership
+	Scenario Outline: Adding Planets - Planet Ownership -
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
 		When User clicks Planet from the dropdown
@@ -46,8 +42,7 @@ Feature: EEB-5
 		| Planet Name | Alert Text               | Result  |
 		| Tamaran     | Planet created with Name | Success |
 
-	@EEB-TC-11 @JREQ-EEB-14 @AIO-FOLDER-EEB-5
-	Scenario Outline: Adding Planets - Image Association
+	Scenario Outline: Adding Planets - Image Association -
 		Given User is on the Home Page
 		When User clicks the Moon Dropdown option
 		When User clicks Planet from the dropdown
