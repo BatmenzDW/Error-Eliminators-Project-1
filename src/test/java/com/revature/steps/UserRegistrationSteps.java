@@ -9,17 +9,16 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.time.Duration;
+import java.util.List;
 
 public class UserRegistrationSteps {
 
@@ -81,12 +80,9 @@ public class UserRegistrationSteps {
 
     @Then("The User is given an Alert with text {string}")
     public void theUserIsGivenAnAlertWithText(String alertText) throws Throwable {
-        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
-        wait.until(ExpectedConditions.alertIsPresent());
+        Assert.assertTrue(TestRunner.planetariumHome.isAlertPresent());
 
         String result = TestRunner.planetariumHome.getAlertText();
-
-//        System.out.println(result);
 
         Assert.assertTrue(result.contains(alertText));
     }
@@ -105,21 +101,31 @@ public class UserRegistrationSteps {
         Assert.assertEquals("Account Creation", TestRunner.driver.getTitle());
     }
 
-    @Then("Password should not be visible in plaintext")
-    public void passwordNotVisibleInPlaintext() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Then("{string} should not be visible in plaintext")
+    public void passwordNotVisibleInPlaintext(String password) throws Throwable {
+        try {
+            List<WebElement> elements = TestRunner.driver.findElements(By.xpath("//*[contains(text(),'" + password + "')]"));
+
+            Assert.assertTrue(elements.size() <= 1);
+        } catch (UnhandledAlertException uae) {
+            WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofSeconds(1));
+            wait.until(ExpectedConditions.alertIsPresent());
+
+            String alertText = TestRunner.driver.switchTo().alert().getText();
+
+            Assert.assertFalse(alertText.contains(password));
+        }
     }
 
     @Before
     public static void before(){
-        System.out.println("Before");
+//        System.out.println("Before");
         Setup.resetTestDatabase();
     }
 
     @After
     public static void after(){
-        System.out.println("After");
+//        System.out.println("After");
         try {
             WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
             wait.until(ExpectedConditions.alertIsPresent());
