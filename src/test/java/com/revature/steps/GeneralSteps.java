@@ -11,7 +11,8 @@ public class GeneralSteps {
         TestRunner.planetariumLogin.goToPlanetariumLogin();
     }
 
-    @Given(".*User is on the Login Page")
+    @Given("The User is on the Login Page")
+    @Given("User is on the Login Page")
     public void userOnLoginPage() throws Throwable {
         TestRunner.planetariumLogin.goToPlanetariumLogin();
     }
