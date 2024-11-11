@@ -10,4 +10,9 @@ public class GeneralSteps {
         //TODO: IMPLEMENT LOGIN/ACCOUNT CREATION STEPS AS EACH RESET WOULD REQUIRE LOGIN/ACCOUNT CREATION
         TestRunner.planetariumLogin.goToPlanetariumLogin();
     }
+
+    @Given(".*User is on the Login Page")
+    public void userOnLoginPage() throws Throwable {
+        TestRunner.planetariumLogin.goToPlanetariumLogin();
+    }
 }
