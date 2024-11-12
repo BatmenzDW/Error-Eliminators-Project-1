@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:41:45.606Z",
+        "start_timestamp": "2024-11-12T17:06:31.130Z",
         "before": [
           {
             "result": {
-              "duration": 180280600,
+              "duration": 405022500,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 9252400,
+              "duration": 508876100,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 206028700,
+              "duration": 63222000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3459900,
+              "duration": 3359600,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 94140000,
+              "duration": 81573900,
               "status": "passed"
             },
             "line": 6,
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 7408000,
+              "duration": 6518700,
               "status": "passed"
             },
             "line": 7,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 80028100,
+              "duration": 73414900,
               "status": "passed"
             },
             "line": 8,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 90200900,
+              "duration": 79930300,
               "status": "passed"
             },
             "line": 9,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 41166400,
+              "duration": 37434000,
               "status": "passed"
             },
             "line": 10,
@@ -137,9 +137,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:11)\r\n",
-              "duration": 16047600,
-              "status": "failed"
+              "duration": 527032300,
+              "status": "passed"
             },
             "line": 11,
             "name": "The User is given an Alert with text \"Account created successfully with username\"",
@@ -156,7 +155,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:96)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:12)\r\n",
+              "duration": 10273800,
+              "status": "failed"
             },
             "line": 12,
             "name": "Account Creation Success and User Redirected to Login",
@@ -168,11 +169,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:46.410Z",
+        "start_timestamp": "2024-11-12T17:06:33.075Z",
         "before": [
           {
             "result": {
-              "duration": 15985300,
+              "duration": 14208900,
               "status": "passed"
             },
             "match": {
@@ -187,7 +188,7 @@
         "after": [
           {
             "result": {
-              "duration": 519528400,
+              "duration": 509572200,
               "status": "passed"
             },
             "match": {
@@ -200,7 +201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28297200,
+              "duration": 26576700,
               "status": "passed"
             },
             "line": 4,
@@ -212,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 10019600,
+              "duration": 10527100,
               "status": "passed"
             },
             "line": 5,
@@ -230,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 62389700,
+              "duration": 62095300,
               "status": "passed"
             },
             "line": 6,
@@ -242,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 4638400,
+              "duration": 5818800,
               "status": "passed"
             },
             "line": 7,
@@ -254,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 61992900,
+              "duration": 55807100,
               "status": "passed"
             },
             "line": 8,
@@ -272,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 87141600,
+              "duration": 74722700,
               "status": "passed"
             },
             "line": 9,
@@ -290,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 45082600,
+              "duration": 32445500,
               "status": "passed"
             },
             "line": 10,
@@ -302,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 9815200,
+              "duration": 9305300,
               "status": "passed"
             },
             "line": 11,
@@ -320,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 11264700,
+              "duration": 9506500,
               "status": "passed"
             },
             "line": 12,
@@ -333,11 +334,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:47.278Z",
+        "start_timestamp": "2024-11-12T17:06:33.902Z",
         "before": [
           {
             "result": {
-              "duration": 11585200,
+              "duration": 14172400,
               "status": "passed"
             },
             "match": {
@@ -352,7 +353,7 @@
         "after": [
           {
             "result": {
-              "duration": 511100000,
+              "duration": 510638600,
               "status": "passed"
             },
             "match": {
@@ -365,7 +366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25634000,
+              "duration": 25542300,
               "status": "passed"
             },
             "line": 20,
@@ -377,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 58057200,
+              "duration": 53106400,
               "status": "passed"
             },
             "line": 21,
@@ -389,7 +390,7 @@
           },
           {
             "result": {
-              "duration": 5903700,
+              "duration": 4492200,
               "status": "passed"
             },
             "line": 22,
@@ -401,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 81056000,
+              "duration": 81304000,
               "status": "passed"
             },
             "line": 23,
@@ -419,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 80063100,
+              "duration": 145769900,
               "status": "passed"
             },
             "line": 24,
@@ -437,7 +438,7 @@
           },
           {
             "result": {
-              "duration": 32862800,
+              "duration": 38553200,
               "status": "passed"
             },
             "line": 25,
@@ -449,7 +450,7 @@
           },
           {
             "result": {
-              "duration": 518259100,
+              "duration": 510843100,
               "status": "passed"
             },
             "line": 26,
@@ -468,7 +469,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:96)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:27)\r\n",
-              "duration": 8243600,
+              "duration": 8522200,
               "status": "failed"
             },
             "line": 27,
@@ -481,11 +482,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:48.624Z",
+        "start_timestamp": "2024-11-12T17:06:35.303Z",
         "before": [
           {
             "result": {
-              "duration": 15739100,
+              "duration": 17180900,
               "status": "passed"
             },
             "match": {
@@ -500,7 +501,7 @@
         "after": [
           {
             "result": {
-              "duration": 518015400,
+              "duration": 507209300,
               "status": "passed"
             },
             "match": {
@@ -513,7 +514,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25616200,
+              "duration": 23237000,
               "status": "passed"
             },
             "line": 20,
@@ -525,7 +526,7 @@
           },
           {
             "result": {
-              "duration": 58093600,
+              "duration": 60429600,
               "status": "passed"
             },
             "line": 21,
@@ -537,7 +538,7 @@
           },
           {
             "result": {
-              "duration": 5546100,
+              "duration": 4844700,
               "status": "passed"
             },
             "line": 22,
@@ -549,7 +550,7 @@
           },
           {
             "result": {
-              "duration": 165611800,
+              "duration": 167530100,
               "status": "passed"
             },
             "line": 23,
@@ -567,7 +568,7 @@
           },
           {
             "result": {
-              "duration": 81173100,
+              "duration": 75151200,
               "status": "passed"
             },
             "line": 24,
@@ -585,7 +586,7 @@
           },
           {
             "result": {
-              "duration": 32494400,
+              "duration": 31929600,
               "status": "passed"
             },
             "line": 25,
@@ -597,7 +598,7 @@
           },
           {
             "result": {
-              "duration": 8228000,
+              "duration": 6884300,
               "status": "passed"
             },
             "line": 26,
@@ -615,7 +616,7 @@
           },
           {
             "result": {
-              "duration": 9460700,
+              "duration": 9006300,
               "status": "passed"
             },
             "line": 27,
@@ -628,11 +629,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:49.550Z",
+        "start_timestamp": "2024-11-12T17:06:36.218Z",
         "before": [
           {
             "result": {
-              "duration": 15026200,
+              "duration": 16908600,
               "status": "passed"
             },
             "match": {
@@ -647,7 +648,7 @@
         "after": [
           {
             "result": {
-              "duration": 512975100,
+              "duration": 517565900,
               "status": "passed"
             },
             "match": {
@@ -660,7 +661,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24572300,
+              "duration": 27849700,
               "status": "passed"
             },
             "line": 20,
@@ -672,7 +673,7 @@
           },
           {
             "result": {
-              "duration": 55955600,
+              "duration": 57828300,
               "status": "passed"
             },
             "line": 21,
@@ -684,7 +685,7 @@
           },
           {
             "result": {
-              "duration": 6239500,
+              "duration": 5563600,
               "status": "passed"
             },
             "line": 22,
@@ -696,7 +697,7 @@
           },
           {
             "result": {
-              "duration": 84495300,
+              "duration": 84210800,
               "status": "passed"
             },
             "line": 23,
@@ -714,7 +715,7 @@
           },
           {
             "result": {
-              "duration": 162269300,
+              "duration": 175176000,
               "status": "passed"
             },
             "line": 24,
@@ -732,7 +733,7 @@
           },
           {
             "result": {
-              "duration": 32670000,
+              "duration": 30012300,
               "status": "passed"
             },
             "line": 25,
@@ -744,7 +745,7 @@
           },
           {
             "result": {
-              "duration": 7418500,
+              "duration": 7298700,
               "status": "passed"
             },
             "line": 26,
@@ -762,7 +763,7 @@
           },
           {
             "result": {
-              "duration": 10029900,
+              "duration": 7782800,
               "status": "passed"
             },
             "line": 27,
@@ -775,11 +776,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:50.473Z",
+        "start_timestamp": "2024-11-12T17:06:37.157Z",
         "before": [
           {
             "result": {
-              "duration": 16150800,
+              "duration": 17050700,
               "status": "passed"
             },
             "match": {
@@ -794,7 +795,7 @@
         "after": [
           {
             "result": {
-              "duration": 5013200,
+              "duration": 6035700,
               "status": "passed"
             },
             "match": {
@@ -807,7 +808,7 @@
         "steps": [
           {
             "result": {
-              "duration": 26223300,
+              "duration": 26498300,
               "status": "passed"
             },
             "line": 20,
@@ -819,7 +820,7 @@
           },
           {
             "result": {
-              "duration": 52983200,
+              "duration": 57638900,
               "status": "passed"
             },
             "line": 21,
@@ -831,7 +832,7 @@
           },
           {
             "result": {
-              "duration": 4375300,
+              "duration": 4521000,
               "status": "passed"
             },
             "line": 22,
@@ -843,7 +844,7 @@
           },
           {
             "result": {
-              "duration": 38074400,
+              "duration": 40065800,
               "status": "passed"
             },
             "line": 23,
@@ -861,7 +862,7 @@
           },
           {
             "result": {
-              "duration": 74911300,
+              "duration": 83503800,
               "status": "passed"
             },
             "line": 24,
@@ -879,7 +880,7 @@
           },
           {
             "result": {
-              "duration": 30262900,
+              "duration": 32507300,
               "status": "passed"
             },
             "line": 25,
@@ -892,7 +893,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-              "duration": 5867000,
+              "duration": 8066200,
               "status": "failed"
             },
             "line": 26,
@@ -922,11 +923,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:50.736Z",
+        "start_timestamp": "2024-11-12T17:06:37.445Z",
         "before": [
           {
             "result": {
-              "duration": 14842400,
+              "duration": 22301300,
               "status": "passed"
             },
             "match": {
@@ -941,7 +942,7 @@
         "after": [
           {
             "result": {
-              "duration": 5061500,
+              "duration": 5467000,
               "status": "passed"
             },
             "match": {
@@ -954,7 +955,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27326000,
+              "duration": 25766300,
               "status": "passed"
             },
             "line": 20,
@@ -966,7 +967,7 @@
           },
           {
             "result": {
-              "duration": 67180900,
+              "duration": 55164400,
               "status": "passed"
             },
             "line": 21,
@@ -978,7 +979,7 @@
           },
           {
             "result": {
-              "duration": 5384700,
+              "duration": 4246500,
               "status": "passed"
             },
             "line": 22,
@@ -990,7 +991,7 @@
           },
           {
             "result": {
-              "duration": 90077200,
+              "duration": 86214300,
               "status": "passed"
             },
             "line": 23,
@@ -1008,7 +1009,7 @@
           },
           {
             "result": {
-              "duration": 51742500,
+              "duration": 47439800,
               "status": "passed"
             },
             "line": 24,
@@ -1026,7 +1027,7 @@
           },
           {
             "result": {
-              "duration": 36037100,
+              "duration": 33994800,
               "status": "passed"
             },
             "line": 25,
@@ -1039,7 +1040,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-              "duration": 7009300,
+              "duration": 9848700,
               "status": "failed"
             },
             "line": 26,
@@ -1080,11 +1081,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:41:51.050Z",
+        "start_timestamp": "2024-11-12T17:06:37.749Z",
         "before": [
           {
             "result": {
-              "duration": 13935200,
+              "duration": 18201800,
               "status": "passed"
             },
             "match": {
@@ -1099,7 +1100,7 @@
         "after": [
           {
             "result": {
-              "duration": 5900900,
+              "duration": 506948100,
               "status": "passed"
             },
             "match": {
@@ -1112,7 +1113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28572500,
+              "duration": 27856900,
               "status": "passed"
             },
             "line": 5,
@@ -1124,7 +1125,7 @@
           },
           {
             "result": {
-              "duration": 6373500,
+              "duration": 11561900,
               "status": "passed"
             },
             "line": 6,
@@ -1142,7 +1143,7 @@
           },
           {
             "result": {
-              "duration": 69735500,
+              "duration": 62450600,
               "status": "passed"
             },
             "line": 7,
@@ -1160,7 +1161,7 @@
           },
           {
             "result": {
-              "duration": 105845000,
+              "duration": 97211400,
               "status": "passed"
             },
             "line": 8,
@@ -1178,7 +1179,7 @@
           },
           {
             "result": {
-              "duration": 38484500,
+              "duration": 33886800,
               "status": "passed"
             },
             "line": 9,
@@ -1190,9 +1191,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain \"/planetarium\". Current url: \"http://localhost:8080/\" (tried for 0 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.UserLoginSteps.theUserShouldReceiveTheResultSuccess(UserLoginSteps.java:37)\r\n\tat ✽.The user should receive the result Logged in successfully, redirected to home page(classpath:features/EEB_3.feature:10)\r\n",
-              "duration": 40055900,
-              "status": "failed"
+              "duration": 35447500,
+              "status": "passed"
             },
             "line": 10,
             "name": "The user should receive the result Logged in successfully, redirected to home page",
@@ -1204,11 +1204,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:51.374Z",
+        "start_timestamp": "2024-11-12T17:06:38.559Z",
         "before": [
           {
             "result": {
-              "duration": 21075500,
+              "duration": 14901900,
               "status": "passed"
             },
             "match": {
@@ -1223,7 +1223,7 @@
         "after": [
           {
             "result": {
-              "duration": 518114600,
+              "duration": 518069900,
               "status": "passed"
             },
             "match": {
@@ -1236,7 +1236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127131500,
+              "duration": 28222000,
               "status": "passed"
             },
             "line": 5,
@@ -1248,7 +1248,7 @@
           },
           {
             "result": {
-              "duration": 8347800,
+              "duration": 8603400,
               "status": "passed"
             },
             "line": 6,
@@ -1266,7 +1266,7 @@
           },
           {
             "result": {
-              "duration": 42581000,
+              "duration": 91159900,
               "status": "passed"
             },
             "line": 7,
@@ -1284,7 +1284,7 @@
           },
           {
             "result": {
-              "duration": 46746400,
+              "duration": 101884900,
               "status": "passed"
             },
             "line": 8,
@@ -1302,7 +1302,7 @@
           },
           {
             "result": {
-              "duration": 37315100,
+              "duration": 33683300,
               "status": "passed"
             },
             "line": 9,
@@ -1314,7 +1314,7 @@
           },
           {
             "result": {
-              "duration": 529065600,
+              "duration": 522305000,
               "status": "passed"
             },
             "line": 10,
@@ -1327,11 +1327,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:52.712Z",
+        "start_timestamp": "2024-11-12T17:06:39.884Z",
         "before": [
           {
             "result": {
-              "duration": 17108000,
+              "duration": 13766900,
               "status": "passed"
             },
             "match": {
@@ -1346,7 +1346,7 @@
         "after": [
           {
             "result": {
-              "duration": 517569500,
+              "duration": 507909000,
               "status": "passed"
             },
             "match": {
@@ -1359,7 +1359,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14857200,
+              "duration": 15488800,
               "status": "passed"
             },
             "line": 19,
@@ -1371,7 +1371,7 @@
           },
           {
             "result": {
-              "duration": 9199900,
+              "duration": 9299500,
               "status": "passed"
             },
             "line": 20,
@@ -1389,7 +1389,7 @@
           },
           {
             "result": {
-              "duration": 60073300,
+              "duration": 71078300,
               "status": "passed"
             },
             "line": 21,
@@ -1407,7 +1407,7 @@
           },
           {
             "result": {
-              "duration": 110620400,
+              "duration": 83430100,
               "status": "passed"
             },
             "line": 22,
@@ -1425,7 +1425,7 @@
           },
           {
             "result": {
-              "duration": 40677500,
+              "duration": 34910300,
               "status": "passed"
             },
             "line": 23,
@@ -1437,7 +1437,7 @@
           },
           {
             "result": {
-              "duration": 31175400,
+              "duration": 26762000,
               "status": "passed"
             },
             "line": 24,
@@ -1455,7 +1455,7 @@
           },
           {
             "result": {
-              "duration": 16214900,
+              "duration": 8284400,
               "status": "passed"
             },
             "line": 25,
@@ -1468,11 +1468,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:53.535Z",
+        "start_timestamp": "2024-11-12T17:06:40.663Z",
         "before": [
           {
             "result": {
-              "duration": 14797300,
+              "duration": 15042800,
               "status": "passed"
             },
             "match": {
@@ -1487,7 +1487,7 @@
         "after": [
           {
             "result": {
-              "duration": 512653400,
+              "duration": 508291500,
               "status": "passed"
             },
             "match": {
@@ -1500,7 +1500,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27447500,
+              "duration": 26449700,
               "status": "passed"
             },
             "line": 19,
@@ -1512,7 +1512,7 @@
           },
           {
             "result": {
-              "duration": 9192700,
+              "duration": 10063600,
               "status": "passed"
             },
             "line": 20,
@@ -1530,7 +1530,7 @@
           },
           {
             "result": {
-              "duration": 61093800,
+              "duration": 72143000,
               "status": "passed"
             },
             "line": 21,
@@ -1548,7 +1548,7 @@
           },
           {
             "result": {
-              "duration": 101221300,
+              "duration": 84747300,
               "status": "passed"
             },
             "line": 22,
@@ -1566,7 +1566,7 @@
           },
           {
             "result": {
-              "duration": 33532500,
+              "duration": 35324200,
               "status": "passed"
             },
             "line": 23,
@@ -1578,7 +1578,7 @@
           },
           {
             "result": {
-              "duration": 4944200,
+              "duration": 5729500,
               "status": "passed"
             },
             "line": 24,
@@ -1596,7 +1596,7 @@
           },
           {
             "result": {
-              "duration": 13772500,
+              "duration": 10328400,
               "status": "passed"
             },
             "line": 25,
@@ -1620,11 +1620,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:41:54.342Z",
+        "start_timestamp": "2024-11-12T17:06:41.462Z",
         "before": [
           {
             "result": {
-              "duration": 17192800,
+              "duration": 14526900,
               "status": "passed"
             },
             "match": {
@@ -1639,7 +1639,7 @@
         "after": [
           {
             "result": {
-              "duration": 9651000,
+              "duration": 16029700,
               "status": "passed"
             },
             "match": {
@@ -1652,7 +1652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19527900,
+              "duration": 19059600,
               "status": "passed"
             },
             "line": 5,
@@ -1664,7 +1664,7 @@
           },
           {
             "result": {
-              "duration": 10103300,
+              "duration": 10686500,
               "status": "passed"
             },
             "line": 6,
@@ -1682,7 +1682,7 @@
           },
           {
             "result": {
-              "duration": 47651700,
+              "duration": 71305600,
               "status": "passed"
             },
             "line": 7,
@@ -1700,7 +1700,7 @@
           },
           {
             "result": {
-              "duration": 46680400,
+              "duration": 84940800,
               "status": "passed"
             },
             "line": 8,
@@ -1718,7 +1718,7 @@
           },
           {
             "result": {
-              "duration": 35108900,
+              "duration": 31811100,
               "status": "passed"
             },
             "line": 9,
@@ -1739,7 +1739,6 @@
           },
           {
             "result": {
-              "duration": 1380400,
               "status": "skipped"
             },
             "line": 11,
@@ -1750,11 +1749,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:54.544Z",
+        "start_timestamp": "2024-11-12T17:06:41.722Z",
         "before": [
           {
             "result": {
-              "duration": 17923100,
+              "duration": 14902100,
               "status": "passed"
             },
             "match": {
@@ -1769,7 +1768,7 @@
         "after": [
           {
             "result": {
-              "duration": 15766100,
+              "duration": 7259100,
               "status": "passed"
             },
             "match": {
@@ -1782,7 +1781,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25404700,
+              "duration": 23860700,
               "status": "passed"
             },
             "line": 5,
@@ -1794,7 +1793,7 @@
           },
           {
             "result": {
-              "duration": 2995200,
+              "duration": 2971600,
               "status": "passed"
             },
             "line": 6,
@@ -1812,7 +1811,7 @@
           },
           {
             "result": {
-              "duration": 65106700,
+              "duration": 64214300,
               "status": "passed"
             },
             "line": 7,
@@ -1830,7 +1829,7 @@
           },
           {
             "result": {
-              "duration": 40580300,
+              "duration": 45677200,
               "status": "passed"
             },
             "line": 8,
@@ -1848,7 +1847,7 @@
           },
           {
             "result": {
-              "duration": 37437400,
+              "duration": 30569300,
               "status": "passed"
             },
             "line": 9,
@@ -1890,11 +1889,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:41:54.757Z",
+        "start_timestamp": "2024-11-12T17:06:41.920Z",
         "before": [
           {
             "result": {
-              "duration": 20801900,
+              "duration": 16403900,
               "status": "passed"
             },
             "match": {
@@ -1909,7 +1908,7 @@
         "after": [
           {
             "result": {
-              "duration": 508658300,
+              "duration": 510012900,
               "status": "passed"
             },
             "match": {
@@ -1922,7 +1921,7 @@
         "steps": [
           {
             "result": {
-              "duration": 398417600,
+              "duration": 236761400,
               "status": "passed"
             },
             "line": 4,
@@ -1934,7 +1933,7 @@
           },
           {
             "result": {
-              "duration": 620621900,
+              "duration": 100550500,
               "status": "passed"
             },
             "line": 5,
@@ -1946,19 +1945,19 @@
           },
           {
             "result": {
-              "duration": 62337200,
+              "duration": 90585500,
               "status": "passed"
             },
             "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 53034500,
+              "duration": 40206200,
               "status": "passed"
             },
             "line": 7,
@@ -1976,7 +1975,7 @@
           },
           {
             "result": {
-              "duration": 46276500,
+              "duration": 33461000,
               "status": "passed"
             },
             "line": 8,
@@ -1989,7 +1988,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 511151700,
+              "duration": 507551200,
               "status": "failed"
             },
             "line": 9,
@@ -2019,11 +2018,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:56.991Z",
+        "start_timestamp": "2024-11-12T17:06:43.468Z",
         "before": [
           {
             "result": {
-              "duration": 17106700,
+              "duration": 15505600,
               "status": "passed"
             },
             "match": {
@@ -2038,7 +2037,7 @@
         "after": [
           {
             "result": {
-              "duration": 507278700,
+              "duration": 514947800,
               "status": "passed"
             },
             "match": {
@@ -2051,7 +2050,7 @@
         "steps": [
           {
             "result": {
-              "duration": 199232600,
+              "duration": 235647100,
               "status": "passed"
             },
             "line": 4,
@@ -2063,7 +2062,7 @@
           },
           {
             "result": {
-              "duration": 594556600,
+              "duration": 591844700,
               "status": "passed"
             },
             "line": 5,
@@ -2075,19 +2074,19 @@
           },
           {
             "result": {
-              "duration": 56432900,
+              "duration": 48732700,
               "status": "passed"
             },
             "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 61778000,
+              "duration": 128867700,
               "status": "passed"
             },
             "line": 7,
@@ -2105,7 +2104,7 @@
           },
           {
             "result": {
-              "duration": 28780500,
+              "duration": 29798800,
               "status": "passed"
             },
             "line": 8,
@@ -2118,7 +2117,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 513532900,
+              "duration": 505305200,
               "status": "failed"
             },
             "line": 9,
@@ -2148,11 +2147,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:41:58.975Z",
+        "start_timestamp": "2024-11-12T17:06:45.545Z",
         "before": [
           {
             "result": {
-              "duration": 13268400,
+              "duration": 21865800,
               "status": "passed"
             },
             "match": {
@@ -2167,7 +2166,7 @@
         "after": [
           {
             "result": {
-              "duration": 512445900,
+              "duration": 512612500,
               "status": "passed"
             },
             "match": {
@@ -2180,7 +2179,7 @@
         "steps": [
           {
             "result": {
-              "duration": 175811600,
+              "duration": 224699100,
               "status": "passed"
             },
             "line": 4,
@@ -2192,7 +2191,7 @@
           },
           {
             "result": {
-              "duration": 600346700,
+              "duration": 585867300,
               "status": "passed"
             },
             "line": 5,
@@ -2204,19 +2203,19 @@
           },
           {
             "result": {
-              "duration": 70533100,
+              "duration": 46431500,
               "status": "passed"
             },
             "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 81991500,
+              "duration": 128355300,
               "status": "passed"
             },
             "line": 7,
@@ -2234,7 +2233,7 @@
           },
           {
             "result": {
-              "duration": 33630400,
+              "duration": 28525900,
               "status": "passed"
             },
             "line": 8,
@@ -2247,7 +2246,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet creation failed with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 507715300,
+              "duration": 505188400,
               "status": "failed"
             },
             "line": 9,
@@ -2277,11 +2276,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:00.975Z",
+        "start_timestamp": "2024-11-12T17:06:47.605Z",
         "before": [
           {
             "result": {
-              "duration": 13941600,
+              "duration": 14791300,
               "status": "passed"
             },
             "match": {
@@ -2296,7 +2295,7 @@
         "after": [
           {
             "result": {
-              "duration": 509669000,
+              "duration": 510346900,
               "status": "passed"
             },
             "match": {
@@ -2309,7 +2308,7 @@
         "steps": [
           {
             "result": {
-              "duration": 195090000,
+              "duration": 230505600,
               "status": "passed"
             },
             "line": 19,
@@ -2321,7 +2320,7 @@
           },
           {
             "result": {
-              "duration": 2015400,
+              "duration": 2137700,
               "status": "passed"
             },
             "line": 20,
@@ -2339,7 +2338,7 @@
           },
           {
             "result": {
-              "duration": 93387600,
+              "duration": 84751900,
               "status": "passed"
             },
             "line": 21,
@@ -2351,19 +2350,19 @@
           },
           {
             "result": {
-              "duration": 103524400,
+              "duration": 83492000,
               "status": "passed"
             },
             "line": 22,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 46115000,
+              "duration": 85060300,
               "status": "passed"
             },
             "line": 23,
@@ -2381,7 +2380,7 @@
           },
           {
             "result": {
-              "duration": 30719900,
+              "duration": 26951900,
               "status": "passed"
             },
             "line": 24,
@@ -2394,7 +2393,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet added successfully with name\"(classpath:features/EEB_5.feature:25)\r\n",
-              "duration": 509926800,
+              "duration": 512063600,
               "status": "failed"
             },
             "line": 25,
@@ -2424,11 +2423,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:02.485Z",
+        "start_timestamp": "2024-11-12T17:06:49.162Z",
         "before": [
           {
             "result": {
-              "duration": 13534400,
+              "duration": 14406300,
               "status": "passed"
             },
             "match": {
@@ -2443,7 +2442,7 @@
         "after": [
           {
             "result": {
-              "duration": 509154600,
+              "duration": 508590900,
               "status": "passed"
             },
             "match": {
@@ -2456,7 +2455,7 @@
         "steps": [
           {
             "result": {
-              "duration": 221593900,
+              "duration": 248467000,
               "status": "passed"
             },
             "line": 19,
@@ -2468,7 +2467,7 @@
           },
           {
             "result": {
-              "duration": 12182000,
+              "duration": 10624700,
               "status": "passed"
             },
             "line": 20,
@@ -2486,7 +2485,7 @@
           },
           {
             "result": {
-              "duration": 92021700,
+              "duration": 76902700,
               "status": "passed"
             },
             "line": 21,
@@ -2498,19 +2497,19 @@
           },
           {
             "result": {
-              "duration": 110656600,
+              "duration": 58194400,
               "status": "passed"
             },
             "line": 22,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 44629300,
+              "duration": 101659400,
               "status": "passed"
             },
             "line": 23,
@@ -2528,7 +2527,7 @@
           },
           {
             "result": {
-              "duration": 30277100,
+              "duration": 34189800,
               "status": "passed"
             },
             "line": 24,
@@ -2541,7 +2540,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet add failed with name\"(classpath:features/EEB_5.feature:25)\r\n",
-              "duration": 511527500,
+              "duration": 512330800,
               "status": "failed"
             },
             "line": 25,
@@ -2569,11 +2568,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:04.034Z",
+        "start_timestamp": "2024-11-12T17:06:50.731Z",
         "before": [
           {
             "result": {
-              "duration": 13773100,
+              "duration": 15303000,
               "status": "passed"
             },
             "match": {
@@ -2588,7 +2587,7 @@
         "after": [
           {
             "result": {
-              "duration": 511196600,
+              "duration": 508760400,
               "status": "passed"
             },
             "match": {
@@ -2601,7 +2600,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190410200,
+              "duration": 241722900,
               "status": "passed"
             },
             "line": 34,
@@ -2613,7 +2612,7 @@
           },
           {
             "result": {
-              "duration": 615984300,
+              "duration": 574326200,
               "status": "passed"
             },
             "line": 35,
@@ -2625,19 +2624,19 @@
           },
           {
             "result": {
-              "duration": 52730400,
+              "duration": 43741200,
               "status": "passed"
             },
             "line": 36,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 51156000,
+              "duration": 53914500,
               "status": "passed"
             },
             "line": 37,
@@ -2655,7 +2654,7 @@
           },
           {
             "result": {
-              "duration": 29279600,
+              "duration": 27218300,
               "status": "passed"
             },
             "line": 38,
@@ -2668,7 +2667,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:39)\r\n",
-              "duration": 512174900,
+              "duration": 509401900,
               "status": "failed"
             },
             "line": 39,
@@ -2687,11 +2686,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:06.017Z",
+        "start_timestamp": "2024-11-12T17:06:52.712Z",
         "before": [
           {
             "result": {
-              "duration": 14379100,
+              "duration": 149084900,
               "status": "passed"
             },
             "match": {
@@ -2706,7 +2705,7 @@
         "after": [
           {
             "result": {
-              "duration": 513577200,
+              "duration": 509800300,
               "status": "passed"
             },
             "match": {
@@ -2719,7 +2718,7 @@
         "steps": [
           {
             "result": {
-              "duration": 238399700,
+              "duration": 222641600,
               "status": "passed"
             },
             "line": 46,
@@ -2731,7 +2730,7 @@
           },
           {
             "result": {
-              "duration": 592196900,
+              "duration": 571705300,
               "status": "passed"
             },
             "line": 47,
@@ -2743,19 +2742,19 @@
           },
           {
             "result": {
-              "duration": 45586400,
+              "duration": 44334500,
               "status": "passed"
             },
             "line": 48,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 37108500,
+              "duration": 53663500,
               "status": "passed"
             },
             "line": 49,
@@ -2773,7 +2772,7 @@
           },
           {
             "result": {
-              "duration": 23192600,
+              "duration": 24688200,
               "status": "passed"
             },
             "line": 50,
@@ -2785,7 +2784,7 @@
           },
           {
             "result": {
-              "duration": 22516200,
+              "duration": 29152900,
               "status": "passed"
             },
             "line": 51,
@@ -2809,11 +2808,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:07.506Z",
+        "start_timestamp": "2024-11-12T17:06:54.321Z",
         "before": [
           {
             "result": {
-              "duration": 16078800,
+              "duration": 15062800,
               "status": "passed"
             },
             "match": {
@@ -2828,7 +2827,7 @@
         "after": [
           {
             "result": {
-              "duration": 510288700,
+              "duration": 512061100,
               "status": "passed"
             },
             "match": {
@@ -2841,7 +2840,7 @@
         "steps": [
           {
             "result": {
-              "duration": 198131000,
+              "duration": 227640300,
               "status": "passed"
             },
             "line": 46,
@@ -2853,7 +2852,7 @@
           },
           {
             "result": {
-              "duration": 578996200,
+              "duration": 583291600,
               "status": "passed"
             },
             "line": 47,
@@ -2865,19 +2864,19 @@
           },
           {
             "result": {
-              "duration": 47627400,
+              "duration": 49903600,
               "status": "passed"
             },
             "line": 48,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 40404300,
+              "duration": 55240700,
               "status": "passed"
             },
             "line": 49,
@@ -2906,7 +2905,7 @@
           },
           {
             "result": {
-              "duration": 28252100,
+              "duration": 27336600,
               "status": "passed"
             },
             "line": 51,
@@ -2941,11 +2940,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:42:08.930Z",
+        "start_timestamp": "2024-11-12T17:06:55.795Z",
         "before": [
           {
             "result": {
-              "duration": 12525600,
+              "duration": 14172200,
               "status": "passed"
             },
             "match": {
@@ -2960,7 +2959,7 @@
         "after": [
           {
             "result": {
-              "duration": 507098700,
+              "duration": 517769500,
               "status": "passed"
             },
             "match": {
@@ -2973,7 +2972,7 @@
         "steps": [
           {
             "result": {
-              "duration": 174097400,
+              "duration": 240255100,
               "status": "passed"
             },
             "line": 5,
@@ -2985,14 +2984,14 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown(AddPlanetSteps.java:43)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
-              "duration": 21677300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [295be413c056250db677d3535a7d53fd, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54895/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 295be413c056250db677d3535a7d53fd\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown(GeneralSteps.java:25)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
+              "duration": 23613800,
               "status": "failed"
             },
             "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
@@ -3038,11 +3037,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:09.657Z",
+        "start_timestamp": "2024-11-12T17:06:56.601Z",
         "before": [
           {
             "result": {
-              "duration": 13296800,
+              "duration": 13212700,
               "status": "passed"
             },
             "match": {
@@ -3057,7 +3056,7 @@
         "after": [
           {
             "result": {
-              "duration": 515620100,
+              "duration": 504899100,
               "status": "passed"
             },
             "match": {
@@ -3070,7 +3069,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173331400,
+              "duration": 242794300,
               "status": "passed"
             },
             "line": 5,
@@ -3082,20 +3081,19 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown(AddPlanetSteps.java:43)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
-              "duration": 23454800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [295be413c056250db677d3535a7d53fd, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54895/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 295be413c056250db677d3535a7d53fd\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown(GeneralSteps.java:25)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
+              "duration": 23867200,
               "status": "failed"
             },
             "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1008500,
               "status": "skipped"
             },
             "line": 7,
@@ -3136,11 +3134,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:10.387Z",
+        "start_timestamp": "2024-11-12T17:06:57.391Z",
         "before": [
           {
             "result": {
-              "duration": 13843200,
+              "duration": 16208400,
               "status": "passed"
             },
             "match": {
@@ -3155,7 +3153,7 @@
         "after": [
           {
             "result": {
-              "duration": 503970700,
+              "duration": 516040500,
               "status": "passed"
             },
             "match": {
@@ -3169,7 +3167,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [Batman]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:18)\r\n",
-              "duration": 21033100,
+              "duration": 24268900,
               "status": "failed"
             },
             "line": 18,
@@ -3192,7 +3190,7 @@
             "line": 19,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
@@ -3238,11 +3236,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:10.931Z",
+        "start_timestamp": "2024-11-12T17:06:57.951Z",
         "before": [
           {
             "result": {
-              "duration": 15579700,
+              "duration": 14588200,
               "status": "passed"
             },
             "match": {
@@ -3257,7 +3255,7 @@
         "after": [
           {
             "result": {
-              "duration": 504162200,
+              "duration": 506576000,
               "status": "passed"
             },
             "match": {
@@ -3271,7 +3269,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [BatmanAndRobin]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:18)\r\n",
-              "duration": 15994700,
+              "duration": 17833000,
               "status": "failed"
             },
             "line": 18,
@@ -3294,7 +3292,7 @@
             "line": 19,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
@@ -3338,11 +3336,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:11.469Z",
+        "start_timestamp": "2024-11-12T17:06:58.494Z",
         "before": [
           {
             "result": {
-              "duration": 13076500,
+              "duration": 36392500,
               "status": "passed"
             },
             "match": {
@@ -3357,7 +3355,7 @@
         "after": [
           {
             "result": {
-              "duration": 508278400,
+              "duration": 510226200,
               "status": "passed"
             },
             "match": {
@@ -3371,7 +3369,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [Batman]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:31)\r\n",
-              "duration": 15028900,
+              "duration": 20433800,
               "status": "failed"
             },
             "line": 31,
@@ -3394,7 +3392,7 @@
             "line": 32,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
@@ -3440,11 +3438,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:12.011Z",
+        "start_timestamp": "2024-11-12T17:06:59.065Z",
         "before": [
           {
             "result": {
-              "duration": 16293100,
+              "duration": 17323800,
               "status": "passed"
             },
             "match": {
@@ -3459,7 +3457,7 @@
         "after": [
           {
             "result": {
-              "duration": 516423100,
+              "duration": 506167200,
               "status": "passed"
             },
             "match": {
@@ -3473,7 +3471,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [BatmanAndRobin]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:31)\r\n",
-              "duration": 15672400,
+              "duration": 15509000,
               "status": "failed"
             },
             "line": 31,
@@ -3496,7 +3494,7 @@
             "line": 32,
             "name": "User clicks Planet from the dropdown",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
             },
             "keyword": "When "
           },
@@ -3553,11 +3551,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:42:12.565Z",
+        "start_timestamp": "2024-11-12T17:06:59.611Z",
         "before": [
           {
             "result": {
-              "duration": 14710200,
+              "duration": 16907600,
               "status": "passed"
             },
             "match": {
@@ -3572,7 +3570,7 @@
         "after": [
           {
             "result": {
-              "duration": 517819700,
+              "duration": 518157200,
               "status": "passed"
             },
             "match": {
@@ -3585,7 +3583,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190228700,
+              "duration": 165330800,
               "status": "passed"
             },
             "line": 9,
@@ -3597,7 +3595,7 @@
           },
           {
             "result": {
-              "duration": 606746500,
+              "duration": 602253100,
               "status": "passed"
             },
             "line": 10,
@@ -3609,7 +3607,7 @@
           },
           {
             "result": {
-              "duration": 48206000,
+              "duration": 45690700,
               "status": "passed"
             },
             "line": 11,
@@ -3621,7 +3619,7 @@
           },
           {
             "result": {
-              "duration": 50793600,
+              "duration": 37589500,
               "status": "passed"
             },
             "line": 12,
@@ -3639,7 +3637,7 @@
           },
           {
             "result": {
-              "duration": 36282500,
+              "duration": 39546900,
               "status": "passed"
             },
             "line": 13,
@@ -3657,7 +3655,7 @@
           },
           {
             "result": {
-              "duration": 21733300,
+              "duration": 23947600,
               "status": "passed"
             },
             "line": 14,
@@ -3675,7 +3673,7 @@
           },
           {
             "result": {
-              "duration": 32590300,
+              "duration": 30058900,
               "status": "passed"
             },
             "line": 15,
@@ -3688,7 +3686,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"moonerEclipse\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 26555300,
+              "duration": 28493800,
               "status": "failed"
             },
             "line": 16,
@@ -3707,11 +3705,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:14.115Z",
+        "start_timestamp": "2024-11-12T17:07:01.124Z",
         "before": [
           {
             "result": {
-              "duration": 14295700,
+              "duration": 14042300,
               "status": "passed"
             },
             "match": {
@@ -3726,7 +3724,7 @@
         "after": [
           {
             "result": {
-              "duration": 513531900,
+              "duration": 517707000,
               "status": "passed"
             },
             "match": {
@@ -3739,7 +3737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 180744000,
+              "duration": 161128100,
               "status": "passed"
             },
             "line": 9,
@@ -3751,7 +3749,7 @@
           },
           {
             "result": {
-              "duration": 618035700,
+              "duration": 587643200,
               "status": "passed"
             },
             "line": 10,
@@ -3763,7 +3761,7 @@
           },
           {
             "result": {
-              "duration": 46535600,
+              "duration": 45089600,
               "status": "passed"
             },
             "line": 11,
@@ -3775,7 +3773,7 @@
           },
           {
             "result": {
-              "duration": 38590800,
+              "duration": 34931100,
               "status": "passed"
             },
             "line": 12,
@@ -3793,7 +3791,7 @@
           },
           {
             "result": {
-              "duration": 31966200,
+              "duration": 32812200,
               "status": "passed"
             },
             "line": 13,
@@ -3811,7 +3809,7 @@
           },
           {
             "result": {
-              "duration": 20289000,
+              "duration": 20636300,
               "status": "passed"
             },
             "line": 14,
@@ -3829,7 +3827,7 @@
           },
           {
             "result": {
-              "duration": 27196100,
+              "duration": 23013700,
               "status": "passed"
             },
             "line": 15,
@@ -3842,7 +3840,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 25342500,
+              "duration": 21229400,
               "status": "failed"
             },
             "line": 16,
@@ -3861,11 +3859,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:15.636Z",
+        "start_timestamp": "2024-11-12T17:07:02.586Z",
         "before": [
           {
             "result": {
-              "duration": 14029500,
+              "duration": 15348600,
               "status": "passed"
             },
             "match": {
@@ -3880,7 +3878,7 @@
         "after": [
           {
             "result": {
-              "duration": 511248200,
+              "duration": 519073600,
               "status": "passed"
             },
             "match": {
@@ -3893,7 +3891,7 @@
         "steps": [
           {
             "result": {
-              "duration": 200656800,
+              "duration": 182542100,
               "status": "passed"
             },
             "line": 9,
@@ -3905,7 +3903,7 @@
           },
           {
             "result": {
-              "duration": 603427500,
+              "duration": 591479700,
               "status": "passed"
             },
             "line": 10,
@@ -3917,7 +3915,7 @@
           },
           {
             "result": {
-              "duration": 51199800,
+              "duration": 42336400,
               "status": "passed"
             },
             "line": 11,
@@ -3929,7 +3927,7 @@
           },
           {
             "result": {
-              "duration": 43272200,
+              "duration": 35549100,
               "status": "passed"
             },
             "line": 12,
@@ -3947,7 +3945,7 @@
           },
           {
             "result": {
-              "duration": 39330700,
+              "duration": 38187900,
               "status": "passed"
             },
             "line": 13,
@@ -3965,7 +3963,7 @@
           },
           {
             "result": {
-              "duration": 20896600,
+              "duration": 21055800,
               "status": "passed"
             },
             "line": 14,
@@ -3983,7 +3981,7 @@
           },
           {
             "result": {
-              "duration": 24956900,
+              "duration": 25024600,
               "status": "passed"
             },
             "line": 15,
@@ -3996,7 +3994,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 21218200,
+              "duration": 20398300,
               "status": "failed"
             },
             "line": 16,
@@ -4015,11 +4013,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:17.172Z",
+        "start_timestamp": "2024-11-12T17:07:04.083Z",
         "before": [
           {
             "result": {
-              "duration": 14577900,
+              "duration": 13661400,
               "status": "passed"
             },
             "match": {
@@ -4034,7 +4032,7 @@
         "after": [
           {
             "result": {
-              "duration": 508059600,
+              "duration": 512251100,
               "status": "passed"
             },
             "match": {
@@ -4047,7 +4045,7 @@
         "steps": [
           {
             "result": {
-              "duration": 178296500,
+              "duration": 181464600,
               "status": "passed"
             },
             "line": 9,
@@ -4059,7 +4057,7 @@
           },
           {
             "result": {
-              "duration": 595473400,
+              "duration": 598846700,
               "status": "passed"
             },
             "line": 10,
@@ -4071,7 +4069,7 @@
           },
           {
             "result": {
-              "duration": 44808900,
+              "duration": 44331500,
               "status": "passed"
             },
             "line": 11,
@@ -4083,7 +4081,7 @@
           },
           {
             "result": {
-              "duration": 40362900,
+              "duration": 44862800,
               "status": "passed"
             },
             "line": 12,
@@ -4101,7 +4099,7 @@
           },
           {
             "result": {
-              "duration": 40761500,
+              "duration": 35089100,
               "status": "passed"
             },
             "line": 13,
@@ -4119,7 +4117,7 @@
           },
           {
             "result": {
-              "duration": 22090600,
+              "duration": 18575900,
               "status": "passed"
             },
             "line": 14,
@@ -4137,7 +4135,7 @@
           },
           {
             "result": {
-              "duration": 27162600,
+              "duration": 24332000,
               "status": "passed"
             },
             "line": 15,
@@ -4149,7 +4147,7 @@
           },
           {
             "result": {
-              "duration": 22098200,
+              "duration": 21780000,
               "status": "passed"
             },
             "line": 16,
@@ -4168,11 +4166,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:18.671Z",
+        "start_timestamp": "2024-11-12T17:07:05.580Z",
         "before": [
           {
             "result": {
-              "duration": 12515900,
+              "duration": 14192400,
               "status": "passed"
             },
             "match": {
@@ -4187,7 +4185,7 @@
         "after": [
           {
             "result": {
-              "duration": 509358700,
+              "duration": 506718700,
               "status": "passed"
             },
             "match": {
@@ -4200,7 +4198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 181997700,
+              "duration": 189604500,
               "status": "passed"
             },
             "line": 9,
@@ -4212,7 +4210,7 @@
           },
           {
             "result": {
-              "duration": 588411400,
+              "duration": 593332800,
               "status": "passed"
             },
             "line": 10,
@@ -4224,7 +4222,7 @@
           },
           {
             "result": {
-              "duration": 44938100,
+              "duration": 43300900,
               "status": "passed"
             },
             "line": 11,
@@ -4236,7 +4234,7 @@
           },
           {
             "result": {
-              "duration": 41242400,
+              "duration": 38706500,
               "status": "passed"
             },
             "line": 12,
@@ -4254,7 +4252,7 @@
           },
           {
             "result": {
-              "duration": 37309600,
+              "duration": 32985200,
               "status": "passed"
             },
             "line": 13,
@@ -4272,7 +4270,7 @@
           },
           {
             "result": {
-              "duration": 18752800,
+              "duration": 18076500,
               "status": "passed"
             },
             "line": 14,
@@ -4290,7 +4288,7 @@
           },
           {
             "result": {
-              "duration": 25505400,
+              "duration": 25793200,
               "status": "passed"
             },
             "line": 15,
@@ -4303,7 +4301,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Titan\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 21344800,
+              "duration": 20599700,
               "status": "failed"
             },
             "line": 16,
@@ -4322,11 +4320,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:20.155Z",
+        "start_timestamp": "2024-11-12T17:07:07.068Z",
         "before": [
           {
             "result": {
-              "duration": 13703500,
+              "duration": 13098400,
               "status": "passed"
             },
             "match": {
@@ -4341,7 +4339,7 @@
         "after": [
           {
             "result": {
-              "duration": 505637400,
+              "duration": 507284600,
               "status": "passed"
             },
             "match": {
@@ -4354,7 +4352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 181192500,
+              "duration": 189235500,
               "status": "passed"
             },
             "line": 9,
@@ -4366,7 +4364,7 @@
           },
           {
             "result": {
-              "duration": 586338000,
+              "duration": 593701000,
               "status": "passed"
             },
             "line": 10,
@@ -4378,7 +4376,7 @@
           },
           {
             "result": {
-              "duration": 43390800,
+              "duration": 45940600,
               "status": "passed"
             },
             "line": 11,
@@ -4390,7 +4388,7 @@
           },
           {
             "result": {
-              "duration": 34669200,
+              "duration": 40977400,
               "status": "passed"
             },
             "line": 12,
@@ -4408,7 +4406,7 @@
           },
           {
             "result": {
-              "duration": 36478700,
+              "duration": 39368000,
               "status": "passed"
             },
             "line": 13,
@@ -4443,7 +4441,7 @@
           },
           {
             "result": {
-              "duration": 26293600,
+              "duration": 27377500,
               "status": "passed"
             },
             "line": 15,
@@ -4456,7 +4454,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"Sun\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 19224400,
+              "duration": 20919300,
               "status": "failed"
             },
             "line": 16,
@@ -4486,11 +4484,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-12T16:42:21.609Z",
+        "start_timestamp": "2024-11-12T17:07:08.555Z",
         "before": [
           {
             "result": {
-              "duration": 15113000,
+              "duration": 13733500,
               "status": "passed"
             },
             "match": {
@@ -4505,7 +4503,7 @@
         "after": [
           {
             "result": {
-              "duration": 511724900,
+              "duration": 506810100,
               "status": "passed"
             },
             "match": {
@@ -4518,7 +4516,7 @@
         "steps": [
           {
             "result": {
-              "duration": 176408400,
+              "duration": 190594900,
               "status": "passed"
             },
             "line": 9,
@@ -4530,8 +4528,9 @@
           },
           {
             "result": {
-              "duration": 59112100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [295be413c056250db677d3535a7d53fd, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54895/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 295be413c056250db677d3535a7d53fd\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
+              "duration": 22786400,
+              "status": "failed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
@@ -4542,7 +4541,7 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User enters moon name \"Luna\"",
@@ -4572,11 +4571,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:22.378Z",
+        "start_timestamp": "2024-11-12T17:07:09.296Z",
         "before": [
           {
             "result": {
-              "duration": 14278900,
+              "duration": 12907900,
               "status": "passed"
             },
             "match": {
@@ -4591,7 +4590,7 @@
         "after": [
           {
             "result": {
-              "duration": 518495400,
+              "duration": 520225600,
               "status": "passed"
             },
             "match": {
@@ -4604,7 +4603,7 @@
         "steps": [
           {
             "result": {
-              "duration": 169249700,
+              "duration": 178527200,
               "status": "passed"
             },
             "line": 9,
@@ -4616,8 +4615,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 21191000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [295be413c056250db677d3535a7d53fd, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54895/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 295be413c056250db677d3535a7d53fd\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
+              "duration": 22604500,
               "status": "failed"
             },
             "line": 10,
@@ -4659,11 +4658,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-12T16:42:23.106Z",
+        "start_timestamp": "2024-11-12T17:07:10.036Z",
         "before": [
           {
             "result": {
-              "duration": 14047800,
+              "duration": 16816900,
               "status": "passed"
             },
             "match": {
@@ -4678,7 +4677,7 @@
         "after": [
           {
             "result": {
-              "duration": 506298600,
+              "duration": 505731200,
               "status": "passed"
             },
             "match": {
@@ -4691,7 +4690,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179642300,
+              "duration": 172882100,
               "status": "passed"
             },
             "line": 9,
@@ -4703,8 +4702,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 21369200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [295be413c056250db677d3535a7d53fd, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54895/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 295be413c056250db677d3535a7d53fd\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
+              "duration": 23643100,
               "status": "failed"
             },
             "line": 10,

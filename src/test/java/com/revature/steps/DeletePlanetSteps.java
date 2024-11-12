@@ -23,10 +23,6 @@ public class DeletePlanetSteps {
         Assert.assertEquals("Welcome to the Home Page " + username, TestRunner.planetariumHome.getHomePageGreeting());
     }
 
-    @When("User clicks Planet from the dropdown")
-    public void userClicksPlanetFromTheDropdown() throws Throwable{
-        TestRunner.planetariumHome.selectPlanet();
-    }
 
     @And("User enters planet name {string}")
     public void userEntersPlanetName(String planetName) throws Throwable{
