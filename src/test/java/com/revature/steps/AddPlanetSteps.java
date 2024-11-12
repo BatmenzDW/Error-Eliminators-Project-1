@@ -23,7 +23,6 @@ public class AddPlanetSteps {
 
     @Given("User is on the Home Page")
     public void userOnHomePage() throws Throwable {
-        TestRunner.planetariumHome.goToPlanetariumHome();
         TestRunner.planetariumHome.setupTestLogin();
         TestRunner.planetariumHome.login("TestUser", "TestPassword");
     }
