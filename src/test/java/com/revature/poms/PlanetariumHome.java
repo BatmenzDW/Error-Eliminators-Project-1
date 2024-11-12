@@ -141,7 +141,6 @@ public class PlanetariumHome {
         stmt.close();
         conn.close();
     }
-
     public void setupTestUserLogin(String inputUser) throws Throwable{
         Connection conn = Setup.getConnection();
 
@@ -154,4 +153,5 @@ public class PlanetariumHome {
         ps2.executeUpdate();
         conn.close();
     }
+
 }
