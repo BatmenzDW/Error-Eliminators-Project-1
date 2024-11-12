@@ -125,6 +125,7 @@ public class PlanetariumHome {
     }
 
     public void login(String testUser, String testPassword) {
+        TestRunner.planetariumLogin.goToPlanetariumLogin();
         TestRunner.planetariumLogin.inputUsername(testUser);
         TestRunner.planetariumLogin.inputPassword(testPassword);
         TestRunner.planetariumLogin.clickLoginButton();
