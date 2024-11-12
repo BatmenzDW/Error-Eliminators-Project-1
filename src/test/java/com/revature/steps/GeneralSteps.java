@@ -2,6 +2,9 @@ package com.revature.steps;
 
 import com.revature.TestRunner;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 
 public class GeneralSteps {
 
@@ -15,5 +18,11 @@ public class GeneralSteps {
     @Given("User is on the Login Page")
     public void userOnLoginPage() throws Throwable {
         TestRunner.planetariumLogin.goToPlanetariumLogin();
+    }
+
+    @When("User clicks Planet from the dropdown")
+    public void userClicksPlanetFromTheDropdown() throws Throwable {
+        Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
+        select.selectByVisibleText("Planet");
     }
 }

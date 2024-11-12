@@ -38,12 +38,6 @@ public class AddPlanetSteps {
         select.selectByVisibleText("Moon");
     }
 
-    @When("User clicks Planet from the dropdown")
-    public void userClicksPlanetFromTheDropdown() throws Throwable {
-        Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
-        select.selectByVisibleText("Planet");
-    }
-
     @When("User provides a Planet Name {string}")
     public void userProvidesPlanetName(String planetName) throws Throwable {
         WebElement input = TestRunner.driver.findElement(By.id("planetNameInput"));
