@@ -23,7 +23,6 @@ public class AddPlanetSteps {
 
     @Given("User is on the Home Page")
     public void userOnHomePage() throws Throwable {
-        TestRunner.planetariumHome.goToPlanetariumHome();
         TestRunner.planetariumHome.setupTestLogin();
         TestRunner.planetariumHome.login("TestUser", "TestPassword");
     }
@@ -40,6 +39,8 @@ public class AddPlanetSteps {
 
     @When("User clicks Planet from the dropdown")
     public void userClicksPlanetFromTheDropdown() throws Throwable {
+        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("locationSelect")));
         Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
         select.selectByVisibleText("Planet");
     }

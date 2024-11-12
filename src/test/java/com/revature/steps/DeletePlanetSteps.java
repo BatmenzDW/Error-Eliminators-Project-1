@@ -19,28 +19,42 @@ import java.util.SortedMap;
 public class DeletePlanetSteps {
     @Given("User {string} is on the Home Page")
     public void userIsOnTheHomePage(String username) throws Throwable{
+        TestRunner.planetariumHome.setupTestUserLogin(username);
+        TestRunner.planetariumHome.login(username, "I am the night");
         Assert.assertEquals("Home", TestRunner.driver.getTitle());
         Assert.assertEquals("Welcome to the Home Page " + username, TestRunner.planetariumHome.getHomePageGreeting());
     }
 
-    @When("User clicks Planet from the dropdown")
-    public void userClicksPlanetFromTheDropdown() throws Throwable{
-        TestRunner.planetariumHome.selectPlanet();
-    }
+//    @When("User clicks Planet from the dropdown")
+//    public void userClicksPlanetFromTheDropdown() throws Throwable{
+//        TestRunner.planetariumHome.selectPlanet();
+//    }
 
     @And("User enters planet name {string}")
     public void userEntersPlanetName(String planetName) throws Throwable{
-        TestRunner.planetariumHome.inputCreatePlanetName(planetName);
+        TestRunner.planetariumHome.inputDeletePlanetName(planetName);
     }
 
     @And("User enters planet name {string} having Owner Id 1")
     public void userEntersPlanetNameHavingOwnerId1(String planetName) throws Throwable{
-        TestRunner.planetariumHome.inputCreatePlanetName(planetName);
+        TestRunner.planetariumHome.inputDeletePlanetName(planetName);
     }
 
     @And("User clicks the delete button")
     public void userClicksTheDeleteButton() throws Throwable{
         TestRunner.planetariumHome.clickDeleteButton();
+    }
+
+    @Then("Planet Earth is not deleted")
+    public void planetEarthIsNotDeleted() throws Throwable{
+        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
+        wait.until(ExpectedConditions.alertIsPresent());
+
+        String result = TestRunner.planetariumHome.getAlertText();
+        TestRunner.driver.switchTo().alert().accept();
+
+        // Find that the alert statement appearing is as expected
+        Assert.assertEquals("Failed to delete planet with name ", result);
     }
 
     @Then("Planet Earth is deleted successfully")

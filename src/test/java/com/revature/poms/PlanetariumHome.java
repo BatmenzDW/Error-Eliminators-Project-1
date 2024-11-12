@@ -1,5 +1,7 @@
 package com.revature.poms;
 
+import com.revature.Setup;
+import com.revature.TestRunner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.TimeoutException;
@@ -9,13 +11,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import java.sql.*;
 import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.time.Duration;
 
 public class PlanetariumHome {
@@ -122,5 +122,36 @@ public class PlanetariumHome {
         {
             return false;
         }   // catch
+    }
+
+    public void login(String testUser, String testPassword) {
+        TestRunner.planetariumLogin.goToPlanetariumLogin();
+        TestRunner.planetariumLogin.inputUsername(testUser);
+        TestRunner.planetariumLogin.inputPassword(testPassword);
+        TestRunner.planetariumLogin.clickLoginButton();
+    }
+
+    public void setupTestLogin() throws Throwable {
+        Connection conn = Setup.getConnection();
+
+        Statement stmt = conn.createStatement();
+
+        stmt.executeUpdate("INSERT INTO users VALUES (?, 'TestUser', 'TestPassword')");
+
+        stmt.close();
+        conn.close();
+    }
+
+    public void setupTestUserLogin(String inputUser) throws Throwable{
+        Connection conn = Setup.getConnection();
+
+        PreparedStatement ps = conn.prepareStatement("INSERT INTO users (username, password) VALUES (?, ?)");
+        ps.setString(1, inputUser);
+        ps.setString(2, "I am the night");
+        ps.executeUpdate();
+
+        PreparedStatement ps2 = conn.prepareStatement("INSERT INTO planets VALUES (?, 'Nessus', 1, 'src/test/resources/Celestial-Images/planet-4.jpg')");
+        ps2.executeUpdate();
+        conn.close();
     }
 }
