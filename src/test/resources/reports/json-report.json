@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:23.315Z",
+        "start_timestamp": "2024-11-12T16:41:45.606Z",
         "before": [
           {
             "result": {
-              "duration": 119632300,
+              "duration": 180280600,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 511802700,
+              "duration": 9252400,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 68271700,
+              "duration": 206028700,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2007400,
+              "duration": 3459900,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 122641700,
+              "duration": 94140000,
               "status": "passed"
             },
             "line": 6,
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 7020700,
+              "duration": 7408000,
               "status": "passed"
             },
             "line": 7,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 97684300,
+              "duration": 80028100,
               "status": "passed"
             },
             "line": 8,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 51217200,
+              "duration": 90200900,
               "status": "passed"
             },
             "line": 9,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 34125200,
+              "duration": 41166400,
               "status": "passed"
             },
             "line": 10,
@@ -137,8 +137,9 @@
           },
           {
             "result": {
-              "duration": 521105900,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:11)\r\n",
+              "duration": 16047600,
+              "status": "failed"
             },
             "line": 11,
             "name": "The User is given an Alert with text \"Account created successfully with username\"",
@@ -155,9 +156,7 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:94)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:12)\r\n",
-              "duration": 11030100,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "Account Creation Success and User Redirected to Login",
@@ -169,11 +168,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:24.912Z",
+        "start_timestamp": "2024-11-12T16:41:46.410Z",
         "before": [
           {
             "result": {
-              "duration": 8532800,
+              "duration": 15985300,
               "status": "passed"
             },
             "match": {
@@ -188,7 +187,7 @@
         "after": [
           {
             "result": {
-              "duration": 513210700,
+              "duration": 519528400,
               "status": "passed"
             },
             "match": {
@@ -201,7 +200,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39108700,
+              "duration": 28297200,
               "status": "passed"
             },
             "line": 4,
@@ -213,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 5001700,
+              "duration": 10019600,
               "status": "passed"
             },
             "line": 5,
@@ -231,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 66458000,
+              "duration": 62389700,
               "status": "passed"
             },
             "line": 6,
@@ -243,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 5510200,
+              "duration": 4638400,
               "status": "passed"
             },
             "line": 7,
@@ -255,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 43205000,
+              "duration": 61992900,
               "status": "passed"
             },
             "line": 8,
@@ -273,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 39200100,
+              "duration": 87141600,
               "status": "passed"
             },
             "line": 9,
@@ -291,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 29095800,
+              "duration": 45082600,
               "status": "passed"
             },
             "line": 10,
@@ -303,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 8512100,
+              "duration": 9815200,
               "status": "passed"
             },
             "line": 11,
@@ -321,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 8509200,
+              "duration": 11264700,
               "status": "passed"
             },
             "line": 12,
@@ -334,11 +333,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:25.684Z",
+        "start_timestamp": "2024-11-12T16:41:47.278Z",
         "before": [
           {
             "result": {
-              "duration": 8004200,
+              "duration": 11585200,
               "status": "passed"
             },
             "match": {
@@ -353,7 +352,7 @@
         "after": [
           {
             "result": {
-              "duration": 514123800,
+              "duration": 511100000,
               "status": "passed"
             },
             "match": {
@@ -366,7 +365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41776100,
+              "duration": 25634000,
               "status": "passed"
             },
             "line": 20,
@@ -378,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 77822600,
+              "duration": 58057200,
               "status": "passed"
             },
             "line": 21,
@@ -390,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 4058300,
+              "duration": 5903700,
               "status": "passed"
             },
             "line": 22,
@@ -402,7 +401,7 @@
           },
           {
             "result": {
-              "duration": 48113700,
+              "duration": 81056000,
               "status": "passed"
             },
             "line": 23,
@@ -420,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 44187600,
+              "duration": 80063100,
               "status": "passed"
             },
             "line": 24,
@@ -438,7 +437,7 @@
           },
           {
             "result": {
-              "duration": 28067800,
+              "duration": 32862800,
               "status": "passed"
             },
             "line": 25,
@@ -450,7 +449,7 @@
           },
           {
             "result": {
-              "duration": 524332700,
+              "duration": 518259100,
               "status": "passed"
             },
             "line": 26,
@@ -468,8 +467,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:94)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:27)\r\n",
-              "duration": 7505800,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:96)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:27)\r\n",
+              "duration": 8243600,
               "status": "failed"
             },
             "line": 27,
@@ -482,11 +481,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:26.988Z",
+        "start_timestamp": "2024-11-12T16:41:48.624Z",
         "before": [
           {
             "result": {
-              "duration": 7508800,
+              "duration": 15739100,
               "status": "passed"
             },
             "match": {
@@ -501,7 +500,7 @@
         "after": [
           {
             "result": {
-              "duration": 513044100,
+              "duration": 518015400,
               "status": "passed"
             },
             "match": {
@@ -514,7 +513,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58299000,
+              "duration": 25616200,
               "status": "passed"
             },
             "line": 20,
@@ -526,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 75871500,
+              "duration": 58093600,
               "status": "passed"
             },
             "line": 21,
@@ -538,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 9510600,
+              "duration": 5546100,
               "status": "passed"
             },
             "line": 22,
@@ -550,7 +549,7 @@
           },
           {
             "result": {
-              "duration": 70353900,
+              "duration": 165611800,
               "status": "passed"
             },
             "line": 23,
@@ -568,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 56780000,
+              "duration": 81173100,
               "status": "passed"
             },
             "line": 24,
@@ -586,7 +585,7 @@
           },
           {
             "result": {
-              "duration": 31701500,
+              "duration": 32494400,
               "status": "passed"
             },
             "line": 25,
@@ -598,7 +597,7 @@
           },
           {
             "result": {
-              "duration": 4505600,
+              "duration": 8228000,
               "status": "passed"
             },
             "line": 26,
@@ -616,7 +615,7 @@
           },
           {
             "result": {
-              "duration": 8011900,
+              "duration": 9460700,
               "status": "passed"
             },
             "line": 27,
@@ -629,11 +628,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:27.830Z",
+        "start_timestamp": "2024-11-12T16:41:49.550Z",
         "before": [
           {
             "result": {
-              "duration": 6227000,
+              "duration": 15026200,
               "status": "passed"
             },
             "match": {
@@ -648,7 +647,7 @@
         "after": [
           {
             "result": {
-              "duration": 508303200,
+              "duration": 512975100,
               "status": "passed"
             },
             "match": {
@@ -661,7 +660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 46551600,
+              "duration": 24572300,
               "status": "passed"
             },
             "line": 20,
@@ -673,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 77506800,
+              "duration": 55955600,
               "status": "passed"
             },
             "line": 21,
@@ -685,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 5223500,
+              "duration": 6239500,
               "status": "passed"
             },
             "line": 22,
@@ -697,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 46239800,
+              "duration": 84495300,
               "status": "passed"
             },
             "line": 23,
@@ -715,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 71657200,
+              "duration": 162269300,
               "status": "passed"
             },
             "line": 24,
@@ -733,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 25626800,
+              "duration": 32670000,
               "status": "passed"
             },
             "line": 25,
@@ -745,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 5068400,
+              "duration": 7418500,
               "status": "passed"
             },
             "line": 26,
@@ -763,7 +762,7 @@
           },
           {
             "result": {
-              "duration": 7510000,
+              "duration": 10029900,
               "status": "passed"
             },
             "line": 27,
@@ -776,11 +775,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:28.640Z",
+        "start_timestamp": "2024-11-12T16:41:50.473Z",
         "before": [
           {
             "result": {
-              "duration": 9485600,
+              "duration": 16150800,
               "status": "passed"
             },
             "match": {
@@ -795,7 +794,7 @@
         "after": [
           {
             "result": {
-              "duration": 4000300,
+              "duration": 5013200,
               "status": "passed"
             },
             "match": {
@@ -808,7 +807,7 @@
         "steps": [
           {
             "result": {
-              "duration": 95531500,
+              "duration": 26223300,
               "status": "passed"
             },
             "line": 20,
@@ -820,7 +819,7 @@
           },
           {
             "result": {
-              "duration": 110410200,
+              "duration": 52983200,
               "status": "passed"
             },
             "line": 21,
@@ -832,7 +831,7 @@
           },
           {
             "result": {
-              "duration": 4005000,
+              "duration": 4375300,
               "status": "passed"
             },
             "line": 22,
@@ -844,7 +843,7 @@
           },
           {
             "result": {
-              "duration": 45721700,
+              "duration": 38074400,
               "status": "passed"
             },
             "line": 23,
@@ -862,7 +861,7 @@
           },
           {
             "result": {
-              "duration": 76304200,
+              "duration": 74911300,
               "status": "passed"
             },
             "line": 24,
@@ -880,7 +879,7 @@
           },
           {
             "result": {
-              "duration": 29842000,
+              "duration": 30262900,
               "status": "passed"
             },
             "line": 25,
@@ -892,8 +891,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:87)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-              "duration": 6140900,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
+              "duration": 5867000,
               "status": "failed"
             },
             "line": 26,
@@ -923,11 +922,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:29.027Z",
+        "start_timestamp": "2024-11-12T16:41:50.736Z",
         "before": [
           {
             "result": {
-              "duration": 11097000,
+              "duration": 14842400,
               "status": "passed"
             },
             "match": {
@@ -942,7 +941,7 @@
         "after": [
           {
             "result": {
-              "duration": 5004900,
+              "duration": 5061500,
               "status": "passed"
             },
             "match": {
@@ -955,7 +954,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52273700,
+              "duration": 27326000,
               "status": "passed"
             },
             "line": 20,
@@ -967,7 +966,7 @@
           },
           {
             "result": {
-              "duration": 75899100,
+              "duration": 67180900,
               "status": "passed"
             },
             "line": 21,
@@ -979,7 +978,7 @@
           },
           {
             "result": {
-              "duration": 5512300,
+              "duration": 5384700,
               "status": "passed"
             },
             "line": 22,
@@ -991,7 +990,7 @@
           },
           {
             "result": {
-              "duration": 73732100,
+              "duration": 90077200,
               "status": "passed"
             },
             "line": 23,
@@ -1009,7 +1008,7 @@
           },
           {
             "result": {
-              "duration": 38942500,
+              "duration": 51742500,
               "status": "passed"
             },
             "line": 24,
@@ -1027,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 29734300,
+              "duration": 36037100,
               "status": "passed"
             },
             "line": 25,
@@ -1039,8 +1038,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:87)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-              "duration": 11545200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
+              "duration": 7009300,
               "status": "failed"
             },
             "line": 26,
@@ -1081,11 +1080,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:29.337Z",
+        "start_timestamp": "2024-11-12T16:41:51.050Z",
         "before": [
           {
             "result": {
-              "duration": 8514800,
+              "duration": 13935200,
               "status": "passed"
             },
             "match": {
@@ -1100,7 +1099,7 @@
         "after": [
           {
             "result": {
-              "duration": 513435700,
+              "duration": 5900900,
               "status": "passed"
             },
             "match": {
@@ -1113,7 +1112,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42651200,
+              "duration": 28572500,
               "status": "passed"
             },
             "line": 5,
@@ -1125,7 +1124,7 @@
           },
           {
             "result": {
-              "duration": 2996000,
+              "duration": 6373500,
               "status": "passed"
             },
             "line": 6,
@@ -1143,7 +1142,7 @@
           },
           {
             "result": {
-              "duration": 59958200,
+              "duration": 69735500,
               "status": "passed"
             },
             "line": 7,
@@ -1161,7 +1160,7 @@
           },
           {
             "result": {
-              "duration": 110866200,
+              "duration": 105845000,
               "status": "passed"
             },
             "line": 8,
@@ -1179,7 +1178,7 @@
           },
           {
             "result": {
-              "duration": 39928800,
+              "duration": 38484500,
               "status": "passed"
             },
             "line": 9,
@@ -1191,8 +1190,9 @@
           },
           {
             "result": {
-              "duration": 37812600,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain \"/planetarium\". Current url: \"http://localhost:8080/\" (tried for 0 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.UserLoginSteps.theUserShouldReceiveTheResultSuccess(UserLoginSteps.java:37)\r\n\tat ✽.The user should receive the result Logged in successfully, redirected to home page(classpath:features/EEB_3.feature:10)\r\n",
+              "duration": 40055900,
+              "status": "failed"
             },
             "line": 10,
             "name": "The user should receive the result Logged in successfully, redirected to home page",
@@ -1204,11 +1204,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:30.159Z",
+        "start_timestamp": "2024-11-12T16:41:51.374Z",
         "before": [
           {
             "result": {
-              "duration": 7887300,
+              "duration": 21075500,
               "status": "passed"
             },
             "match": {
@@ -1223,7 +1223,7 @@
         "after": [
           {
             "result": {
-              "duration": 517464500,
+              "duration": 518114600,
               "status": "passed"
             },
             "match": {
@@ -1236,7 +1236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 68540900,
+              "duration": 127131500,
               "status": "passed"
             },
             "line": 5,
@@ -1248,7 +1248,7 @@
           },
           {
             "result": {
-              "duration": 2009300,
+              "duration": 8347800,
               "status": "passed"
             },
             "line": 6,
@@ -1266,7 +1266,7 @@
           },
           {
             "result": {
-              "duration": 47082700,
+              "duration": 42581000,
               "status": "passed"
             },
             "line": 7,
@@ -1284,7 +1284,7 @@
           },
           {
             "result": {
-              "duration": 61015700,
+              "duration": 46746400,
               "status": "passed"
             },
             "line": 8,
@@ -1302,7 +1302,7 @@
           },
           {
             "result": {
-              "duration": 23409100,
+              "duration": 37315100,
               "status": "passed"
             },
             "line": 9,
@@ -1314,7 +1314,7 @@
           },
           {
             "result": {
-              "duration": 513662400,
+              "duration": 529065600,
               "status": "passed"
             },
             "line": 10,
@@ -1327,11 +1327,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:31.404Z",
+        "start_timestamp": "2024-11-12T16:41:52.712Z",
         "before": [
           {
             "result": {
-              "duration": 8515300,
+              "duration": 17108000,
               "status": "passed"
             },
             "match": {
@@ -1346,7 +1346,7 @@
         "after": [
           {
             "result": {
-              "duration": 504637500,
+              "duration": 517569500,
               "status": "passed"
             },
             "match": {
@@ -1359,7 +1359,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19282100,
+              "duration": 14857200,
               "status": "passed"
             },
             "line": 19,
@@ -1371,7 +1371,7 @@
           },
           {
             "result": {
-              "duration": 3999700,
+              "duration": 9199900,
               "status": "passed"
             },
             "line": 20,
@@ -1389,7 +1389,7 @@
           },
           {
             "result": {
-              "duration": 54375500,
+              "duration": 60073300,
               "status": "passed"
             },
             "line": 21,
@@ -1407,7 +1407,7 @@
           },
           {
             "result": {
-              "duration": 46766000,
+              "duration": 110620400,
               "status": "passed"
             },
             "line": 22,
@@ -1425,7 +1425,7 @@
           },
           {
             "result": {
-              "duration": 27069600,
+              "duration": 40677500,
               "status": "passed"
             },
             "line": 23,
@@ -1437,7 +1437,7 @@
           },
           {
             "result": {
-              "duration": 24929400,
+              "duration": 31175400,
               "status": "passed"
             },
             "line": 24,
@@ -1455,7 +1455,7 @@
           },
           {
             "result": {
-              "duration": 7070300,
+              "duration": 16214900,
               "status": "passed"
             },
             "line": 25,
@@ -1468,11 +1468,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:32.105Z",
+        "start_timestamp": "2024-11-12T16:41:53.535Z",
         "before": [
           {
             "result": {
-              "duration": 7211300,
+              "duration": 14797300,
               "status": "passed"
             },
             "match": {
@@ -1487,7 +1487,7 @@
         "after": [
           {
             "result": {
-              "duration": 521313200,
+              "duration": 512653400,
               "status": "passed"
             },
             "match": {
@@ -1500,7 +1500,7 @@
         "steps": [
           {
             "result": {
-              "duration": 40461000,
+              "duration": 27447500,
               "status": "passed"
             },
             "line": 19,
@@ -1512,7 +1512,7 @@
           },
           {
             "result": {
-              "duration": 3509000,
+              "duration": 9192700,
               "status": "passed"
             },
             "line": 20,
@@ -1530,7 +1530,7 @@
           },
           {
             "result": {
-              "duration": 53650800,
+              "duration": 61093800,
               "status": "passed"
             },
             "line": 21,
@@ -1548,7 +1548,7 @@
           },
           {
             "result": {
-              "duration": 101925900,
+              "duration": 101221300,
               "status": "passed"
             },
             "line": 22,
@@ -1566,7 +1566,7 @@
           },
           {
             "result": {
-              "duration": 40692000,
+              "duration": 33532500,
               "status": "passed"
             },
             "line": 23,
@@ -1578,7 +1578,7 @@
           },
           {
             "result": {
-              "duration": 8510300,
+              "duration": 4944200,
               "status": "passed"
             },
             "line": 24,
@@ -1596,7 +1596,7 @@
           },
           {
             "result": {
-              "duration": 14068300,
+              "duration": 13772500,
               "status": "passed"
             },
             "line": 25,
@@ -1620,11 +1620,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:32.924Z",
+        "start_timestamp": "2024-11-12T16:41:54.342Z",
         "before": [
           {
             "result": {
-              "duration": 8138200,
+              "duration": 17192800,
               "status": "passed"
             },
             "match": {
@@ -1639,7 +1639,7 @@
         "after": [
           {
             "result": {
-              "duration": 34201200,
+              "duration": 9651000,
               "status": "passed"
             },
             "match": {
@@ -1652,7 +1652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16603500,
+              "duration": 19527900,
               "status": "passed"
             },
             "line": 5,
@@ -1664,7 +1664,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 10103300,
               "status": "passed"
             },
             "line": 6,
@@ -1682,7 +1682,7 @@
           },
           {
             "result": {
-              "duration": 30076500,
+              "duration": 47651700,
               "status": "passed"
             },
             "line": 7,
@@ -1700,7 +1700,7 @@
           },
           {
             "result": {
-              "duration": 34423000,
+              "duration": 46680400,
               "status": "passed"
             },
             "line": 8,
@@ -1718,7 +1718,7 @@
           },
           {
             "result": {
-              "duration": 29293900,
+              "duration": 35108900,
               "status": "passed"
             },
             "line": 9,
@@ -1739,6 +1739,7 @@
           },
           {
             "result": {
+              "duration": 1380400,
               "status": "skipped"
             },
             "line": 11,
@@ -1749,11 +1750,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:33.092Z",
+        "start_timestamp": "2024-11-12T16:41:54.544Z",
         "before": [
           {
             "result": {
-              "duration": 12033300,
+              "duration": 17923100,
               "status": "passed"
             },
             "match": {
@@ -1768,7 +1769,7 @@
         "after": [
           {
             "result": {
-              "duration": 19572400,
+              "duration": 15766100,
               "status": "passed"
             },
             "match": {
@@ -1781,7 +1782,7 @@
         "steps": [
           {
             "result": {
-              "duration": 82302600,
+              "duration": 25404700,
               "status": "passed"
             },
             "line": 5,
@@ -1793,7 +1794,7 @@
           },
           {
             "result": {
-              "duration": 2000500,
+              "duration": 2995200,
               "status": "passed"
             },
             "line": 6,
@@ -1811,7 +1812,7 @@
           },
           {
             "result": {
-              "duration": 47773300,
+              "duration": 65106700,
               "status": "passed"
             },
             "line": 7,
@@ -1829,7 +1830,7 @@
           },
           {
             "result": {
-              "duration": 41252200,
+              "duration": 40580300,
               "status": "passed"
             },
             "line": 8,
@@ -1847,7 +1848,7 @@
           },
           {
             "result": {
-              "duration": 36053100,
+              "duration": 37437400,
               "status": "passed"
             },
             "line": 9,
@@ -1889,11 +1890,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:33.339Z",
+        "start_timestamp": "2024-11-12T16:41:54.757Z",
         "before": [
           {
             "result": {
-              "duration": 9515500,
+              "duration": 20801900,
               "status": "passed"
             },
             "match": {
@@ -1908,7 +1909,7 @@
         "after": [
           {
             "result": {
-              "duration": 510330500,
+              "duration": 508658300,
               "status": "passed"
             },
             "match": {
@@ -1921,7 +1922,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145259800,
+              "duration": 398417600,
               "status": "passed"
             },
             "line": 4,
@@ -1933,7 +1934,7 @@
           },
           {
             "result": {
-              "duration": 97992300,
+              "duration": 620621900,
               "status": "passed"
             },
             "line": 5,
@@ -1945,7 +1946,7 @@
           },
           {
             "result": {
-              "duration": 99271900,
+              "duration": 62337200,
               "status": "passed"
             },
             "line": 6,
@@ -1957,7 +1958,7 @@
           },
           {
             "result": {
-              "duration": 39425200,
+              "duration": 53034500,
               "status": "passed"
             },
             "line": 7,
@@ -1975,7 +1976,7 @@
           },
           {
             "result": {
-              "duration": 27418800,
+              "duration": 46276500,
               "status": "passed"
             },
             "line": 8,
@@ -1987,8 +1988,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 507826500,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
+              "duration": 511151700,
               "status": "failed"
             },
             "line": 9,
@@ -2018,11 +2019,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:34.784Z",
+        "start_timestamp": "2024-11-12T16:41:56.991Z",
         "before": [
           {
             "result": {
-              "duration": 8004800,
+              "duration": 17106700,
               "status": "passed"
             },
             "match": {
@@ -2037,7 +2038,7 @@
         "after": [
           {
             "result": {
-              "duration": 512273100,
+              "duration": 507278700,
               "status": "passed"
             },
             "match": {
@@ -2050,7 +2051,7 @@
         "steps": [
           {
             "result": {
-              "duration": 159360400,
+              "duration": 199232600,
               "status": "passed"
             },
             "line": 4,
@@ -2062,7 +2063,7 @@
           },
           {
             "result": {
-              "duration": 77523800,
+              "duration": 594556600,
               "status": "passed"
             },
             "line": 5,
@@ -2074,7 +2075,7 @@
           },
           {
             "result": {
-              "duration": 85653400,
+              "duration": 56432900,
               "status": "passed"
             },
             "line": 6,
@@ -2086,7 +2087,7 @@
           },
           {
             "result": {
-              "duration": 70568600,
+              "duration": 61778000,
               "status": "passed"
             },
             "line": 7,
@@ -2104,7 +2105,7 @@
           },
           {
             "result": {
-              "duration": 20664000,
+              "duration": 28780500,
               "status": "passed"
             },
             "line": 8,
@@ -2116,8 +2117,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 508165400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
+              "duration": 513532900,
               "status": "failed"
             },
             "line": 9,
@@ -2147,11 +2148,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:36.231Z",
+        "start_timestamp": "2024-11-12T16:41:58.975Z",
         "before": [
           {
             "result": {
-              "duration": 7952800,
+              "duration": 13268400,
               "status": "passed"
             },
             "match": {
@@ -2166,7 +2167,7 @@
         "after": [
           {
             "result": {
-              "duration": 508305300,
+              "duration": 512445900,
               "status": "passed"
             },
             "match": {
@@ -2179,7 +2180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 165511300,
+              "duration": 175811600,
               "status": "passed"
             },
             "line": 4,
@@ -2191,7 +2192,7 @@
           },
           {
             "result": {
-              "duration": 69492100,
+              "duration": 600346700,
               "status": "passed"
             },
             "line": 5,
@@ -2203,7 +2204,7 @@
           },
           {
             "result": {
-              "duration": 75916200,
+              "duration": 70533100,
               "status": "passed"
             },
             "line": 6,
@@ -2215,7 +2216,7 @@
           },
           {
             "result": {
-              "duration": 77993800,
+              "duration": 81991500,
               "status": "passed"
             },
             "line": 7,
@@ -2233,7 +2234,7 @@
           },
           {
             "result": {
-              "duration": 26075200,
+              "duration": 33630400,
               "status": "passed"
             },
             "line": 8,
@@ -2245,8 +2246,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet creation failed with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-              "duration": 505495300,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet creation failed with Name\"(classpath:features/EEB_5.feature:9)\r\n",
+              "duration": 507715300,
               "status": "failed"
             },
             "line": 9,
@@ -2276,11 +2277,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:37.675Z",
+        "start_timestamp": "2024-11-12T16:42:00.975Z",
         "before": [
           {
             "result": {
-              "duration": 7594300,
+              "duration": 13941600,
               "status": "passed"
             },
             "match": {
@@ -2295,7 +2296,7 @@
         "after": [
           {
             "result": {
-              "duration": 515625200,
+              "duration": 509669000,
               "status": "passed"
             },
             "match": {
@@ -2308,7 +2309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 144106000,
+              "duration": 195090000,
               "status": "passed"
             },
             "line": 19,
@@ -2320,7 +2321,7 @@
           },
           {
             "result": {
-              "duration": 2000900,
+              "duration": 2015400,
               "status": "passed"
             },
             "line": 20,
@@ -2338,7 +2339,7 @@
           },
           {
             "result": {
-              "duration": 72398900,
+              "duration": 93387600,
               "status": "passed"
             },
             "line": 21,
@@ -2350,7 +2351,7 @@
           },
           {
             "result": {
-              "duration": 57731300,
+              "duration": 103524400,
               "status": "passed"
             },
             "line": 22,
@@ -2362,7 +2363,7 @@
           },
           {
             "result": {
-              "duration": 53877400,
+              "duration": 46115000,
               "status": "passed"
             },
             "line": 23,
@@ -2380,7 +2381,7 @@
           },
           {
             "result": {
-              "duration": 22349800,
+              "duration": 30719900,
               "status": "passed"
             },
             "line": 24,
@@ -2392,8 +2393,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet added successfully with name\"(classpath:features/EEB_5.feature:25)\r\n",
-              "duration": 508760300,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet added successfully with name\"(classpath:features/EEB_5.feature:25)\r\n",
+              "duration": 509926800,
               "status": "failed"
             },
             "line": 25,
@@ -2423,11 +2424,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:39.061Z",
+        "start_timestamp": "2024-11-12T16:42:02.485Z",
         "before": [
           {
             "result": {
-              "duration": 8975700,
+              "duration": 13534400,
               "status": "passed"
             },
             "match": {
@@ -2442,7 +2443,7 @@
         "after": [
           {
             "result": {
-              "duration": 511473500,
+              "duration": 509154600,
               "status": "passed"
             },
             "match": {
@@ -2455,7 +2456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 155155700,
+              "duration": 221593900,
               "status": "passed"
             },
             "line": 19,
@@ -2467,7 +2468,7 @@
           },
           {
             "result": {
-              "duration": 3050900,
+              "duration": 12182000,
               "status": "passed"
             },
             "line": 20,
@@ -2485,7 +2486,7 @@
           },
           {
             "result": {
-              "duration": 74605800,
+              "duration": 92021700,
               "status": "passed"
             },
             "line": 21,
@@ -2497,7 +2498,7 @@
           },
           {
             "result": {
-              "duration": 87801000,
+              "duration": 110656600,
               "status": "passed"
             },
             "line": 22,
@@ -2509,7 +2510,7 @@
           },
           {
             "result": {
-              "duration": 38281800,
+              "duration": 44629300,
               "status": "passed"
             },
             "line": 23,
@@ -2527,7 +2528,7 @@
           },
           {
             "result": {
-              "duration": 24027300,
+              "duration": 30277100,
               "status": "passed"
             },
             "line": 24,
@@ -2539,8 +2540,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet add failed with name\"(classpath:features/EEB_5.feature:25)\r\n",
-              "duration": 509783500,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet add failed with name\"(classpath:features/EEB_5.feature:25)\r\n",
+              "duration": 511527500,
               "status": "failed"
             },
             "line": 25,
@@ -2568,11 +2569,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:40.476Z",
+        "start_timestamp": "2024-11-12T16:42:04.034Z",
         "before": [
           {
             "result": {
-              "duration": 6004000,
+              "duration": 13773100,
               "status": "passed"
             },
             "match": {
@@ -2587,7 +2588,7 @@
         "after": [
           {
             "result": {
-              "duration": 513776700,
+              "duration": 511196600,
               "status": "passed"
             },
             "match": {
@@ -2600,7 +2601,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166418200,
+              "duration": 190410200,
               "status": "passed"
             },
             "line": 34,
@@ -2612,7 +2613,7 @@
           },
           {
             "result": {
-              "duration": 76380400,
+              "duration": 615984300,
               "status": "passed"
             },
             "line": 35,
@@ -2624,7 +2625,7 @@
           },
           {
             "result": {
-              "duration": 89735300,
+              "duration": 52730400,
               "status": "passed"
             },
             "line": 36,
@@ -2636,7 +2637,7 @@
           },
           {
             "result": {
-              "duration": 44991900,
+              "duration": 51156000,
               "status": "passed"
             },
             "line": 37,
@@ -2654,7 +2655,7 @@
           },
           {
             "result": {
-              "duration": 24910900,
+              "duration": 29279600,
               "status": "passed"
             },
             "line": 38,
@@ -2666,8 +2667,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:83)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:39)\r\n",
-              "duration": 508916100,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:39)\r\n",
+              "duration": 512174900,
               "status": "failed"
             },
             "line": 39,
@@ -2686,11 +2687,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:41.912Z",
+        "start_timestamp": "2024-11-12T16:42:06.017Z",
         "before": [
           {
             "result": {
-              "duration": 7567400,
+              "duration": 14379100,
               "status": "passed"
             },
             "match": {
@@ -2705,7 +2706,7 @@
         "after": [
           {
             "result": {
-              "duration": 514558600,
+              "duration": 513577200,
               "status": "passed"
             },
             "match": {
@@ -2718,7 +2719,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160849700,
+              "duration": 238399700,
               "status": "passed"
             },
             "line": 46,
@@ -2730,7 +2731,7 @@
           },
           {
             "result": {
-              "duration": 77682600,
+              "duration": 592196900,
               "status": "passed"
             },
             "line": 47,
@@ -2742,7 +2743,7 @@
           },
           {
             "result": {
-              "duration": 83431800,
+              "duration": 45586400,
               "status": "passed"
             },
             "line": 48,
@@ -2754,7 +2755,7 @@
           },
           {
             "result": {
-              "duration": 41971700,
+              "duration": 37108500,
               "status": "passed"
             },
             "line": 49,
@@ -2772,7 +2773,7 @@
           },
           {
             "result": {
-              "duration": 23005800,
+              "duration": 23192600,
               "status": "passed"
             },
             "line": 50,
@@ -2784,7 +2785,7 @@
           },
           {
             "result": {
-              "duration": 21982300,
+              "duration": 22516200,
               "status": "passed"
             },
             "line": 51,
@@ -2808,11 +2809,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:42.845Z",
+        "start_timestamp": "2024-11-12T16:42:07.506Z",
         "before": [
           {
             "result": {
-              "duration": 7572200,
+              "duration": 16078800,
               "status": "passed"
             },
             "match": {
@@ -2827,7 +2828,7 @@
         "after": [
           {
             "result": {
-              "duration": 513785600,
+              "duration": 510288700,
               "status": "passed"
             },
             "match": {
@@ -2840,7 +2841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166215400,
+              "duration": 198131000,
               "status": "passed"
             },
             "line": 46,
@@ -2852,7 +2853,7 @@
           },
           {
             "result": {
-              "duration": 584091600,
+              "duration": 578996200,
               "status": "passed"
             },
             "line": 47,
@@ -2864,7 +2865,7 @@
           },
           {
             "result": {
-              "duration": 47858400,
+              "duration": 47627400,
               "status": "passed"
             },
             "line": 48,
@@ -2876,7 +2877,7 @@
           },
           {
             "result": {
-              "duration": 46142700,
+              "duration": 40404300,
               "status": "passed"
             },
             "line": 49,
@@ -2905,7 +2906,7 @@
           },
           {
             "result": {
-              "duration": 30884600,
+              "duration": 28252100,
               "status": "passed"
             },
             "line": 51,
@@ -2940,11 +2941,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:44.249Z",
+        "start_timestamp": "2024-11-12T16:42:08.930Z",
         "before": [
           {
             "result": {
-              "duration": 10139900,
+              "duration": 12525600,
               "status": "passed"
             },
             "match": {
@@ -2952,14 +2953,14 @@
             }
           }
         ],
-        "line": 16,
+        "line": 13,
         "name": "Deleting Planets - Unique Name -",
         "description": "\tValidating users can delete a planet only when they provide the name of planet that exists in the Planetarium, and the action is rejected when they provide the name of a unique planet not in the database.",
         "id": "delete-planets;deleting-planets---unique-name--;;2",
         "after": [
           {
             "result": {
-              "duration": 505654000,
+              "duration": 507098700,
               "status": "passed"
             },
             "match": {
@@ -2972,26 +2973,23 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Step [User is on the Home Page] is defined with 0 parameters at \u0027com.revature.steps.AddPlanetSteps.userOnHomePage()\u0027.\nHowever, the gherkin step has 1 arguments:\n * DocString:\n      \"\"\"null\n      http://localhost:8080/planetarium\n      \"\"\"\nStep text: User is on the Home Page\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:118)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)\r\n",
-              "duration": 985000,
-              "status": "failed"
+              "duration": 174097400,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
             },
-            "keyword": "Given ",
-            "doc_string": {
-              "line": 6,
-              "value": "http://localhost:8080/planetarium"
-            }
+            "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown(AddPlanetSteps.java:43)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
+              "duration": 21677300,
+              "status": "failed"
             },
-            "line": 9,
+            "line": 6,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
@@ -3002,37 +3000,49 @@
             "result": {
               "status": "skipped"
             },
-            "line": 10,
+            "line": 7,
             "name": "User enters planet name \"Nessus\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nessus\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetName(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 11,
+            "line": 8,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 12,
-            "name": "Planet \"Nessus\" is \"not deleted\"",
-            "match": {},
+            "line": 9,
+            "name": "Planet Nessus is not deleted",
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.planetNessusIsNotDeleted()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:44.773Z",
+        "start_timestamp": "2024-11-12T16:42:09.657Z",
         "before": [
           {
             "result": {
-              "duration": 8281300,
+              "duration": 13296800,
               "status": "passed"
             },
             "match": {
@@ -3040,14 +3050,14 @@
             }
           }
         ],
-        "line": 17,
+        "line": 14,
         "name": "Deleting Planets - Unique Name -",
         "description": "\tValidating users can delete a planet only when they provide the name of planet that exists in the Planetarium, and the action is rejected when they provide the name of a unique planet not in the database.",
         "id": "delete-planets;deleting-planets---unique-name--;;3",
         "after": [
           {
             "result": {
-              "duration": 514955700,
+              "duration": 515620100,
               "status": "passed"
             },
             "match": {
@@ -3060,66 +3070,77 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Step [User is on the Home Page] is defined with 0 parameters at \u0027com.revature.steps.AddPlanetSteps.userOnHomePage()\u0027.\nHowever, the gherkin step has 1 arguments:\n * DocString:\n      \"\"\"null\n      http://localhost:8080/planetarium\n      \"\"\"\nStep text: User is on the Home Page\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:118)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)\r\n",
-              "status": "failed"
+              "duration": 173331400,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
             },
-            "keyword": "Given ",
-            "doc_string": {
-              "line": 6,
-              "value": "http://localhost:8080/planetarium"
-            }
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown(AddPlanetSteps.java:43)\r\n\tat ✽.User clicks Planet from the dropdown(classpath:features/EEB_6.feature:6)\r\n",
+              "duration": 23454800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User clicks Planet from the dropdown",
+            "match": {
+              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1008500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters planet name \"Earth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks the delete button",
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
             "line": 9,
-            "name": "User clicks Planet from the dropdown",
+            "name": "Planet Earth is deleted successfully",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
+              "location": "com.revature.steps.DeletePlanetSteps.planetEarthIsDeletedSuccessfully()"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "User enters planet name \"Earth\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User clicks the delete button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "Planet \"Earth\" is \"deleted successfully\"",
-            "match": {},
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:45.300Z",
+        "start_timestamp": "2024-11-12T16:42:10.387Z",
         "before": [
           {
             "result": {
-              "duration": 10400300,
+              "duration": 13843200,
               "status": "passed"
             },
             "match": {
@@ -3127,14 +3148,14 @@
             }
           }
         ],
-        "line": 32,
+        "line": 26,
         "name": "Deleting Planets - Planet Ownership -",
         "description": "\tValidating that only the user who \"owns\" the planet is able to delete a planet and the process is rejected when a different user attempts to do so.",
         "id": "delete-planets;deleting-planets---planet-ownership--;;2",
         "after": [
           {
             "result": {
-              "duration": 515872400,
+              "duration": 503970700,
               "status": "passed"
             },
             "match": {
@@ -3147,22 +3168,28 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [Batman]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:18)\r\n",
+              "duration": 21033100,
+              "status": "failed"
             },
-            "line": 21,
+            "line": 18,
             "name": "User \"Batman\" is on the Home Page",
-            "match": {},
-            "keyword": "Given ",
-            "doc_string": {
-              "line": 22,
-              "value": "http://localhost:8080/planetarium"
-            }
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 25,
+            "line": 19,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
@@ -3173,37 +3200,49 @@
             "result": {
               "status": "skipped"
             },
-            "line": 26,
+            "line": 20,
             "name": "User enters planet name \"Earth\" having Owner Id 1",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetNameHavingOwnerId1(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 27,
+            "line": 21,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 28,
-            "name": "Planet \"Earth\" is \"deleted successfully\"",
-            "match": {},
+            "line": 22,
+            "name": "Planet Earth is deleted successfully",
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.planetEarthIsDeletedSuccessfully()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:45.828Z",
+        "start_timestamp": "2024-11-12T16:42:10.931Z",
         "before": [
           {
             "result": {
-              "duration": 7007000,
+              "duration": 15579700,
               "status": "passed"
             },
             "match": {
@@ -3211,14 +3250,14 @@
             }
           }
         ],
-        "line": 33,
+        "line": 27,
         "name": "Deleting Planets - Planet Ownership -",
         "description": "\tValidating that only the user who \"owns\" the planet is able to delete a planet and the process is rejected when a different user attempts to do so.",
         "id": "delete-planets;deleting-planets---planet-ownership--;;3",
         "after": [
           {
             "result": {
-              "duration": 515459100,
+              "duration": 504162200,
               "status": "passed"
             },
             "match": {
@@ -3231,22 +3270,28 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [BatmanAndRobin]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:18)\r\n",
+              "duration": 15994700,
+              "status": "failed"
             },
-            "line": 21,
+            "line": 18,
             "name": "User \"BatmanAndRobin\" is on the Home Page",
-            "match": {},
-            "keyword": "Given ",
-            "doc_string": {
-              "line": 22,
-              "value": "http://localhost:8080/planetarium"
-            }
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BatmanAndRobin\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 25,
+            "line": 19,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
@@ -3257,37 +3302,47 @@
             "result": {
               "status": "skipped"
             },
-            "line": 26,
+            "line": 20,
             "name": "User enters planet name \"Earth\" having Owner Id 1",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetNameHavingOwnerId1(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 27,
+            "line": 21,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 28,
-            "name": "Planet \"Earth\" is \"not deleted\"",
+            "line": 22,
+            "name": "Planet Earth is not deleted",
             "match": {},
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:46.356Z",
+        "start_timestamp": "2024-11-12T16:42:11.469Z",
         "before": [
           {
             "result": {
-              "duration": 6597800,
+              "duration": 13076500,
               "status": "passed"
             },
             "match": {
@@ -3295,14 +3350,14 @@
             }
           }
         ],
-        "line": 45,
+        "line": 39,
         "name": "Deleting Planets - Planet Ownership Pt. 2 -",
         "description": "\tValidating that after a user creates a planet, that planet can only be deleted by said user and the action is prevented if attempted by another user.",
         "id": "delete-planets;deleting-planets---planet-ownership-pt.-2--;;2",
         "after": [
           {
             "result": {
-              "duration": 504588300,
+              "duration": 508278400,
               "status": "passed"
             },
             "match": {
@@ -3315,18 +3370,28 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [Batman]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:31)\r\n",
+              "duration": 15028900,
+              "status": "failed"
             },
-            "line": 37,
+            "line": 31,
             "name": "User \"Batman\" is on the Home Page",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 38,
+            "line": 32,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
@@ -3337,37 +3402,49 @@
             "result": {
               "status": "skipped"
             },
-            "line": 39,
+            "line": 33,
             "name": "User enters planet name \"Nessus\" having Owner Id 1",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nessus\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetNameHavingOwnerId1(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 40,
+            "line": 34,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 41,
-            "name": "Planet \"Nessus\" is \"deleted successfully\"",
-            "match": {},
+            "line": 35,
+            "name": "Planet Nessus is deleted successfully",
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.planetNessusIsDeletedSuccessfully()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:46.870Z",
+        "start_timestamp": "2024-11-12T16:42:12.011Z",
         "before": [
           {
             "result": {
-              "duration": 7254000,
+              "duration": 16293100,
               "status": "passed"
             },
             "match": {
@@ -3375,14 +3452,14 @@
             }
           }
         ],
-        "line": 46,
+        "line": 40,
         "name": "Deleting Planets - Planet Ownership Pt. 2 -",
         "description": "\tValidating that after a user creates a planet, that planet can only be deleted by said user and the action is prevented if attempted by another user.",
         "id": "delete-planets;deleting-planets---planet-ownership-pt.-2--;;3",
         "after": [
           {
             "result": {
-              "duration": 504590900,
+              "duration": 516423100,
               "status": "passed"
             },
             "match": {
@@ -3395,18 +3472,28 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...me to the Home Page [BatmanAndRobin]\u003e but was:\u003c...me to the Home Page [TestUser]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:23)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:31)\r\n",
+              "duration": 15672400,
+              "status": "failed"
             },
-            "line": 37,
+            "line": 31,
             "name": "User \"BatmanAndRobin\" is on the Home Page",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BatmanAndRobin\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 38,
+            "line": 32,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksPlanetFromTheDropdown()"
@@ -3417,27 +3504,39 @@
             "result": {
               "status": "skipped"
             },
-            "line": 39,
+            "line": 33,
             "name": "User enters planet name \"Nessus\" having Owner Id 1",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nessus\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.revature.steps.DeletePlanetSteps.userEntersPlanetNameHavingOwnerId1(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 40,
+            "line": 34,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 41,
-            "name": "Planet \"Nessus\" is \"not deleted\"",
-            "match": {},
+            "line": 35,
+            "name": "Planet Nessus is not deleted",
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.planetNessusIsNotDeleted()"
+            },
             "keyword": "Then "
           }
         ]
@@ -3454,191 +3553,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:47.386Z",
+        "start_timestamp": "2024-11-12T16:42:12.565Z",
         "before": [
           {
             "result": {
-              "duration": 7592400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.steps.UserRegistrationSteps.before()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "User Interaction - Add Moons -",
-        "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 10518300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.steps.UserRegistrationSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 194850700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on the Home Page",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User selects moon from Dropdown",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User inputs \"moonerEclipse\" in the moon name section with assiociated planet ID  1",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User optionally attaches moon image: yes",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "The moon creation is a Success",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-11-08T20:00:47.604Z",
-        "before": [
-          {
-            "result": {
-              "duration": 11041700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.steps.UserRegistrationSteps.before()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "User Interaction - Add Moons -",
-        "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 10487900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.revature.steps.UserRegistrationSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 191506300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on the Home Page",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User selects moon from Dropdown",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User inputs \"Luna\" in the moon name section with assiociated planet ID  1",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User optionally attaches moon image: yes",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "The moon creation is a Fail",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2024-11-08T20:00:47.821Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14515800,
+              "duration": 14710200,
               "status": "passed"
             },
             "match": {
@@ -3649,11 +3568,11 @@
         "line": 20,
         "name": "User Interaction - Add Moons -",
         "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;4",
+        "id": "add-moons;user-interaction---add-moons--;;2",
         "after": [
           {
             "result": {
-              "duration": 515083700,
+              "duration": 517819700,
               "status": "passed"
             },
             "match": {
@@ -3666,7 +3585,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187261400,
+              "duration": 190228700,
               "status": "passed"
             },
             "line": 9,
@@ -3678,57 +3597,121 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 606746500,
+              "status": "passed"
             },
             "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48206000,
+              "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 50793600,
+              "status": "passed"
             },
             "line": 12,
-            "name": "User inputs \"Luna\" in the moon name section with assiociated planet ID  2",
-            "match": {},
+            "name": "User inputs \"moonerEclipse\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moonerEclipse\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 36282500,
+              "status": "passed"
             },
             "line": 13,
-            "name": "User optionally attaches moon image: yes",
-            "match": {},
+            "name": "User inputs associated planet ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 21733300,
+              "status": "passed"
             },
             "line": 14,
-            "name": "The moon creation is a Fail",
-            "match": {},
+            "name": "User optionally attaches moon image: \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32590300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"moonerEclipse\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 26555300,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The moon \"moonerEclipse\" creation is a Success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moonerEclipse\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddSuccess(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:48.542Z",
+        "start_timestamp": "2024-11-12T16:42:14.115Z",
         "before": [
           {
             "result": {
-              "duration": 7399700,
+              "duration": 14295700,
               "status": "passed"
             },
             "match": {
@@ -3739,11 +3722,11 @@
         "line": 21,
         "name": "User Interaction - Add Moons -",
         "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;5",
+        "id": "add-moons;user-interaction---add-moons--;;3",
         "after": [
           {
             "result": {
-              "duration": 11537900,
+              "duration": 513531900,
               "status": "passed"
             },
             "match": {
@@ -3756,7 +3739,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160079900,
+              "duration": 180744000,
               "status": "passed"
             },
             "line": 9,
@@ -3768,57 +3751,121 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 618035700,
+              "status": "passed"
             },
             "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46535600,
+              "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 38590800,
+              "status": "passed"
             },
             "line": 12,
-            "name": "User inputs \"\u003cnull\u003e\" in the moon name section with assiociated planet ID  1",
-            "match": {},
+            "name": "User inputs \"Luna\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 31966200,
+              "status": "passed"
             },
             "line": 13,
-            "name": "User optionally attaches moon image: yes",
-            "match": {},
+            "name": "User inputs associated planet ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 20289000,
+              "status": "passed"
             },
             "line": 14,
-            "name": "The moon creation is a Fail",
-            "match": {},
+            "name": "User optionally attaches moon image: \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27196100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 25342500,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The moon \"Luna\" creation is a Fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddFail(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:48.723Z",
+        "start_timestamp": "2024-11-12T16:42:15.636Z",
         "before": [
           {
             "result": {
-              "duration": 8517200,
+              "duration": 14029500,
               "status": "passed"
             },
             "match": {
@@ -3829,11 +3876,11 @@
         "line": 22,
         "name": "User Interaction - Add Moons -",
         "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;6",
+        "id": "add-moons;user-interaction---add-moons--;;4",
         "after": [
           {
             "result": {
-              "duration": 18272200,
+              "duration": 511248200,
               "status": "passed"
             },
             "match": {
@@ -3846,7 +3893,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187376900,
+              "duration": 200656800,
               "status": "passed"
             },
             "line": 9,
@@ -3858,57 +3905,121 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 603427500,
+              "status": "passed"
             },
             "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 51199800,
+              "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 43272200,
+              "status": "passed"
             },
             "line": 12,
-            "name": "User inputs \"Titan\" in the moon name section with assiociated planet ID  2",
-            "match": {},
+            "name": "User inputs \"Luna\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 39330700,
+              "status": "passed"
             },
             "line": 13,
-            "name": "User optionally attaches moon image: yes",
-            "match": {},
+            "name": "User inputs associated planet ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 20896600,
+              "status": "passed"
             },
             "line": 14,
-            "name": "The moon creation is a Fail",
-            "match": {},
+            "name": "User optionally attaches moon image: \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24956900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 21218200,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The moon \"Luna\" creation is a Fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddFail(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:48.940Z",
+        "start_timestamp": "2024-11-12T16:42:17.172Z",
         "before": [
           {
             "result": {
-              "duration": 6505600,
+              "duration": 14577900,
               "status": "passed"
             },
             "match": {
@@ -3919,11 +4030,11 @@
         "line": 23,
         "name": "User Interaction - Add Moons -",
         "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
-        "id": "add-moons;user-interaction---add-moons--;;7",
+        "id": "add-moons;user-interaction---add-moons--;;5",
         "after": [
           {
             "result": {
-              "duration": 8207600,
+              "duration": 508059600,
               "status": "passed"
             },
             "match": {
@@ -3936,7 +4047,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179822200,
+              "duration": 178296500,
               "status": "passed"
             },
             "line": 9,
@@ -3948,48 +4059,417 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 595473400,
+              "status": "passed"
             },
             "line": 10,
-            "name": "User is logged in",
-            "match": {},
-            "keyword": "And "
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 1005500,
-              "status": "skipped"
+              "duration": 44808900,
+              "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 40362900,
+              "status": "passed"
             },
             "line": 12,
-            "name": "User inputs \"Sun\" in the moon name section with assiociated planet ID  1",
-            "match": {},
+            "name": "User inputs \"\u003cnull\u003e\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cnull\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 40761500,
+              "status": "passed"
             },
             "line": 13,
-            "name": "User optionally attaches moon image: no",
-            "match": {},
+            "name": "User inputs associated planet ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 22090600,
+              "status": "passed"
             },
             "line": 14,
-            "name": "The moon creation is a Success",
-            "match": {},
+            "name": "User optionally attaches moon image: \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27162600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22098200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The moon \"\u003cnull\u003e\" creation is a Fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cnull\u003e\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddFail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-12T16:42:18.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12515900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.steps.UserRegistrationSteps.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User Interaction - Add Moons -",
+        "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
+        "id": "add-moons;user-interaction---add-moons--;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 509358700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.steps.UserRegistrationSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 181997700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the Home Page",
+            "match": {
+              "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 588411400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44938100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects moon from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41242400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User inputs \"Titan\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37309600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User inputs associated planet ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18752800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User optionally attaches moon image: \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25505400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Titan\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 21344800,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The moon \"Titan\" creation is a Fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddFail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-12T16:42:20.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13703500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.steps.UserRegistrationSteps.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User Interaction - Add Moons -",
+        "description": " | Planet and Moon names should not have more than 30 characters | \n | Planets and moons should have unique names | \n | Moons should be \"owned\" by the Planet and the User adding the moon associated with it | \n | Planets and Moons should allow adding an associated image, but an image should not be required for the data to be added to the database | ",
+        "id": "add-moons;user-interaction---add-moons--;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 505637400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.steps.UserRegistrationSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 181192500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the Home Page",
+            "match": {
+              "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 586338000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects Planet from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksPlanetDropdownOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43390800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects moon from Dropdown",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34669200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User inputs \"Sun\" in the moon name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sun\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.userProvidesMoonName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36478700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User inputs associated planet ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_inputs_associated_planet_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User optionally attaches moon image: \"no\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.user_optionally_attaches_moon_image(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26293600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Submit Moon",
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksSubmitMoon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"Sun\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 19224400,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The moon \"Sun\" creation is a Success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sun\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.revature.steps.AddMoonSteps.moonAddSuccess(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ]
@@ -4006,11 +4486,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-11-08T20:00:49.140Z",
+        "start_timestamp": "2024-11-12T16:42:21.609Z",
         "before": [
           {
             "result": {
-              "duration": 10513900,
+              "duration": 15113000,
               "status": "passed"
             },
             "match": {
@@ -4025,7 +4505,7 @@
         "after": [
           {
             "result": {
-              "duration": 10517200,
+              "duration": 511724900,
               "status": "passed"
             },
             "match": {
@@ -4038,7 +4518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184208300,
+              "duration": 176408400,
               "status": "passed"
             },
             "line": 9,
@@ -4050,16 +4530,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 59112100,
+              "status": "passed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 11,
             "name": "User enters moon name \"Luna\"",
@@ -4072,7 +4555,9 @@
             },
             "line": 12,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
@@ -4087,11 +4572,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:49.349Z",
+        "start_timestamp": "2024-11-12T16:42:22.378Z",
         "before": [
           {
             "result": {
-              "duration": 8990200,
+              "duration": 14278900,
               "status": "passed"
             },
             "match": {
@@ -4106,7 +4591,7 @@
         "after": [
           {
             "result": {
-              "duration": 11512400,
+              "duration": 518495400,
               "status": "passed"
             },
             "match": {
@@ -4119,7 +4604,7 @@
         "steps": [
           {
             "result": {
-              "duration": 211765000,
+              "duration": 169249700,
               "status": "passed"
             },
             "line": 9,
@@ -4131,11 +4616,15 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
+              "duration": 21191000,
+              "status": "failed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
@@ -4153,7 +4642,9 @@
             },
             "line": 12,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
@@ -4168,11 +4659,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-11-08T20:00:49.587Z",
+        "start_timestamp": "2024-11-12T16:42:23.106Z",
         "before": [
           {
             "result": {
-              "duration": 16539400,
+              "duration": 14047800,
               "status": "passed"
             },
             "match": {
@@ -4187,7 +4678,7 @@
         "after": [
           {
             "result": {
-              "duration": 24325500,
+              "duration": 506298600,
               "status": "passed"
             },
             "match": {
@@ -4200,7 +4691,7 @@
         "steps": [
           {
             "result": {
-              "duration": 225948500,
+              "duration": 179642300,
               "status": "passed"
             },
             "line": 9,
@@ -4212,11 +4703,15 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03ae597effef4e0416c94c431b766551, findElement {value\u003dlocationSelect, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 03ae597effef4e0416c94c431b766551\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
+              "duration": 21369200,
+              "status": "failed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+            },
             "keyword": "When "
           },
           {
@@ -4234,7 +4729,9 @@
             },
             "line": 12,
             "name": "User clicks the delete button",
-            "match": {},
+            "match": {
+              "location": "com.revature.steps.DeletePlanetSteps.userClicksTheDeleteButton()"
+            },
             "keyword": "And "
           },
           {
