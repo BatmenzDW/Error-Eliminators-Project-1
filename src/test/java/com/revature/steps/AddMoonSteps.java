@@ -7,6 +7,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -20,6 +22,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import static com.revature.TestRunner.driver;
+import static com.revature.TestRunner.planetariumHome;
 import static org.junit.Assert.assertTrue;
 
 public class AddMoonSteps {
@@ -85,7 +88,18 @@ public class AddMoonSteps {
 
     @Then("The moon {string} creation is a Fail")
     public void moonAddFail(String moonName) throws Throwable {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10));
+
+        try
+        {
+            WebDriverWait wait2 = new WebDriverWait(TestRunner.driver, Duration.ofMillis(10));
+            wait2.until(ExpectedConditions.alertIsPresent());
+            driver.switchTo().alert().accept();
+        }
+        catch (NoAlertPresentException | TimeoutException Ex)
+        {
+            //
+        }
 
         WebElement table = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("celestialTable")));
 
