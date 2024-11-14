@@ -7,7 +7,7 @@ Feature: Home
 		When The user provides username "<Username>"
 		And User provides password "<Password>"
 		And User clicks the login button
-		Then User is logged in <Login Successful>, if not then they receive an alert due to invalid credidential input
+		Then User is logged in <Login Successful>, if not then they receive an alert due to invalid credential input
 		Then User is able to see their Planets and Moons added to their Planetarium : <Planetarium Visibility>
 
 	Examples: 
