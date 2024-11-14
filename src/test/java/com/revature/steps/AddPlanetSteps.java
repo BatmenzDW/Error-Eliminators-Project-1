@@ -23,7 +23,6 @@ public class AddPlanetSteps {
 
     @Given("User is on the Home Page")
     public void userOnHomePage() throws Throwable {
-        TestRunner.planetariumHome.goToPlanetariumHome();
         TestRunner.planetariumHome.setupTestLogin();
         TestRunner.planetariumHome.login("TestUser", "TestPassword");
     }
@@ -36,12 +35,6 @@ public class AddPlanetSteps {
 
         Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
         select.selectByVisibleText("Moon");
-    }
-
-    @When("User clicks Planet from the dropdown")
-    public void userClicksPlanetFromTheDropdown() throws Throwable {
-        Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
-        select.selectByVisibleText("Planet");
     }
 
     @When("User provides a Planet Name {string}")
