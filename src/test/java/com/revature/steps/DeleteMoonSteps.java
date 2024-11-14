@@ -38,9 +38,9 @@ public class DeleteMoonSteps {
     }
 
     @When("User enters Moon Name {string}")
-    public void userProvidesPlanetName(String planetName) throws Throwable {
-        WebElement input = TestRunner.driver.findElement(By.id("planetNameInput"));
-        input.sendKeys(planetName);
+    public void userProvidesMoonName(String moonName) throws Throwable {
+        WebElement input = TestRunner.driver.findElement(By.id("moonNameInput"));
+        input.sendKeys(moonName);
     }
 
     @Then("User clicks the delete button")
