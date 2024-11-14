@@ -20,6 +20,6 @@ Feature: Add Moons
 		| moonerEclipse | 1         | yes            | Success |
 		| Luna          | 1         | yes            | Fail    |
 		| Luna          | 2         | yes            | Fail    |
-		| <null>        | 1         | yes            | Fail    |
+		| 		        | 1         | yes            | Fail    |
 		| Titan         | 2         | yes            | Fail    |
 		| Sun           | 1         | no             | Success |
