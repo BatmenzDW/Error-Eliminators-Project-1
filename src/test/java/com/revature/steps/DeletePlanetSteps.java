@@ -26,13 +26,13 @@ Planet Ownership 2 BatmanAndRobin Nessus - Intended to not be deleted, but it wa
  */
 
 public class DeletePlanetSteps {
-    @Given("User {string} is on the Home Page")
-    public void userIsOnTheHomePage(String username) throws Throwable{
-        TestRunner.planetariumHome.setupTestUserLogin(username);
-        TestRunner.planetariumHome.login(username, "I am the night");
-        Assert.assertEquals("Home", TestRunner.driver.getTitle());
-        Assert.assertEquals("Welcome to the Home Page " + username, TestRunner.planetariumHome.getHomePageGreeting());
-    }
+//    @Given("User {string} is on the Home Page")
+//    public void userIsOnTheHomePage(String username) throws Throwable{
+//        TestRunner.planetariumHome.setupTestUserLogin(username);
+//        TestRunner.planetariumHome.login(username, "I am the night");
+//        Assert.assertEquals("Home", TestRunner.driver.getTitle());
+//        Assert.assertEquals("Welcome to the Home Page " + username, TestRunner.planetariumHome.getHomePageGreeting());
+//    }
 
     @And("User enters planet name {string}")
     public void userEntersPlanetName(String planetName) throws Throwable{

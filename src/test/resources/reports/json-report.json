@@ -3,19 +3,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:07.515Z",
+        "start_timestamp": "2024-11-14T16:50:24.033Z",
         "before": [
           {
             "result": {
-              "duration": 189229700,
-=======
-        "start_timestamp": "2024-11-13T19:35:07.264Z",
-        "before": [
-          {
-            "result": {
-              "duration": 312952600,
->>>>>>> Stashed changes
+              "duration": 179275800,
               "status": "passed"
             },
             "match": {
@@ -30,11 +22,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 508888500,
-=======
-              "duration": 18932400,
->>>>>>> Stashed changes
+              "duration": 519233600,
               "status": "passed"
             },
             "match": {
@@ -47,11 +35,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 324402700,
-=======
-              "duration": 104651200,
->>>>>>> Stashed changes
+              "duration": 229176800,
               "status": "passed"
             },
             "line": 4,
@@ -63,11 +47,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 3268400,
-=======
-              "duration": 4982800,
->>>>>>> Stashed changes
+              "duration": 3238400,
               "status": "passed"
             },
             "line": 5,
@@ -85,11 +65,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 91854600,
-=======
-              "duration": 204317700,
->>>>>>> Stashed changes
+              "duration": 80093400,
               "status": "passed"
             },
             "line": 6,
@@ -101,11 +77,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 6822500,
-=======
-              "duration": 16944100,
->>>>>>> Stashed changes
+              "duration": 7004800,
               "status": "passed"
             },
             "line": 7,
@@ -117,11 +89,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 71872000,
-=======
-              "duration": 246177100,
->>>>>>> Stashed changes
+              "duration": 71687000,
               "status": "passed"
             },
             "line": 8,
@@ -139,11 +107,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 80260500,
-=======
-              "duration": 142526000,
->>>>>>> Stashed changes
+              "duration": 54229500,
               "status": "passed"
             },
             "line": 9,
@@ -161,11 +125,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 40257700,
-=======
-              "duration": 81726100,
->>>>>>> Stashed changes
+              "duration": 38571100,
               "status": "passed"
             },
             "line": 10,
@@ -177,11 +137,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 524940600,
-=======
-              "duration": 33889600,
->>>>>>> Stashed changes
+              "duration": 526616800,
               "status": "passed"
             },
             "line": 11,
@@ -200,11 +156,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:96)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:12)\r\n",
-<<<<<<< Updated upstream
-              "duration": 9808700,
-=======
-              "duration": 19929400,
->>>>>>> Stashed changes
+              "duration": 9097100,
               "status": "failed"
             },
             "line": 12,
@@ -217,19 +169,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:09.441Z",
+        "start_timestamp": "2024-11-14T16:50:25.818Z",
         "before": [
           {
             "result": {
-              "duration": 16614600,
-=======
-        "start_timestamp": "2024-11-13T19:35:08.622Z",
-        "before": [
-          {
-            "result": {
-              "duration": 32891000,
->>>>>>> Stashed changes
+              "duration": 14671600,
               "status": "passed"
             },
             "match": {
@@ -244,11 +188,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 508346000,
-=======
-              "duration": 6976900,
->>>>>>> Stashed changes
+              "duration": 516148600,
               "status": "passed"
             },
             "match": {
@@ -261,11 +201,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 26003800,
-=======
-              "duration": 57805100,
->>>>>>> Stashed changes
+              "duration": 23147800,
               "status": "passed"
             },
             "line": 4,
@@ -277,11 +213,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 10428900,
-=======
-              "duration": 11966700,
->>>>>>> Stashed changes
+              "duration": 9841800,
               "status": "passed"
             },
             "line": 5,
@@ -299,11 +231,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 58263100,
-=======
-              "duration": 113617100,
->>>>>>> Stashed changes
+              "duration": 49576700,
               "status": "passed"
             },
             "line": 6,
@@ -315,11 +243,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 4303000,
-=======
-              "duration": 9981300,
->>>>>>> Stashed changes
+              "duration": 5015900,
               "status": "passed"
             },
             "line": 7,
@@ -331,11 +255,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 56357000,
-=======
-              "duration": 97667900,
->>>>>>> Stashed changes
+              "duration": 39361400,
               "status": "passed"
             },
             "line": 8,
@@ -353,11 +273,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 80698500,
-=======
-              "duration": 99666800,
->>>>>>> Stashed changes
+              "duration": 48441900,
               "status": "passed"
             },
             "line": 9,
@@ -375,11 +291,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 32595600,
-=======
-              "duration": 62788000,
->>>>>>> Stashed changes
+              "duration": 31990000,
               "status": "passed"
             },
             "line": 10,
@@ -391,11 +303,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 515064300,
-=======
-              "duration": 20908200,
->>>>>>> Stashed changes
+              "duration": 7588500,
               "status": "passed"
             },
             "line": 11,
@@ -413,11 +321,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 14809300,
-=======
-              "duration": 17940400,
->>>>>>> Stashed changes
+              "duration": 8586200,
               "status": "passed"
             },
             "line": 12,
@@ -430,19 +334,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:10.776Z",
+        "start_timestamp": "2024-11-14T16:50:26.585Z",
         "before": [
           {
             "result": {
-              "duration": 14662200,
-=======
-        "start_timestamp": "2024-11-13T19:35:09.179Z",
-        "before": [
-          {
-            "result": {
-              "duration": 21927900,
->>>>>>> Stashed changes
+              "duration": 13069400,
               "status": "passed"
             },
             "match": {
@@ -457,11 +353,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 507253700,
-=======
-              "duration": 510290200,
->>>>>>> Stashed changes
+              "duration": 515922300,
               "status": "passed"
             },
             "match": {
@@ -474,11 +366,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28214000,
-=======
-              "duration": 49832800,
->>>>>>> Stashed changes
+              "duration": 42710700,
               "status": "passed"
             },
             "line": 20,
@@ -490,11 +378,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 60885500,
-=======
-              "duration": 107644200,
->>>>>>> Stashed changes
+              "duration": 125156700,
               "status": "passed"
             },
             "line": 21,
@@ -506,11 +390,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 5192000,
-=======
-              "duration": 9968900,
->>>>>>> Stashed changes
+              "duration": 17150100,
               "status": "passed"
             },
             "line": 22,
@@ -522,11 +402,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 81431400,
-=======
-              "duration": 111626700,
->>>>>>> Stashed changes
+              "duration": 122867700,
               "status": "passed"
             },
             "line": 23,
@@ -544,11 +420,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 81863600,
-=======
-              "duration": 114618600,
->>>>>>> Stashed changes
+              "duration": 87138700,
               "status": "passed"
             },
             "line": 24,
@@ -566,11 +438,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 34796900,
-=======
-              "duration": 55827200,
->>>>>>> Stashed changes
+              "duration": 30398400,
               "status": "passed"
             },
             "line": 25,
@@ -582,11 +450,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 521521500,
-=======
-              "duration": 525243000,
->>>>>>> Stashed changes
+              "duration": 513279900,
               "status": "passed"
             },
             "line": 26,
@@ -605,11 +469,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[Planetarium Logi]n\u003e but was:\u003c[Account Creatio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.UserRegistrationSteps.accountCreationSuccess(UserRegistrationSteps.java:96)\r\n\tat ✽.Account Creation Success and User Redirected to Login(classpath:features/EEB_2.feature:27)\r\n",
-<<<<<<< Updated upstream
-              "duration": 7847200,
-=======
-              "duration": 13951400,
->>>>>>> Stashed changes
+              "duration": 7486600,
               "status": "failed"
             },
             "line": 27,
@@ -622,19 +482,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:12.128Z",
+        "start_timestamp": "2024-11-14T16:50:28.070Z",
         "before": [
           {
             "result": {
-              "duration": 15701500,
-=======
-        "start_timestamp": "2024-11-13T19:35:10.718Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14949100,
->>>>>>> Stashed changes
+              "duration": 15537800,
               "status": "passed"
             },
             "match": {
@@ -649,11 +501,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 512012300,
-=======
-              "duration": 5981300,
->>>>>>> Stashed changes
+              "duration": 515368600,
               "status": "passed"
             },
             "match": {
@@ -666,11 +514,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28017000,
-=======
-              "duration": 37875800,
->>>>>>> Stashed changes
+              "duration": 22578700,
               "status": "passed"
             },
             "line": 20,
@@ -682,11 +526,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 59243000,
-=======
-              "duration": 74748300,
->>>>>>> Stashed changes
+              "duration": 51279500,
               "status": "passed"
             },
             "line": 21,
@@ -698,11 +538,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 3216800,
-=======
-              "duration": 5979600,
->>>>>>> Stashed changes
+              "duration": 3829800,
               "status": "passed"
             },
             "line": 22,
@@ -714,11 +550,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 163152300,
-=======
-              "duration": 125090500,
->>>>>>> Stashed changes
+              "duration": 160858700,
               "status": "passed"
             },
             "line": 23,
@@ -736,11 +568,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 75316600,
-=======
-              "duration": 76744000,
->>>>>>> Stashed changes
+              "duration": 77585200,
               "status": "passed"
             },
             "line": 24,
@@ -758,11 +586,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28696000,
-=======
-              "duration": 44849200,
->>>>>>> Stashed changes
+              "duration": 35132300,
               "status": "passed"
             },
             "line": 25,
@@ -774,11 +598,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 8756100,
-=======
-              "duration": 13954000,
->>>>>>> Stashed changes
+              "duration": 8019100,
               "status": "passed"
             },
             "line": 26,
@@ -796,11 +616,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 8254800,
-=======
-              "duration": 15946500,
->>>>>>> Stashed changes
+              "duration": 12352600,
               "status": "passed"
             },
             "line": 27,
@@ -813,19 +629,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:13.039Z",
+        "start_timestamp": "2024-11-14T16:50:28.981Z",
         "before": [
           {
             "result": {
-              "duration": 16050200,
-=======
-        "start_timestamp": "2024-11-13T19:35:11.151Z",
-        "before": [
-          {
-            "result": {
-              "duration": 18934200,
->>>>>>> Stashed changes
+              "duration": 13800000,
               "status": "passed"
             },
             "match": {
@@ -840,11 +648,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 513108700,
-=======
-              "duration": 515277800,
->>>>>>> Stashed changes
+              "duration": 516784900,
               "status": "passed"
             },
             "match": {
@@ -857,11 +661,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28341800,
-=======
-              "duration": 46844300,
->>>>>>> Stashed changes
+              "duration": 24004700,
               "status": "passed"
             },
             "line": 20,
@@ -873,11 +673,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 57531700,
-=======
-              "duration": 103996500,
->>>>>>> Stashed changes
+              "duration": 49549000,
               "status": "passed"
             },
             "line": 21,
@@ -889,11 +685,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 5363000,
-=======
-              "duration": 9967300,
->>>>>>> Stashed changes
+              "duration": 6635400,
               "status": "passed"
             },
             "line": 22,
@@ -905,11 +697,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 92540800,
-=======
-              "duration": 113619900,
->>>>>>> Stashed changes
+              "duration": 79620000,
               "status": "passed"
             },
             "line": 23,
@@ -927,11 +715,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 166019500,
-=======
-              "duration": 172533000,
->>>>>>> Stashed changes
+              "duration": 159830900,
               "status": "passed"
             },
             "line": 24,
@@ -949,11 +733,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 30544000,
-=======
-              "duration": 69766800,
->>>>>>> Stashed changes
+              "duration": 31219800,
               "status": "passed"
             },
             "line": 25,
@@ -965,11 +745,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 512562000,
-=======
-              "duration": 13955800,
->>>>>>> Stashed changes
+              "duration": 6906700,
               "status": "passed"
             },
             "line": 26,
@@ -987,11 +763,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 8453800,
-=======
-              "duration": 16941500,
->>>>>>> Stashed changes
+              "duration": 8795800,
               "status": "passed"
             },
             "line": 27,
@@ -1004,19 +776,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:14.477Z",
+        "start_timestamp": "2024-11-14T16:50:29.887Z",
         "before": [
           {
             "result": {
-              "duration": 16918500,
-=======
-        "start_timestamp": "2024-11-13T19:35:12.250Z",
-        "before": [
-          {
-            "result": {
-              "duration": 25913500,
->>>>>>> Stashed changes
+              "duration": 17300300,
               "status": "passed"
             },
             "match": {
@@ -1031,11 +795,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 5000700,
-=======
-              "duration": 10963500,
->>>>>>> Stashed changes
+              "duration": 5860300,
               "status": "passed"
             },
             "match": {
@@ -1048,11 +808,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29149800,
-=======
-              "duration": 45847600,
->>>>>>> Stashed changes
+              "duration": 25154900,
               "status": "passed"
             },
             "line": 20,
@@ -1064,11 +820,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 57424000,
-=======
-              "duration": 101659600,
->>>>>>> Stashed changes
+              "duration": 56944600,
               "status": "passed"
             },
             "line": 21,
@@ -1080,11 +832,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 4187000,
-=======
-              "duration": 9962100,
->>>>>>> Stashed changes
+              "duration": 4285500,
               "status": "passed"
             },
             "line": 22,
@@ -1096,11 +844,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 39937600,
-=======
-              "duration": 84717900,
->>>>>>> Stashed changes
+              "duration": 42874700,
               "status": "passed"
             },
             "line": 23,
@@ -1118,11 +862,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 82783700,
-=======
-              "duration": 131572300,
->>>>>>> Stashed changes
+              "duration": 76471800,
               "status": "passed"
             },
             "line": 24,
@@ -1140,11 +880,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 32584000,
-=======
-              "duration": 64783600,
->>>>>>> Stashed changes
+              "duration": 28057300,
               "status": "passed"
             },
             "line": 25,
@@ -1157,11 +893,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-<<<<<<< Updated upstream
-              "duration": 10019200,
-=======
-              "duration": 17940000,
->>>>>>> Stashed changes
+              "duration": 7286700,
               "status": "failed"
             },
             "line": 26,
@@ -1191,19 +923,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:14.768Z",
+        "start_timestamp": "2024-11-14T16:50:30.162Z",
         "before": [
           {
             "result": {
-              "duration": 16698000,
-=======
-        "start_timestamp": "2024-11-13T19:35:12.771Z",
-        "before": [
-          {
-            "result": {
-              "duration": 47839600,
->>>>>>> Stashed changes
+              "duration": 16543800,
               "status": "passed"
             },
             "match": {
@@ -1218,11 +942,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 5172200,
-=======
-              "duration": 6977700,
->>>>>>> Stashed changes
+              "duration": 6652300,
               "status": "passed"
             },
             "match": {
@@ -1235,11 +955,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29784500,
-=======
-              "duration": 50829600,
->>>>>>> Stashed changes
+              "duration": 24905100,
               "status": "passed"
             },
             "line": 20,
@@ -1251,11 +967,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 52561900,
-=======
-              "duration": 104649900,
->>>>>>> Stashed changes
+              "duration": 53403000,
               "status": "passed"
             },
             "line": 21,
@@ -1267,11 +979,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 6465500,
-=======
-              "duration": 7971700,
->>>>>>> Stashed changes
+              "duration": 3520200,
               "status": "passed"
             },
             "line": 22,
@@ -1283,11 +991,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 76009700,
-=======
-              "duration": 124584400,
->>>>>>> Stashed changes
+              "duration": 78834300,
               "status": "passed"
             },
             "line": 23,
@@ -1305,11 +1009,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 46945300,
-=======
-              "duration": 69767400,
->>>>>>> Stashed changes
+              "duration": 47078600,
               "status": "passed"
             },
             "line": 24,
@@ -1327,11 +1027,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 38536000,
-=======
-              "duration": 52821700,
->>>>>>> Stashed changes
+              "duration": 31136200,
               "status": "passed"
             },
             "line": 25,
@@ -1344,11 +1040,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:89)\r\n\tat ✽.The User is given an Alert with text \"Account created successfully with username\"(classpath:features/EEB_2.feature:26)\r\n",
-<<<<<<< Updated upstream
-              "duration": 9536200,
-=======
-              "duration": 516273200,
->>>>>>> Stashed changes
+              "duration": 6994800,
               "status": "failed"
             },
             "line": 26,
@@ -1389,19 +1081,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:15.062Z",
+        "start_timestamp": "2024-11-14T16:50:30.450Z",
         "before": [
           {
             "result": {
-              "duration": 17607500,
-=======
-        "start_timestamp": "2024-11-13T19:35:13.771Z",
-        "before": [
-          {
-            "result": {
-              "duration": 17934000,
->>>>>>> Stashed changes
+              "duration": 37769000,
               "status": "passed"
             },
             "match": {
@@ -1416,11 +1100,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 511991500,
-=======
-              "duration": 523248400,
->>>>>>> Stashed changes
+              "duration": 509937600,
               "status": "passed"
             },
             "match": {
@@ -1433,11 +1113,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29817500,
-=======
-              "duration": 42857500,
->>>>>>> Stashed changes
+              "duration": 27220600,
               "status": "passed"
             },
             "line": 5,
@@ -1449,11 +1125,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 10076300,
-=======
-              "duration": 8967300,
->>>>>>> Stashed changes
+              "duration": 8980800,
               "status": "passed"
             },
             "line": 6,
@@ -1471,11 +1143,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 64381400,
-=======
-              "duration": 83722900,
->>>>>>> Stashed changes
+              "duration": 55131900,
               "status": "passed"
             },
             "line": 7,
@@ -1493,11 +1161,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 92193700,
-=======
-              "duration": 87705300,
->>>>>>> Stashed changes
+              "duration": 89063400,
               "status": "passed"
             },
             "line": 8,
@@ -1515,11 +1179,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 33887600,
-=======
-              "duration": 53819700,
->>>>>>> Stashed changes
+              "duration": 36265900,
               "status": "passed"
             },
             "line": 9,
@@ -1531,14 +1191,8 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain \"/planetarium\". Current url: \"http://localhost:8080/\" (tried for 0 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59148/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e31ec5a5b7a2febabec13e9a6b0390b0\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.UserLoginSteps.theUserShouldReceiveTheResultSuccess(UserLoginSteps.java:37)\r\n\tat ✽.The user should receive the result Logged in successfully, redirected to home page(classpath:features/EEB_3.feature:10)\r\n",
-              "duration": 7332900,
-=======
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain \"/planetarium\". Current url: \"http://localhost:8080/\" (tried for 0 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.UserLoginSteps.theUserShouldReceiveTheResultSuccess(UserLoginSteps.java:37)\r\n\tat ✽.The user should receive the result Logged in successfully, redirected to home page(classpath:features/EEB_3.feature:10)\r\n",
-              "duration": 52823500,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 36071100,
+              "status": "passed"
             },
             "line": 10,
             "name": "The user should receive the result Logged in successfully, redirected to home page",
@@ -1550,19 +1204,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:15.841Z",
+        "start_timestamp": "2024-11-14T16:50:31.260Z",
         "before": [
           {
             "result": {
-              "duration": 15381900,
-=======
-        "start_timestamp": "2024-11-13T19:35:14.668Z",
-        "before": [
-          {
-            "result": {
-              "duration": 22930300,
->>>>>>> Stashed changes
+              "duration": 15276600,
               "status": "passed"
             },
             "match": {
@@ -1577,11 +1223,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 519310200,
-=======
-              "duration": 519261900,
->>>>>>> Stashed changes
+              "duration": 516514000,
               "status": "passed"
             },
             "match": {
@@ -1594,11 +1236,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28815500,
-=======
-              "duration": 51825000,
->>>>>>> Stashed changes
+              "duration": 27346800,
               "status": "passed"
             },
             "line": 5,
@@ -1610,11 +1248,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 8850600,
-=======
-              "duration": 7972200,
->>>>>>> Stashed changes
+              "duration": 8815900,
               "status": "passed"
             },
             "line": 6,
@@ -1632,11 +1266,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 101358800,
-=======
-              "duration": 123586000,
->>>>>>> Stashed changes
+              "duration": 92935700,
               "status": "passed"
             },
             "line": 7,
@@ -1654,11 +1284,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 88799400,
-=======
-              "duration": 105648700,
->>>>>>> Stashed changes
+              "duration": 75117500,
               "status": "passed"
             },
             "line": 8,
@@ -1676,11 +1302,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 34245000,
-=======
-              "duration": 66776700,
->>>>>>> Stashed changes
+              "duration": 32295900,
               "status": "passed"
             },
             "line": 9,
@@ -1692,11 +1314,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 524385300,
-=======
-              "duration": 33886500,
->>>>>>> Stashed changes
+              "duration": 523537700,
               "status": "passed"
             },
             "line": 10,
@@ -1709,19 +1327,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:17.171Z",
+        "start_timestamp": "2024-11-14T16:50:32.558Z",
         "before": [
           {
             "result": {
-              "duration": 16384800,
-=======
-        "start_timestamp": "2024-11-13T19:35:15.612Z",
-        "before": [
-          {
-            "result": {
-              "duration": 15946000,
->>>>>>> Stashed changes
+              "duration": 13680800,
               "status": "passed"
             },
             "match": {
@@ -1736,11 +1346,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 509474700,
-=======
-              "duration": 520257700,
->>>>>>> Stashed changes
+              "duration": 507446900,
               "status": "passed"
             },
             "match": {
@@ -1753,11 +1359,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 14793300,
-=======
-              "duration": 23925600,
->>>>>>> Stashed changes
+              "duration": 13938100,
               "status": "passed"
             },
             "line": 19,
@@ -1769,11 +1371,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 9064700,
-=======
-              "duration": 7969600,
->>>>>>> Stashed changes
+              "duration": 9165000,
               "status": "passed"
             },
             "line": 20,
@@ -1791,11 +1389,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 63728800,
-=======
-              "duration": 90695700,
->>>>>>> Stashed changes
+              "duration": 44804000,
               "status": "passed"
             },
             "line": 21,
@@ -1813,11 +1407,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 93462300,
-=======
-              "duration": 93686600,
->>>>>>> Stashed changes
+              "duration": 65866600,
               "status": "passed"
             },
             "line": 22,
@@ -1835,11 +1425,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 36028400,
-=======
-              "duration": 52823200,
->>>>>>> Stashed changes
+              "duration": 35987600,
               "status": "passed"
             },
             "line": 23,
@@ -1851,11 +1437,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 24625000,
-=======
-              "duration": 45846700,
->>>>>>> Stashed changes
+              "duration": 32354700,
               "status": "passed"
             },
             "line": 24,
@@ -1873,11 +1455,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 9669200,
-=======
-              "duration": 11957400,
->>>>>>> Stashed changes
+              "duration": 12978000,
               "status": "passed"
             },
             "line": 25,
@@ -1890,19 +1468,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:17.955Z",
+        "start_timestamp": "2024-11-14T16:50:33.303Z",
         "before": [
           {
             "result": {
-              "duration": 13848000,
-=======
-        "start_timestamp": "2024-11-13T19:35:16.486Z",
-        "before": [
-          {
-            "result": {
-              "duration": 15946300,
->>>>>>> Stashed changes
+              "duration": 17080000,
               "status": "passed"
             },
             "match": {
@@ -1917,11 +1487,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 508315000,
-=======
-              "duration": 515276100,
->>>>>>> Stashed changes
+              "duration": 512041800,
               "status": "passed"
             },
             "match": {
@@ -1934,11 +1500,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27879100,
-=======
-              "duration": 49834700,
->>>>>>> Stashed changes
+              "duration": 29203100,
               "status": "passed"
             },
             "line": 19,
@@ -1950,11 +1512,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 9700800,
-=======
-              "duration": 10963100,
->>>>>>> Stashed changes
+              "duration": 11580800,
               "status": "passed"
             },
             "line": 20,
@@ -1972,11 +1530,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 75636200,
-=======
-              "duration": 79732600,
->>>>>>> Stashed changes
+              "duration": 51556400,
               "status": "passed"
             },
             "line": 21,
@@ -1994,11 +1548,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 88137600,
-=======
-              "duration": 104650200,
->>>>>>> Stashed changes
+              "duration": 64365300,
               "status": "passed"
             },
             "line": 22,
@@ -2016,11 +1566,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 35506400,
-=======
-              "duration": 50836000,
->>>>>>> Stashed changes
+              "duration": 31449100,
               "status": "passed"
             },
             "line": 23,
@@ -2032,11 +1578,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 7948500,
-=======
-              "duration": 12950100,
->>>>>>> Stashed changes
+              "duration": 5046100,
               "status": "passed"
             },
             "line": 24,
@@ -2054,11 +1596,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 14301700,
-=======
-              "duration": 17940400,
->>>>>>> Stashed changes
+              "duration": 11107100,
               "status": "passed"
             },
             "line": 25,
@@ -2082,19 +1620,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:18.764Z",
+        "start_timestamp": "2024-11-14T16:50:34.042Z",
         "before": [
           {
             "result": {
-              "duration": 17271100,
-=======
-        "start_timestamp": "2024-11-13T19:35:17.353Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19934200,
->>>>>>> Stashed changes
+              "duration": 16970400,
               "status": "passed"
             },
             "match": {
@@ -2109,11 +1639,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 519627200,
-=======
-              "duration": 511288900,
->>>>>>> Stashed changes
+              "duration": 510469300,
               "status": "passed"
             },
             "match": {
@@ -2126,11 +1652,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 17900500,
-=======
-              "duration": 19943800,
->>>>>>> Stashed changes
+              "duration": 17775200,
               "status": "passed"
             },
             "line": 5,
@@ -2142,11 +1664,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 10638700,
-=======
-              "duration": 5970400,
->>>>>>> Stashed changes
+              "duration": 9202400,
               "status": "passed"
             },
             "line": 6,
@@ -2164,11 +1682,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 61804000,
-=======
-              "duration": 77740500,
->>>>>>> Stashed changes
+              "duration": 41816000,
               "status": "passed"
             },
             "line": 7,
@@ -2186,11 +1700,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 98782100,
-=======
-              "duration": 78735400,
->>>>>>> Stashed changes
+              "duration": 57814400,
               "status": "passed"
             },
             "line": 8,
@@ -2208,11 +1718,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 37512000,
-=======
-              "duration": 43850900,
->>>>>>> Stashed changes
+              "duration": 32119400,
               "status": "passed"
             },
             "line": 9,
@@ -2224,7 +1730,7 @@
           },
           {
             "result": {
-              "duration": 42856700,
+              "duration": 22981200,
               "status": "passed"
             },
             "line": 10,
@@ -2236,7 +1742,7 @@
           },
           {
             "result": {
-              "duration": 6976700,
+              "duration": 4484000,
               "status": "passed"
             },
             "line": 11,
@@ -2249,19 +1755,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:19.539Z",
+        "start_timestamp": "2024-11-14T16:50:34.763Z",
         "before": [
           {
             "result": {
-              "duration": 17020800,
-=======
-        "start_timestamp": "2024-11-13T19:35:18.171Z",
-        "before": [
-          {
-            "result": {
-              "duration": 18935600,
->>>>>>> Stashed changes
+              "duration": 15118500,
               "status": "passed"
             },
             "match": {
@@ -2276,11 +1774,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 8814000,
-=======
-              "duration": 516272600,
->>>>>>> Stashed changes
+              "duration": 518391400,
               "status": "passed"
             },
             "match": {
@@ -2293,11 +1787,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 26708400,
-=======
-              "duration": 36877100,
->>>>>>> Stashed changes
+              "duration": 22657300,
               "status": "passed"
             },
             "line": 5,
@@ -2309,11 +1799,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 1994900,
-=======
-              "duration": 1990700,
->>>>>>> Stashed changes
+              "duration": 2036500,
               "status": "passed"
             },
             "line": 6,
@@ -2331,11 +1817,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 57805700,
-=======
-              "duration": 65780500,
->>>>>>> Stashed changes
+              "duration": 40247800,
               "status": "passed"
             },
             "line": 7,
@@ -2353,11 +1835,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 50979800,
-=======
-              "duration": 58804400,
->>>>>>> Stashed changes
+              "duration": 41104600,
               "status": "passed"
             },
             "line": 8,
@@ -2375,11 +1853,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 31774700,
-=======
-              "duration": 41859400,
->>>>>>> Stashed changes
+              "duration": 33572300,
               "status": "passed"
             },
             "line": 9,
@@ -2391,7 +1865,7 @@
           },
           {
             "result": {
-              "duration": 15947300,
+              "duration": 10442400,
               "status": "passed"
             },
             "line": 10,
@@ -2403,7 +1877,7 @@
           },
           {
             "result": {
-              "duration": 6984000,
+              "duration": 4414400,
               "status": "passed"
             },
             "line": 11,
@@ -2427,19 +1901,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:19.743Z",
+        "start_timestamp": "2024-11-14T16:50:35.459Z",
         "before": [
           {
             "result": {
-              "duration": 16695500,
-=======
-        "start_timestamp": "2024-11-13T19:35:18.944Z",
-        "before": [
-          {
-            "result": {
-              "duration": 18938000,
->>>>>>> Stashed changes
+              "duration": 82166500,
               "status": "passed"
             },
             "match": {
@@ -2447,18 +1913,14 @@
             }
           }
         ],
-        "line": 14,
+        "line": 13,
         "name": "Adding Planets - Planet Name Length -",
         "description": "",
         "id": "add-planets;adding-planets---planet-name-length--;;2",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 517488500,
-=======
-              "duration": 515276400,
->>>>>>> Stashed changes
+              "duration": 516085000,
               "status": "passed"
             },
             "match": {
@@ -2471,11 +1933,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 204538300,
-=======
-              "duration": 231225500,
->>>>>>> Stashed changes
+              "duration": 152201700,
               "status": "passed"
             },
             "line": 4,
@@ -2487,11 +1945,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 610351300,
-=======
-              "duration": 166710600,
->>>>>>> Stashed changes
+              "duration": 101136200,
               "status": "passed"
             },
             "line": 5,
@@ -2503,11 +1957,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 55231800,
-=======
-              "duration": 102658800,
->>>>>>> Stashed changes
+              "duration": 85609200,
               "status": "passed"
             },
             "line": 6,
@@ -2519,11 +1969,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 38771900,
-=======
-              "duration": 96677100,
->>>>>>> Stashed changes
+              "duration": 39616500,
               "status": "passed"
             },
             "line": 7,
@@ -2541,11 +1987,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 32990600,
-=======
-              "duration": 59799300,
->>>>>>> Stashed changes
+              "duration": 31782400,
               "status": "passed"
             },
             "line": 8,
@@ -2557,54 +1999,31 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-<<<<<<< Updated upstream
-              "duration": 509054600,
-=======
-              "duration": 510388900,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddPlanetSteps.planetAddSuccess(AddPlanetSteps.java:76)\r\n\tat ✽.Planet \"\" Add Success(classpath:features/EEB_5.feature:9)\r\n",
+              "duration": 30960300,
               "status": "failed"
             },
             "line": 9,
-            "name": "The User is given an Alert with text \"Planet created with Name\"",
+            "name": "Planet \"\" Add Success",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Planet created with Name\"",
-                  "offset": 37
+                  "val": "\"\"",
+                  "offset": 7
                 }
               ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "Planet Add Success",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess()"
+              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:21.746Z",
+        "start_timestamp": "2024-11-14T16:50:36.507Z",
         "before": [
           {
             "result": {
-              "duration": 17231700,
-=======
-        "start_timestamp": "2024-11-13T19:35:20.658Z",
-        "before": [
-          {
-            "result": {
-              "duration": 20929600,
->>>>>>> Stashed changes
+              "duration": 14662100,
               "status": "passed"
             },
             "match": {
@@ -2612,18 +2031,14 @@
             }
           }
         ],
-        "line": 15,
+        "line": 14,
         "name": "Adding Planets - Planet Name Length -",
         "description": "",
         "id": "add-planets;adding-planets---planet-name-length--;;3",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 509800400,
-=======
-              "duration": 507303500,
->>>>>>> Stashed changes
+              "duration": 506777800,
               "status": "passed"
             },
             "match": {
@@ -2636,11 +2051,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 233197500,
-=======
-              "duration": 269102100,
->>>>>>> Stashed changes
+              "duration": 169205600,
               "status": "passed"
             },
             "line": 4,
@@ -2652,11 +2063,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 607677800,
-=======
-              "duration": 174417100,
->>>>>>> Stashed changes
+              "duration": 150334600,
               "status": "passed"
             },
             "line": 5,
@@ -2668,11 +2075,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 50823000,
-=======
-              "duration": 89698400,
->>>>>>> Stashed changes
+              "duration": 47951400,
               "status": "passed"
             },
             "line": 6,
@@ -2684,11 +2087,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 124606200,
-=======
-              "duration": 250162500,
->>>>>>> Stashed changes
+              "duration": 63518600,
               "status": "passed"
             },
             "line": 7,
@@ -2706,11 +2105,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 25026700,
-=======
-              "duration": 45847000,
->>>>>>> Stashed changes
+              "duration": 25576800,
               "status": "passed"
             },
             "line": 8,
@@ -2722,54 +2117,31 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-<<<<<<< Updated upstream
-              "duration": 508084400,
-=======
-              "duration": 513283000,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddPlanetSteps.planetAddSuccess(AddPlanetSteps.java:76)\r\n\tat ✽.Planet \"PlanetNameWithThirtyCharacters\" Add Success(classpath:features/EEB_5.feature:9)\r\n",
+              "duration": 5038624000,
               "status": "failed"
             },
             "line": 9,
-            "name": "The User is given an Alert with text \"Planet created with Name\"",
+            "name": "Planet \"PlanetNameWithThirtyCharacters\" Add Success",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Planet created with Name\"",
-                  "offset": 37
+                  "val": "\"PlanetNameWithThirtyCharacters\"",
+                  "offset": 7
                 }
               ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "Planet Add Success",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess()"
+              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:23.827Z",
+        "start_timestamp": "2024-11-14T16:50:42.531Z",
         "before": [
           {
             "result": {
-              "duration": 14773200,
-=======
-        "start_timestamp": "2024-11-13T19:35:22.541Z",
-        "before": [
-          {
-            "result": {
-              "duration": 25911500,
->>>>>>> Stashed changes
+              "duration": 14796300,
               "status": "passed"
             },
             "match": {
@@ -2777,18 +2149,14 @@
             }
           }
         ],
-        "line": 16,
+        "line": 15,
         "name": "Adding Planets - Planet Name Length -",
         "description": "",
         "id": "add-planets;adding-planets---planet-name-length--;;4",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 511246000,
-=======
-              "duration": 514514600,
->>>>>>> Stashed changes
+              "duration": 506300300,
               "status": "passed"
             },
             "match": {
@@ -2801,11 +2169,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 206049800,
-=======
-              "duration": 210302900,
->>>>>>> Stashed changes
+              "duration": 165935800,
               "status": "passed"
             },
             "line": 4,
@@ -2817,11 +2181,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 86068900,
-=======
-              "duration": 614939100,
->>>>>>> Stashed changes
+              "duration": 130113900,
               "status": "passed"
             },
             "line": 5,
@@ -2833,11 +2193,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 52630000,
-=======
-              "duration": 70763700,
->>>>>>> Stashed changes
+              "duration": 74059700,
               "status": "passed"
             },
             "line": 6,
@@ -2849,11 +2205,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 165502300,
-=======
-              "duration": 114616900,
->>>>>>> Stashed changes
+              "duration": 58564500,
               "status": "passed"
             },
             "line": 7,
@@ -2871,11 +2223,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29641500,
-=======
-              "duration": 41860600,
->>>>>>> Stashed changes
+              "duration": 28762200,
               "status": "passed"
             },
             "line": 8,
@@ -2887,55 +2235,30 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet creation failed with Name\"(classpath:features/EEB_5.feature:9)\r\n",
-<<<<<<< Updated upstream
-              "duration": 507555500,
-=======
-              "duration": 519111600,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 1070818700,
+              "status": "passed"
             },
             "line": 9,
-            "name": "The User is given an Alert with text \"Planet creation failed with Name\"",
+            "name": "Planet \"PlanetNameOfThirtyOneCharacters\" Add Fail",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Planet creation failed with Name\"",
-                  "offset": 37
+                  "val": "\"PlanetNameOfThirtyOneCharacters\"",
+                  "offset": 7
                 }
               ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 995800,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "Planet Add Fail",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddFailed()"
+              "location": "com.revature.steps.AddPlanetSteps.planetAddFailed(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:25.406Z",
+        "start_timestamp": "2024-11-14T16:50:44.584Z",
         "before": [
           {
             "result": {
-              "duration": 11973800,
-=======
-        "start_timestamp": "2024-11-13T19:35:24.662Z",
-        "before": [
-          {
-            "result": {
-              "duration": 141526500,
->>>>>>> Stashed changes
+              "duration": 14421400,
               "status": "passed"
             },
             "match": {
@@ -2943,18 +2266,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 28,
         "name": "Adding Planets - Unique Planet Names -",
         "description": "",
         "id": "add-planets;adding-planets---unique-planet-names--;;2",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 511545000,
-=======
-              "duration": 516330100,
->>>>>>> Stashed changes
+              "duration": 510345300,
               "status": "passed"
             },
             "match": {
@@ -2967,14 +2286,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 219977700,
-=======
-              "duration": 306971800,
->>>>>>> Stashed changes
+              "duration": 174516300,
               "status": "passed"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
@@ -2983,14 +2298,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 2072200,
-=======
-              "duration": 1994500,
->>>>>>> Stashed changes
+              "duration": 2036500,
               "status": "passed"
             },
-            "line": 20,
+            "line": 19,
             "name": "Planet with name \"Krypton\" Doesn\u0027t Exist in database",
             "match": {
               "arguments": [
@@ -3005,14 +2316,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 87265800,
-=======
-              "duration": 148503100,
->>>>>>> Stashed changes
+              "duration": 84363200,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "User clicks the Moon Dropdown option",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksMoonDropdownOption()"
@@ -3021,14 +2328,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 81764800,
-=======
-              "duration": 90694800,
->>>>>>> Stashed changes
+              "duration": 76581400,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
@@ -3037,14 +2340,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 79285700,
-=======
-              "duration": 224249400,
->>>>>>> Stashed changes
+              "duration": 64385300,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "User provides a Planet Name \"Krypton\"",
             "match": {
               "arguments": [
@@ -3059,14 +2358,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27112100,
-=======
-              "duration": 48834800,
->>>>>>> Stashed changes
+              "duration": 29035500,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "User clicks Submit Planet",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksSubmitPlanet()"
@@ -3075,54 +2370,31 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet added successfully with name\"(classpath:features/EEB_5.feature:25)\r\n",
-<<<<<<< Updated upstream
-              "duration": 505004200,
-=======
-              "duration": 509298000,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddPlanetSteps.planetAddSuccess(AddPlanetSteps.java:76)\r\n\tat ✽.Planet \"Krypton\" Add Success(classpath:features/EEB_5.feature:24)\r\n",
+              "duration": 5028013800,
               "status": "failed"
             },
-            "line": 25,
-            "name": "The User is given an Alert with text \"Planet added successfully with name\"",
+            "line": 24,
+            "name": "Planet \"Krypton\" Add Success",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Planet added successfully with name\"",
-                  "offset": 37
+                  "val": "\"Krypton\"",
+                  "offset": 7
                 }
               ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "Planet Add Success",
-            "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess()"
+              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:26.938Z",
+        "start_timestamp": "2024-11-14T16:50:50.573Z",
         "before": [
           {
             "result": {
-              "duration": 19557900,
-=======
-        "start_timestamp": "2024-11-13T19:35:26.691Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14949000,
->>>>>>> Stashed changes
+              "duration": 14192600,
               "status": "passed"
             },
             "match": {
@@ -3130,18 +2402,14 @@
             }
           }
         ],
-        "line": 31,
+        "line": 29,
         "name": "Adding Planets - Unique Planet Names -",
         "description": "",
         "id": "add-planets;adding-planets---unique-planet-names--;;3",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 508611300,
-=======
-              "duration": 521256300,
->>>>>>> Stashed changes
+              "duration": 506170300,
               "status": "passed"
             },
             "match": {
@@ -3154,14 +2422,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 223411200,
-=======
-              "duration": 253146500,
->>>>>>> Stashed changes
+              "duration": 188855700,
               "status": "passed"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
@@ -3170,14 +2434,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 10840400,
-=======
-              "duration": 6976500,
->>>>>>> Stashed changes
+              "duration": 10249800,
               "status": "passed"
             },
-            "line": 20,
+            "line": 19,
             "name": "Planet with name \"Venus\" Exists in database",
             "match": {
               "arguments": [
@@ -3192,14 +2452,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 78693000,
-=======
-              "duration": 114623000,
->>>>>>> Stashed changes
+              "duration": 74050600,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "User clicks the Moon Dropdown option",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksMoonDropdownOption()"
@@ -3208,14 +2464,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 55012200,
-=======
-              "duration": 78718500,
->>>>>>> Stashed changes
+              "duration": 101372300,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
@@ -3224,14 +2476,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 87957900,
-=======
-              "duration": 216276000,
->>>>>>> Stashed changes
+              "duration": 41040100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "User provides a Planet Name \"Venus\"",
             "match": {
               "arguments": [
@@ -3246,14 +2494,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 25597900,
-=======
-              "duration": 39866700,
->>>>>>> Stashed changes
+              "duration": 30173000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "User clicks Submit Planet",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksSubmitPlanet()"
@@ -3262,52 +2506,30 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet add failed with name\"(classpath:features/EEB_5.feature:25)\r\n",
-<<<<<<< Updated upstream
-              "duration": 514276700,
-=======
-              "duration": 515274000,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 1018661300,
+              "status": "passed"
             },
-            "line": 25,
-            "name": "The User is given an Alert with text \"Planet add failed with name\"",
+            "line": 24,
+            "name": "Planet \"Venus\" Add Fail",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Planet add failed with name\"",
-                  "offset": 37
+                  "val": "\"Venus\"",
+                  "offset": 7
                 }
               ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
+              "location": "com.revature.steps.AddPlanetSteps.planetAddFailed(java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "Planet Add Failed",
-            "match": {},
             "keyword": "And "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:28.469Z",
+        "start_timestamp": "2024-11-14T16:50:52.563Z",
         "before": [
           {
             "result": {
-              "duration": 15679400,
-=======
-        "start_timestamp": "2024-11-13T19:35:28.468Z",
-        "before": [
-          {
-            "result": {
-              "duration": 18937500,
->>>>>>> Stashed changes
+              "duration": 15798700,
               "status": "passed"
             },
             "match": {
@@ -3315,18 +2537,14 @@
             }
           }
         ],
-        "line": 43,
+        "line": 40,
         "name": "Adding Planets - Planet Ownership -",
         "description": "",
         "id": "add-planets;adding-planets---planet-ownership--;;2",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 506821300,
-=======
-              "duration": 510292400,
->>>>>>> Stashed changes
+              "duration": 518365900,
               "status": "passed"
             },
             "match": {
@@ -3339,14 +2557,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 211404900,
-=======
-              "duration": 449496100,
->>>>>>> Stashed changes
+              "duration": 168197700,
               "status": "passed"
             },
-            "line": 34,
+            "line": 32,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
@@ -3355,14 +2569,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 589352700,
-=======
-              "duration": 687798200,
->>>>>>> Stashed changes
+              "duration": 147564500,
               "status": "passed"
             },
-            "line": 35,
+            "line": 33,
             "name": "User clicks the Moon Dropdown option",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksMoonDropdownOption()"
@@ -3371,14 +2581,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 46602500,
-=======
-              "duration": 80730000,
->>>>>>> Stashed changes
+              "duration": 47702400,
               "status": "passed"
             },
-            "line": 36,
+            "line": 34,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
@@ -3387,14 +2593,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 57201800,
-=======
-              "duration": 93686100,
->>>>>>> Stashed changes
+              "duration": 40082000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 35,
             "name": "User provides a Planet Name \"Tamaran\"",
             "match": {
               "arguments": [
@@ -3409,59 +2611,24 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 28675200,
-=======
-              "duration": 54817400,
->>>>>>> Stashed changes
+              "duration": 26799300,
               "status": "passed"
             },
-            "line": 38,
+            "line": 36,
             "name": "User clicks Submit Planet",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksSubmitPlanet()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(UserRegistrationSteps.java:85)\r\n\tat ✽.The User is given an Alert with text \"Planet created with Name\"(classpath:features/EEB_5.feature:39)\r\n",
-<<<<<<< Updated upstream
-              "duration": 511614100,
-=======
-              "duration": 510292500,
->>>>>>> Stashed changes
-              "status": "failed"
-            },
-            "line": 39,
-            "name": "The User is given an Alert with text \"Planet created with Name\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Planet created with Name\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.revature.steps.UserRegistrationSteps.theUserIsGivenAnAlertWithText(java.lang.String)"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:30.442Z",
+        "start_timestamp": "2024-11-14T16:50:53.534Z",
         "before": [
           {
             "result": {
-              "duration": 16166400,
-=======
-        "start_timestamp": "2024-11-13T19:35:30.881Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19933300,
->>>>>>> Stashed changes
+              "duration": 14679200,
               "status": "passed"
             },
             "match": {
@@ -3469,18 +2636,14 @@
             }
           }
         ],
-        "line": 56,
+        "line": 53,
         "name": "Adding Planets - Image Association -",
         "description": "",
         "id": "add-planets;adding-planets---image-association--;;2",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 514268900,
-=======
-              "duration": 517279300,
->>>>>>> Stashed changes
+              "duration": 508538200,
               "status": "passed"
             },
             "match": {
@@ -3493,14 +2656,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 215686700,
-=======
-              "duration": 304980600,
->>>>>>> Stashed changes
+              "duration": 179809400,
               "status": "passed"
             },
-            "line": 46,
+            "line": 43,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
@@ -3509,14 +2668,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 583989800,
-=======
-              "duration": 135545200,
->>>>>>> Stashed changes
+              "duration": 194752600,
               "status": "passed"
             },
-            "line": 47,
+            "line": 44,
             "name": "User clicks the Moon Dropdown option",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksMoonDropdownOption()"
@@ -3525,14 +2680,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 48507500,
-=======
-              "duration": 99128100,
->>>>>>> Stashed changes
+              "duration": 54688900,
               "status": "passed"
             },
-            "line": 48,
+            "line": 45,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
@@ -3541,14 +2692,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 51444700,
-=======
-              "duration": 263119100,
->>>>>>> Stashed changes
+              "duration": 40204200,
               "status": "passed"
             },
-            "line": 49,
+            "line": 46,
             "name": "User provides a Planet Name \"Pluto\"",
             "match": {
               "arguments": [
@@ -3563,14 +2710,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 25860700,
-=======
-              "duration": 49834000,
->>>>>>> Stashed changes
+              "duration": 24098600,
               "status": "passed"
             },
-            "line": 50,
+            "line": 47,
             "name": "User provides an image Yes",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userCanProvideAnImageCanAddImageYes()"
@@ -3579,14 +2722,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29732600,
-=======
-              "duration": 49833200,
->>>>>>> Stashed changes
+              "duration": 25074900,
               "status": "passed"
             },
-            "line": 51,
+            "line": 48,
             "name": "User clicks Submit Planet",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksSubmitPlanet()"
@@ -3595,31 +2734,30 @@
           },
           {
             "result": {
+              "duration": 148268800,
               "status": "passed"
             },
-            "line": 52,
-            "name": "Planet Add Success",
+            "line": 49,
+            "name": "Planet \"Pluto\" Add Success",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess()"
+              "arguments": [
+                {
+                  "val": "\"Pluto\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:31.932Z",
+        "start_timestamp": "2024-11-14T16:50:54.729Z",
         "before": [
           {
             "result": {
-              "duration": 17670100,
-=======
-        "start_timestamp": "2024-11-13T19:35:32.328Z",
-        "before": [
-          {
-            "result": {
-              "duration": 15946500,
->>>>>>> Stashed changes
+              "duration": 14751100,
               "status": "passed"
             },
             "match": {
@@ -3627,18 +2765,14 @@
             }
           }
         ],
-        "line": 57,
+        "line": 54,
         "name": "Adding Planets - Image Association -",
         "description": "",
         "id": "add-planets;adding-planets---image-association--;;3",
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 507896900,
-=======
-              "duration": 505311500,
->>>>>>> Stashed changes
+              "duration": 505517100,
               "status": "passed"
             },
             "match": {
@@ -3651,14 +2785,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 220994800,
-=======
-              "duration": 254149400,
->>>>>>> Stashed changes
+              "duration": 167935600,
               "status": "passed"
             },
-            "line": 46,
+            "line": 43,
             "name": "User is on the Home Page",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userOnHomePage()"
@@ -3667,14 +2797,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 577766700,
-=======
-              "duration": 117599400,
->>>>>>> Stashed changes
+              "duration": 144061600,
               "status": "passed"
             },
-            "line": 47,
+            "line": 44,
             "name": "User clicks the Moon Dropdown option",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksMoonDropdownOption()"
@@ -3683,14 +2809,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 44766700,
-=======
-              "duration": 74240500,
->>>>>>> Stashed changes
+              "duration": 53688000,
               "status": "passed"
             },
-            "line": 48,
+            "line": 45,
             "name": "User clicks Planet from the dropdown",
             "match": {
               "location": "com.revature.steps.GeneralSteps.userClicksPlanetFromTheDropdown()"
@@ -3699,14 +2821,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 54947700,
-=======
-              "duration": 215282800,
->>>>>>> Stashed changes
+              "duration": 45894100,
               "status": "passed"
             },
-            "line": 49,
+            "line": 46,
             "name": "User provides a Planet Name \"Saturn\"",
             "match": {
               "arguments": [
@@ -3721,9 +2839,10 @@
           },
           {
             "result": {
+              "duration": 12128500,
               "status": "passed"
             },
-            "line": 50,
+            "line": 47,
             "name": "User provides an image No",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userCanProvideAnImageCanAddImageNo()"
@@ -3732,14 +2851,10 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27100200,
-=======
-              "duration": 40859600,
->>>>>>> Stashed changes
+              "duration": 33421300,
               "status": "passed"
             },
-            "line": 51,
+            "line": 48,
             "name": "User clicks Submit Planet",
             "match": {
               "location": "com.revature.steps.AddPlanetSteps.userClicksSubmitPlanet()"
@@ -3748,13 +2863,20 @@
           },
           {
             "result": {
-              "duration": 996900,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddPlanetSteps.planetAddSuccess(AddPlanetSteps.java:76)\r\n\tat ✽.Planet \"Saturn\" Add Success(classpath:features/EEB_5.feature:49)\r\n",
+              "duration": 5021741700,
+              "status": "failed"
             },
-            "line": 52,
-            "name": "Planet Add Success",
+            "line": 49,
+            "name": "Planet \"Saturn\" Add Success",
             "match": {
-              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess()"
+              "arguments": [
+                {
+                  "val": "\"Saturn\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.revature.steps.AddPlanetSteps.planetAddSuccess(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -3772,19 +2894,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:33.390Z",
+        "start_timestamp": "2024-11-14T16:51:00.733Z",
         "before": [
           {
             "result": {
-              "duration": 15124900,
-=======
-        "start_timestamp": "2024-11-13T19:35:33.558Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14951900,
->>>>>>> Stashed changes
+              "duration": 13816700,
               "status": "passed"
             },
             "match": {
@@ -3799,11 +2913,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 513768200,
-=======
-              "duration": 506228200,
->>>>>>> Stashed changes
+              "duration": 507611200,
               "status": "passed"
             },
             "match": {
@@ -3816,11 +2926,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 219794200,
-=======
-              "duration": 295015900,
->>>>>>> Stashed changes
+              "duration": 168652300,
               "status": "passed"
             },
             "line": 5,
@@ -3832,11 +2938,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 17476700,
-=======
-              "duration": 1998000,
->>>>>>> Stashed changes
+              "duration": 996100,
               "status": "passed"
             },
             "line": 6,
@@ -3854,11 +2956,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 57523300,
-=======
-              "duration": 134549900,
->>>>>>> Stashed changes
+              "duration": 78375200,
               "status": "passed"
             },
             "line": 7,
@@ -3870,11 +2968,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 62508700,
-=======
-              "duration": 94683000,
->>>>>>> Stashed changes
+              "duration": 48050500,
               "status": "passed"
             },
             "line": 8,
@@ -3892,11 +2986,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 79436200,
-=======
-              "duration": 113619400,
->>>>>>> Stashed changes
+              "duration": 80053900,
               "status": "passed"
             },
             "line": 9,
@@ -3908,11 +2998,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 7027600,
-=======
-              "duration": 13955400,
->>>>>>> Stashed changes
+              "duration": 9057700,
               "status": "passed"
             },
             "line": 10,
@@ -3925,19 +3011,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:34.373Z",
+        "start_timestamp": "2024-11-14T16:51:01.646Z",
         "before": [
           {
             "result": {
-              "duration": 14319500,
-=======
-        "start_timestamp": "2024-11-13T19:35:34.743Z",
-        "before": [
-          {
-            "result": {
-              "duration": 16944000,
->>>>>>> Stashed changes
+              "duration": 14876100,
               "status": "passed"
             },
             "match": {
@@ -3952,11 +3030,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 508389700,
-=======
-              "duration": 40866800,
->>>>>>> Stashed changes
+              "duration": 3621200,
               "status": "passed"
             },
             "match": {
@@ -3969,11 +3043,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 223085700,
-=======
-              "duration": 252157600,
->>>>>>> Stashed changes
+              "duration": 164134800,
               "status": "passed"
             },
             "line": 5,
@@ -3985,11 +3055,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 1994600,
-=======
-              "duration": 1992900,
->>>>>>> Stashed changes
+              "duration": 2601300,
               "status": "passed"
             },
             "line": 6,
@@ -4007,11 +3073,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 75493100,
-=======
-              "duration": 126577500,
->>>>>>> Stashed changes
+              "duration": 75619600,
               "status": "passed"
             },
             "line": 7,
@@ -4023,11 +3085,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 77238500,
-=======
-              "duration": 83721300,
->>>>>>> Stashed changes
+              "duration": 45045400,
               "status": "passed"
             },
             "line": 8,
@@ -4045,11 +3103,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 54080400,
-=======
-              "duration": 44851600,
->>>>>>> Stashed changes
+              "duration": 95227900,
               "status": "passed"
             },
             "line": 9,
@@ -4061,13 +3115,8 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Failed to delete planet with name }\n  (Session info: chrome\u003d130.0.6723.117): Failed to delete planet with name \nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e31ec5a5b7a2febabec13e9a6b0390b0, findElement {using\u003did, value\u003dcelestialTable}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59148/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e31ec5a5b7a2febabec13e9a6b0390b0\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.findElements(Unknown Source)\r\n\tat com.revature.poms.PlanetariumHome.findPlanetByName(PlanetariumHome.java:82)\r\n\tat com.revature.steps.DeletePlanetSteps.planetEarthIsDeletedSuccessfully(DeletePlanetSteps.java:59)\r\n\tat ✽.Planet Earth is deleted successfully(classpath:features/EEB_6.feature:10)\r\n",
-              "duration": 3219800,
-=======
               "error_message": "org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_TRIGGER] A RAISE function within a trigger fired, causing the SQL statement to abort (FOREIGN KEY constraint failed)\r\n\tat org.sqlite.core.DB.newSQLException(DB.java:1179)\r\n\tat org.sqlite.core.DB.newSQLException(DB.java:1190)\r\n\tat org.sqlite.core.DB.execute(DB.java:985)\r\n\tat org.sqlite.core.DB.executeUpdate(DB.java:1054)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.lambda$executeLargeUpdate$2(JDBC3PreparedStatement.java:129)\r\n\tat org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.executeLargeUpdate(JDBC3PreparedStatement.java:124)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:105)\r\n\tat com.revature.steps.DeletePlanetSteps.planetEarthIsDeletedSuccessfully(DeletePlanetSteps.java:71)\r\n\tat ✽.Planet Earth is deleted successfully(classpath:features/EEB_6.feature:10)\r\n",
-              "duration": 15942600,
->>>>>>> Stashed changes
+              "duration": 6013100,
               "status": "failed"
             },
             "line": 10,
@@ -4080,19 +3129,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:35.337Z",
+        "start_timestamp": "2024-11-14T16:51:02.056Z",
         "before": [
           {
             "result": {
-              "duration": 15512300,
-=======
-        "start_timestamp": "2024-11-13T19:35:35.337Z",
-        "before": [
-          {
-            "result": {
-              "duration": 24914400,
->>>>>>> Stashed changes
+              "duration": 14383400,
               "status": "passed"
             },
             "match": {
@@ -4107,11 +3148,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 21433800,
-=======
-              "duration": 11959800,
->>>>>>> Stashed changes
+              "duration": 511134900,
               "status": "passed"
             },
             "match": {
@@ -4124,14 +3161,9 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:24)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:19)\r\n",
-              "duration": 235919500,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeleteMoonSteps.userOnTheHomePage(DeleteMoonSteps.java:27)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:19)\r\n",
+              "duration": 199849200,
               "status": "failed"
-=======
-              "duration": 542186400,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 19,
             "name": "User \"Batman\" is on the Home Page",
@@ -4142,14 +3174,13 @@
                   "offset": 5
                 }
               ],
-              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+              "location": "com.revature.steps.DeleteMoonSteps.userOnTheHomePage(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2990100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Planet with name \"Earth\" Exists in database",
@@ -4166,12 +3197,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
               "status": "skipped"
-=======
-              "duration": 90697000,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 21,
             "name": "User clicks Planet from the dropdown",
@@ -4182,8 +3208,7 @@
           },
           {
             "result": {
-              "duration": 96676800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "User enters planet name \"Earth\" having Owner Id 1",
@@ -4200,8 +3225,7 @@
           },
           {
             "result": {
-              "duration": 173423600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "User clicks the delete button",
@@ -4212,9 +3236,7 @@
           },
           {
             "result": {
-              "error_message": "org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_TRIGGER] A RAISE function within a trigger fired, causing the SQL statement to abort (FOREIGN KEY constraint failed)\r\n\tat org.sqlite.core.DB.newSQLException(DB.java:1179)\r\n\tat org.sqlite.core.DB.newSQLException(DB.java:1190)\r\n\tat org.sqlite.core.DB.execute(DB.java:985)\r\n\tat org.sqlite.core.DB.executeUpdate(DB.java:1054)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.lambda$executeLargeUpdate$2(JDBC3PreparedStatement.java:129)\r\n\tat org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.executeLargeUpdate(JDBC3PreparedStatement.java:124)\r\n\tat org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:105)\r\n\tat com.revature.steps.DeletePlanetSteps.planetEarthIsDeletedSuccessfully(DeletePlanetSteps.java:71)\r\n\tat ✽.Planet Earth is deleted successfully(classpath:features/EEB_6.feature:24)\r\n",
-              "duration": 7969700,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "Planet Earth is deleted successfully",
@@ -4226,19 +3248,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:35.615Z",
+        "start_timestamp": "2024-11-14T16:51:02.788Z",
         "before": [
           {
             "result": {
-              "duration": 14060000,
-=======
-        "start_timestamp": "2024-11-13T19:35:36.300Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19932900,
->>>>>>> Stashed changes
+              "duration": 14095000,
               "status": "passed"
             },
             "match": {
@@ -4253,11 +3267,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 16202800,
-=======
-              "duration": 7974700,
->>>>>>> Stashed changes
+              "duration": 507456400,
               "status": "passed"
             },
             "match": {
@@ -4270,13 +3280,8 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:24)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:19)\r\n",
-              "duration": 260591600,
-=======
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:33)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:19)\r\n",
-              "duration": 352818800,
->>>>>>> Stashed changes
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeleteMoonSteps.userOnTheHomePage(DeleteMoonSteps.java:27)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:19)\r\n",
+              "duration": 208419000,
               "status": "failed"
             },
             "line": 19,
@@ -4288,7 +3293,7 @@
                   "offset": 5
                 }
               ],
-              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+              "location": "com.revature.steps.DeleteMoonSteps.userOnTheHomePage(java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -4362,19 +3367,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:35.912Z",
+        "start_timestamp": "2024-11-14T16:51:03.524Z",
         "before": [
           {
             "result": {
-              "duration": 17623200,
-=======
-        "start_timestamp": "2024-11-13T19:35:36.694Z",
-        "before": [
-          {
-            "result": {
-              "duration": 21926100,
->>>>>>> Stashed changes
+              "duration": 12933000,
               "status": "passed"
             },
             "match": {
@@ -4389,11 +3386,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 17390900,
-=======
-              "duration": 514298000,
->>>>>>> Stashed changes
+              "duration": 6544600,
               "status": "passed"
             },
             "match": {
@@ -4406,14 +3399,9 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:24)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:33)\r\n",
-              "duration": 242599600,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeleteMoonSteps.userOnTheHomePage(DeleteMoonSteps.java:27)\r\n\tat ✽.User \"Batman\" is on the Home Page(classpath:features/EEB_6.feature:33)\r\n",
+              "duration": 219209200,
               "status": "failed"
-=======
-              "duration": 377737200,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 33,
             "name": "User \"Batman\" is on the Home Page",
@@ -4424,14 +3412,13 @@
                   "offset": 5
                 }
               ],
-              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+              "location": "com.revature.steps.DeleteMoonSteps.userOnTheHomePage(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1992400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Planet with name \"Nessus\" Exists in database",
@@ -4448,12 +3435,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
               "status": "skipped"
-=======
-              "duration": 90697500,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 35,
             "name": "User clicks Planet from the dropdown",
@@ -4464,8 +3446,7 @@
           },
           {
             "result": {
-              "duration": 81727500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "User enters planet name \"Nessus\" having Owner Id 1",
@@ -4482,8 +3463,7 @@
           },
           {
             "result": {
-              "duration": 200332200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "User clicks the delete button",
@@ -4494,8 +3474,7 @@
           },
           {
             "result": {
-              "duration": 13951400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "Planet Nessus is deleted successfully",
@@ -4507,19 +3486,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:36.195Z",
+        "start_timestamp": "2024-11-14T16:51:03.770Z",
         "before": [
           {
             "result": {
-              "duration": 16670700,
-=======
-        "start_timestamp": "2024-11-13T19:35:38.004Z",
-        "before": [
-          {
-            "result": {
-              "duration": 15760000,
->>>>>>> Stashed changes
+              "duration": 17188000,
               "status": "passed"
             },
             "match": {
@@ -4534,11 +3505,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 16326900,
-=======
-              "duration": 515225700,
->>>>>>> Stashed changes
+              "duration": 517738500,
               "status": "passed"
             },
             "match": {
@@ -4551,14 +3518,9 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(DeletePlanetSteps.java:24)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:33)\r\n",
-              "duration": 264133200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Planetarium Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.DeleteMoonSteps.userOnTheHomePage(DeleteMoonSteps.java:27)\r\n\tat ✽.User \"BatmanAndRobin\" is on the Home Page(classpath:features/EEB_6.feature:33)\r\n",
+              "duration": 218035300,
               "status": "failed"
-=======
-              "duration": 325907700,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 33,
             "name": "User \"BatmanAndRobin\" is on the Home Page",
@@ -4569,14 +3531,13 @@
                   "offset": 5
                 }
               ],
-              "location": "com.revature.steps.DeletePlanetSteps.userIsOnTheHomePage(java.lang.String)"
+              "location": "com.revature.steps.DeleteMoonSteps.userOnTheHomePage(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1993800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Planet with name \"Nessus\" Exists in database",
@@ -4593,12 +3554,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
               "status": "skipped"
-=======
-              "duration": 96676100,
-              "status": "passed"
->>>>>>> Stashed changes
             },
             "line": 35,
             "name": "User clicks Planet from the dropdown",
@@ -4609,8 +3565,7 @@
           },
           {
             "result": {
-              "duration": 83722000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "User enters planet name \"Nessus\" having Owner Id 1",
@@ -4627,8 +3582,7 @@
           },
           {
             "result": {
-              "duration": 170427800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "User clicks the delete button",
@@ -4639,9 +3593,7 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.DeletePlanetSteps.planetNessusIsNotDeleted(DeletePlanetSteps.java:77)\r\n\tat ✽.Planet Nessus is not deleted(classpath:features/EEB_6.feature:38)\r\n",
-              "duration": 512336700,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "Planet Nessus is not deleted",
@@ -4664,19 +3616,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:36.499Z",
+        "start_timestamp": "2024-11-14T16:51:04.526Z",
         "before": [
           {
             "result": {
-              "duration": 15349500,
-=======
-        "start_timestamp": "2024-11-13T19:35:39.735Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14951100,
->>>>>>> Stashed changes
+              "duration": 13025400,
               "status": "passed"
             },
             "match": {
@@ -4691,11 +3635,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 510835300,
-=======
-              "duration": 516504900,
->>>>>>> Stashed changes
+              "duration": 509770300,
               "status": "passed"
             },
             "match": {
@@ -4708,11 +3648,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 212396700,
-=======
-              "duration": 246176100,
->>>>>>> Stashed changes
+              "duration": 169630800,
               "status": "passed"
             },
             "line": 9,
@@ -4724,11 +3660,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 609424000,
-=======
-              "duration": 623913300,
->>>>>>> Stashed changes
+              "duration": 183757300,
               "status": "passed"
             },
             "line": 10,
@@ -4740,27 +3672,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 54948400,
-=======
-              "duration": 77739200,
->>>>>>> Stashed changes
+              "duration": 46099100,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 117144300,
-=======
-              "duration": 97160300,
->>>>>>> Stashed changes
+              "duration": 47776200,
               "status": "passed"
             },
             "line": 12,
@@ -4778,11 +3702,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 49287000,
-=======
-              "duration": 70770300,
->>>>>>> Stashed changes
+              "duration": 37037100,
               "status": "passed"
             },
             "line": 13,
@@ -4800,11 +3720,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 26914200,
-=======
-              "duration": 34883800,
->>>>>>> Stashed changes
+              "duration": 24102200,
               "status": "passed"
             },
             "line": 14,
@@ -4822,11 +3738,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 26924100,
-=======
-              "duration": 47841000,
->>>>>>> Stashed changes
+              "duration": 34378100,
               "status": "passed"
             },
             "line": 15,
@@ -4838,13 +3750,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"moonerEclipse\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
-<<<<<<< Updated upstream
-              "duration": 24899100,
-=======
-              "duration": 46842900,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 98456200,
+              "status": "passed"
             },
             "line": 16,
             "name": "The moon \"moonerEclipse\" creation is a Success",
@@ -4862,19 +3769,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:38.155Z",
+        "start_timestamp": "2024-11-14T16:51:05.698Z",
         "before": [
           {
             "result": {
-              "duration": 14837900,
-=======
-        "start_timestamp": "2024-11-13T19:35:41.521Z",
-        "before": [
-          {
-            "result": {
-              "duration": 20927300,
->>>>>>> Stashed changes
+              "duration": 15961000,
               "status": "passed"
             },
             "match": {
@@ -4889,11 +3788,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 513742100,
-=======
-              "duration": 510284700,
->>>>>>> Stashed changes
+              "duration": 506436400,
               "status": "passed"
             },
             "match": {
@@ -4906,11 +3801,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 200310400,
-=======
-              "duration": 202614000,
->>>>>>> Stashed changes
+              "duration": 170942100,
               "status": "passed"
             },
             "line": 9,
@@ -4922,11 +3813,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 598103500,
-=======
-              "duration": 590551300,
->>>>>>> Stashed changes
+              "duration": 183722600,
               "status": "passed"
             },
             "line": 10,
@@ -4938,27 +3825,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 43630000,
-=======
-              "duration": 50827800,
->>>>>>> Stashed changes
+              "duration": 47985200,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 49632600,
-=======
-              "duration": 52823900,
->>>>>>> Stashed changes
+              "duration": 37702000,
               "status": "passed"
             },
             "line": 12,
@@ -4976,11 +3855,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 40572400,
-=======
-              "duration": 45845200,
->>>>>>> Stashed changes
+              "duration": 31868500,
               "status": "passed"
             },
             "line": 13,
@@ -4998,11 +3873,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 18576000,
-=======
-              "duration": 24916000,
->>>>>>> Stashed changes
+              "duration": 21928900,
               "status": "passed"
             },
             "line": 14,
@@ -5020,11 +3891,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27235600,
-=======
-              "duration": 42854800,
->>>>>>> Stashed changes
+              "duration": 25929800,
               "status": "passed"
             },
             "line": 15,
@@ -5036,13 +3903,8 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 23633800,
-=======
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Failed to create Moon orbiting planet 1 with name Luna}\n  (Session info: chrome\u003d130.0.6723.92): Failed to create Moon orbiting planet 1 with name Luna\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b04cf6c72b00833707a935f7a33bff37, findElement {using\u003did, value\u003dcelestialTable}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:87)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 531305600,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:88)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 22962400,
               "status": "failed"
             },
             "line": 16,
@@ -5061,19 +3923,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:39.690Z",
+        "start_timestamp": "2024-11-14T16:51:06.771Z",
         "before": [
           {
             "result": {
-              "duration": 14978400,
-=======
-        "start_timestamp": "2024-11-13T19:35:43.603Z",
-        "before": [
-          {
-            "result": {
-              "duration": 20936200,
->>>>>>> Stashed changes
+              "duration": 14844500,
               "status": "passed"
             },
             "match": {
@@ -5088,11 +3942,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 509979400,
-=======
-              "duration": 519759100,
->>>>>>> Stashed changes
+              "duration": 513021800,
               "status": "passed"
             },
             "match": {
@@ -5105,11 +3955,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 214148900,
-=======
-              "duration": 203997300,
->>>>>>> Stashed changes
+              "duration": 181320700,
               "status": "passed"
             },
             "line": 9,
@@ -5121,11 +3967,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 599655300,
-=======
-              "duration": 601181900,
->>>>>>> Stashed changes
+              "duration": 190028300,
               "status": "passed"
             },
             "line": 10,
@@ -5137,27 +3979,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 43202000,
-=======
-              "duration": 46842900,
->>>>>>> Stashed changes
+              "duration": 49532300,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 49470600,
-=======
-              "duration": 44853400,
->>>>>>> Stashed changes
+              "duration": 38107300,
               "status": "passed"
             },
             "line": 12,
@@ -5175,11 +4009,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 40702300,
-=======
-              "duration": 40860400,
->>>>>>> Stashed changes
+              "duration": 37098100,
               "status": "passed"
             },
             "line": 13,
@@ -5197,11 +4027,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 20520500,
-=======
-              "duration": 19937700,
->>>>>>> Stashed changes
+              "duration": 19047900,
               "status": "passed"
             },
             "line": 14,
@@ -5219,11 +4045,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 29482200,
-=======
-              "duration": 30894500,
->>>>>>> Stashed changes
+              "duration": 25425200,
               "status": "passed"
             },
             "line": 15,
@@ -5235,13 +4057,8 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 21449100,
-=======
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Failed to create Moon orbiting planet 2 with name Luna}\n  (Session info: chrome\u003d130.0.6723.92): Failed to create Moon orbiting planet 2 with name Luna\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b04cf6c72b00833707a935f7a33bff37, findChildElements {using\u003dxpath, id\u003df.53F5CCC27F33E251E1B40DAF5104E22C.d.8D662C344BC1C0B6C2B0CF7F94A133D6.e.767, value\u003d.//tr/td[contains(text(),\u0027Luna\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:89)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-              "duration": 19936100,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:88)\r\n\tat ✽.The moon \"Luna\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 19523500,
               "status": "failed"
             },
             "line": 16,
@@ -5260,19 +4077,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:41.238Z",
+        "start_timestamp": "2024-11-14T16:51:07.865Z",
         "before": [
           {
             "result": {
-              "duration": 13811300,
-=======
-        "start_timestamp": "2024-11-13T19:35:45.159Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14950400,
->>>>>>> Stashed changes
+              "duration": 14148000,
               "status": "passed"
             },
             "match": {
@@ -5287,11 +4096,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 510842000,
-=======
-              "duration": 514768300,
->>>>>>> Stashed changes
+              "duration": 507342200,
               "status": "passed"
             },
             "match": {
@@ -5304,11 +4109,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 220671900,
-=======
-              "duration": 200331400,
->>>>>>> Stashed changes
+              "duration": 153895800,
               "status": "passed"
             },
             "line": 9,
@@ -5320,11 +4121,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 600913200,
-=======
-              "duration": 601302900,
->>>>>>> Stashed changes
+              "duration": 156511000,
               "status": "passed"
             },
             "line": 10,
@@ -5336,35 +4133,27 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 45404100,
-=======
-              "duration": 50829200,
->>>>>>> Stashed changes
+              "duration": 51876500,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 59829600,
-=======
-              "duration": 55813900,
->>>>>>> Stashed changes
+              "duration": 33050300,
               "status": "passed"
             },
             "line": 12,
-            "name": "User inputs \"\u003cnull\u003e\" in the moon name section",
+            "name": "User inputs \"\" in the moon name section",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cnull\u003e\"",
+                  "val": "\"\"",
                   "offset": 12
                 }
               ],
@@ -5374,11 +4163,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 42885700,
-=======
-              "duration": 40862100,
->>>>>>> Stashed changes
+              "duration": 33671500,
               "status": "passed"
             },
             "line": 13,
@@ -5396,11 +4181,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 21758200,
-=======
-              "duration": 20931500,
->>>>>>> Stashed changes
+              "duration": 18559300,
               "status": "passed"
             },
             "line": 14,
@@ -5418,11 +4199,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27548400,
-=======
-              "duration": 31892900,
->>>>>>> Stashed changes
+              "duration": 25935600,
               "status": "passed"
             },
             "line": 15,
@@ -5434,19 +4211,16 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 24537000,
-=======
-              "duration": 34883300,
->>>>>>> Stashed changes
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:88)\r\n\tat ✽.The moon \"\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 18921800,
+              "status": "failed"
             },
             "line": 16,
-            "name": "The moon \"\u003cnull\u003e\" creation is a Fail",
+            "name": "The moon \"\" creation is a Fail",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cnull\u003e\"",
+                  "val": "\"\"",
                   "offset": 9
                 }
               ],
@@ -5457,19 +4231,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:42.814Z",
+        "start_timestamp": "2024-11-14T16:51:08.887Z",
         "before": [
           {
             "result": {
-              "duration": 16198000,
-=======
-        "start_timestamp": "2024-11-13T19:35:46.732Z",
-        "before": [
-          {
-            "result": {
-              "duration": 16942700,
->>>>>>> Stashed changes
+              "duration": 16179200,
               "status": "passed"
             },
             "match": {
@@ -5484,11 +4250,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 512260200,
-=======
-              "duration": 523249800,
->>>>>>> Stashed changes
+              "duration": 520396200,
               "status": "passed"
             },
             "match": {
@@ -5501,11 +4263,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 230908400,
-=======
-              "duration": 214710300,
->>>>>>> Stashed changes
+              "duration": 180921500,
               "status": "passed"
             },
             "line": 9,
@@ -5517,11 +4275,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 595752100,
-=======
-              "duration": 613561500,
->>>>>>> Stashed changes
+              "duration": 174626300,
               "status": "passed"
             },
             "line": 10,
@@ -5533,27 +4287,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 46868400,
-=======
-              "duration": 58803300,
->>>>>>> Stashed changes
+              "duration": 45788600,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 51035600,
-=======
-              "duration": 61793600,
->>>>>>> Stashed changes
+              "duration": 36634200,
               "status": "passed"
             },
             "line": 12,
@@ -5571,11 +4317,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 41322600,
-=======
-              "duration": 51826900,
->>>>>>> Stashed changes
+              "duration": 33317600,
               "status": "passed"
             },
             "line": 13,
@@ -5593,11 +4335,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 20724100,
-=======
-              "duration": 26909800,
->>>>>>> Stashed changes
+              "duration": 18950700,
               "status": "passed"
             },
             "line": 14,
@@ -5615,11 +4353,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 23365900,
-=======
-              "duration": 36876600,
->>>>>>> Stashed changes
+              "duration": 24398100,
               "status": "passed"
             },
             "line": 15,
@@ -5631,12 +4365,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:91)\r\n\tat ✽.The moon \"Titan\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
-<<<<<<< Updated upstream
-              "duration": 21298100,
-=======
-              "duration": 31893300,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation should fail - the moon name should not be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddFail(AddMoonSteps.java:88)\r\n\tat ✽.The moon \"Titan\" creation is a Fail(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 22249400,
               "status": "failed"
             },
             "line": 16,
@@ -5655,19 +4385,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:44.377Z",
+        "start_timestamp": "2024-11-14T16:51:09.965Z",
         "before": [
           {
             "result": {
-              "duration": 14201100,
-=======
-        "start_timestamp": "2024-11-13T19:35:48.374Z",
-        "before": [
-          {
-            "result": {
-              "duration": 21926700,
->>>>>>> Stashed changes
+              "duration": 13806800,
               "status": "passed"
             },
             "match": {
@@ -5682,11 +4404,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 512118300,
-=======
-              "duration": 514279300,
->>>>>>> Stashed changes
+              "duration": 506234700,
               "status": "passed"
             },
             "match": {
@@ -5699,11 +4417,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 216964300,
-=======
-              "duration": 297009400,
->>>>>>> Stashed changes
+              "duration": 147926200,
               "status": "passed"
             },
             "line": 9,
@@ -5715,11 +4429,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 90235800,
-=======
-              "duration": 644843600,
->>>>>>> Stashed changes
+              "duration": 172497500,
               "status": "passed"
             },
             "line": 10,
@@ -5731,27 +4441,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 46378000,
-=======
-              "duration": 63785100,
->>>>>>> Stashed changes
+              "duration": 49468800,
               "status": "passed"
             },
             "line": 11,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 88450100,
-=======
-              "duration": 58803400,
->>>>>>> Stashed changes
+              "duration": 39935900,
               "status": "passed"
             },
             "line": 12,
@@ -5769,11 +4471,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 37854700,
-=======
-              "duration": 55813400,
->>>>>>> Stashed changes
+              "duration": 40526700,
               "status": "passed"
             },
             "line": 13,
@@ -5808,11 +4506,7 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 27517000,
-=======
-              "duration": 37873200,
->>>>>>> Stashed changes
+              "duration": 26520700,
               "status": "passed"
             },
             "line": 15,
@@ -5824,12 +4518,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:80)\r\n\tat ✽.The moon \"Sun\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
-<<<<<<< Updated upstream
-              "duration": 21676800,
-=======
-              "duration": 29112900,
->>>>>>> Stashed changes
+              "error_message": "java.lang.AssertionError: Moon creation failed - the moon name should be present in the table\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.revature.steps.AddMoonSteps.moonAddSuccess(AddMoonSteps.java:77)\r\n\tat ✽.The moon \"Sun\" creation is a Success(classpath:features/EEB_7.feature:16)\r\n",
+              "duration": 2123273200,
               "status": "failed"
             },
             "line": 16,
@@ -5859,19 +4549,11 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:45.440Z",
+        "start_timestamp": "2024-11-14T16:51:13.109Z",
         "before": [
           {
             "result": {
-              "duration": 13688800,
-=======
-        "start_timestamp": "2024-11-13T19:35:50.115Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14966900,
->>>>>>> Stashed changes
+              "duration": 15046000,
               "status": "passed"
             },
             "match": {
@@ -5886,11 +4568,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 514249200,
-=======
-              "duration": 5980400,
->>>>>>> Stashed changes
+              "duration": 509312400,
               "status": "passed"
             },
             "match": {
@@ -5903,11 +4581,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 228340300,
-=======
-              "duration": 231208300,
->>>>>>> Stashed changes
+              "duration": 170869500,
               "status": "passed"
             },
             "line": 9,
@@ -5919,25 +4593,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e31ec5a5b7a2febabec13e9a6b0390b0, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59148/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e31ec5a5b7a2febabec13e9a6b0390b0\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 22423600,
-=======
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.92)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b04cf6c72b00833707a935f7a33bff37, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 28903900,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 115726700,
+              "status": "passed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 11,
             "name": "User enters moon name \"Luna\"",
@@ -5946,7 +4614,6 @@
           },
           {
             "result": {
-              "duration": 996200,
               "status": "skipped"
             },
             "line": 12,
@@ -5968,19 +4635,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:46.227Z",
+        "start_timestamp": "2024-11-14T16:51:13.930Z",
         "before": [
           {
             "result": {
-              "duration": 14324700,
-=======
-        "start_timestamp": "2024-11-13T19:35:50.413Z",
-        "before": [
-          {
-            "result": {
-              "duration": 17935400,
->>>>>>> Stashed changes
+              "duration": 14466100,
               "status": "passed"
             },
             "match": {
@@ -5995,11 +4654,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 516260600,
-=======
-              "duration": 509296200,
->>>>>>> Stashed changes
+              "duration": 508749100,
               "status": "passed"
             },
             "match": {
@@ -6012,11 +4667,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 227059500,
-=======
-              "duration": 336872200,
->>>>>>> Stashed changes
+              "duration": 178592300,
               "status": "passed"
             },
             "line": 9,
@@ -6028,25 +4679,19 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.117)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e31ec5a5b7a2febabec13e9a6b0390b0, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\heype\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59148/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e31ec5a5b7a2febabec13e9a6b0390b0\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 22291600,
-=======
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.92)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b04cf6c72b00833707a935f7a33bff37, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 36877200,
->>>>>>> Stashed changes
-              "status": "failed"
+              "duration": 119274100,
+              "status": "passed"
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 11,
             "name": "User enters moon name \"Jira\"",
@@ -6076,19 +4721,11 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-        "start_timestamp": "2024-11-12T21:20:47.012Z",
+        "start_timestamp": "2024-11-14T16:51:14.757Z",
         "before": [
           {
             "result": {
-              "duration": 14500900,
-=======
-        "start_timestamp": "2024-11-13T19:35:51.324Z",
-        "before": [
-          {
-            "result": {
-              "duration": 22920700,
->>>>>>> Stashed changes
+              "duration": 13158400,
               "status": "passed"
             },
             "match": {
@@ -6103,11 +4740,7 @@
         "after": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 509619400,
-=======
-              "duration": 506305400,
->>>>>>> Stashed changes
+              "duration": 506575800,
               "status": "passed"
             },
             "match": {
@@ -6120,11 +4753,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 217414300,
-=======
-              "duration": 330504300,
->>>>>>> Stashed changes
+              "duration": 162766100,
               "status": "passed"
             },
             "line": 9,
@@ -6136,19 +4765,13 @@
           },
           {
             "result": {
-<<<<<<< Updated upstream
-              "duration": 56011800,
+              "duration": 117860200,
               "status": "passed"
-=======
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#locationSelect\"}\n  (Session info: chrome\u003d130.0.6723.92)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b04cf6c72b00833707a935f7a33bff37, findElement {using\u003did, value\u003dlocationSelect}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\\Users\\rjwic\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56011/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b04cf6c72b00833707a935f7a33bff37\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption(AddMoonSteps.java:36)\r\n\tat ✽.User selects moon from Dropdown(classpath:features/EEB_8.feature:10)\r\n",
-              "duration": 32455600,
-              "status": "failed"
->>>>>>> Stashed changes
             },
             "line": 10,
             "name": "User selects moon from Dropdown",
             "match": {
-              "location": "com.revature.steps.AddMoonSteps.userClicksMoonDropdownOption()"
+              "location": "com.revature.steps.GeneralSteps.userClicksMoonDropdownOption()"
             },
             "keyword": "When "
           },
