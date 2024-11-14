@@ -30,6 +30,10 @@ public class DeletePlanetSteps {
     public void userIsOnTheHomePage(String username) throws Throwable{
         TestRunner.planetariumHome.setupTestUserLogin(username);
         TestRunner.planetariumHome.login(username, "I am the night");
+
+        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.titleIs("Home"));
+
         Assert.assertEquals("Home", TestRunner.driver.getTitle());
         Assert.assertEquals("Welcome to the Home Page " + username, TestRunner.planetariumHome.getHomePageGreeting());
     }
