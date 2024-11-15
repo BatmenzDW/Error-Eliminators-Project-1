@@ -21,7 +21,7 @@ import java.util.SortedMap;
 
 public class DeleteMoonSteps {
     @Given("User {string} is on the Home Page")
-    public void userOnTheHomePage(String username) throws Throwable{
+    public void user_is_on_home(String username) throws Throwable{
         TestRunner.planetariumHome.setupTestUserLogin(username);
         TestRunner.planetariumHome.login(username, "I am the night");
         Assert.assertEquals("Home", TestRunner.driver.getTitle());
@@ -29,23 +29,24 @@ public class DeleteMoonSteps {
     }
 
     @When("User selects moon from Dropdown")
-    public void userClicksMoonDropdown() throws Throwable {
-        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMinutes(1));
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("locationSelect")));
-
+    public void user_click_moon_in_dropdown() throws Throwable {
         Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
         select.selectByVisibleText("Moon");
     }
 
-    @When("User enters Moon Name {string}")
-    public void userProvidesMoonName(String moonName) throws Throwable {
+    @When("User enters moon name {string}")
+    public void user_puts_name_in(String moonName) throws Throwable {
         WebElement input = TestRunner.driver.findElement(By.id("moonNameInput"));
         input.sendKeys(moonName);
     }
 
-    @Then("User clicks the delete button")
-    public void userClicksDeleteButton() throws Throwable{
+    @And("User clicks the delete button")
+    public void user_click_delete() throws Throwable{
         TestRunner.planetariumHome.clickDeleteButton();
     }
 
+    @Then("Moon {string} is deleted {string}")
+    public void moonIsDeleted(String moonName, String result) {
+
+    }
 }
