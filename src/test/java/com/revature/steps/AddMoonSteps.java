@@ -36,12 +36,6 @@ public class AddMoonSteps {
         select.selectByVisibleText("Planet");
     }
 
-    @When("User selects moon from Dropdown")
-    public void userClicksMoonDropdownOption() throws Throwable {
-        Select select = new Select(driver.findElement(By.id("locationSelect")));
-        select.selectByVisibleText("Moon");
-    }
-
     @When("User inputs {string} in the moon name section")
     public void userProvidesMoonName(String moonName) throws Throwable {
         WebElement input = driver.findElement(By.id("moonNameInput"));
@@ -75,19 +69,20 @@ public class AddMoonSteps {
 
     @Then("The moon {string} creation is a Success")
     public void moonAddSuccess(String moonName) throws Throwable {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
         WebElement table = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("celestialTable")));
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // Waits up to 10 seconds for elements to appear
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS); // Waits up to 10 seconds for elements to appear
 
         boolean isMoonPresent = !table.findElements(By.xpath(".//tr/td[contains(text(),'" + moonName + "')]")).isEmpty();
         System.out.println(table.findElements(By.xpath(".//tr/td[contains(text(),'" + moonName + "')]")));
-        System.out.println(isMoonPresent);
+        System.out.println(isMoonPresent + "y");
 
         assertTrue("Moon creation failed - the moon name should be present in the table", isMoonPresent);
     }
 
     @Then("The moon {string} creation is a Fail")
     public void moonAddFail(String moonName) throws Throwable {
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10));
 
         try
