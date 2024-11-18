@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.time.Duration;
 import java.util.SortedMap;
 
@@ -48,24 +49,43 @@ public class DeleteMoonSteps {
         TestRunner.planetariumHome.clickDeleteButton();
     }
 
-    @Then("Moon {string} is deleted {string}")
-    public void moonLunaDeletedSuccessfully(String moonName) throws Throwable{
-
+    @Then("Moon {string} is deleted Success")
+    public void moonLunaDeletedSuccessfully(String moonName) throws Throwable {
         Connection connection = Setup.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement(
-                "DELETE FROM moons WHERE name = 'Luna'"
-        );
-        preparedStatement.executeUpdate();
-        connection.close();
+
+        try {
+            // Query the database to confirm the moon does not exist
+            PreparedStatement checkStatement = connection.prepareStatement(
+                    "SELECT COUNT(*) FROM moons WHERE name = ?"
+            );
+            checkStatement.setString(1, moonName);
+            ResultSet resultSet = checkStatement.executeQuery();
+
+            resultSet.next();
+            int count = resultSet.getInt(1); // Get the count of matching records
+
+            // Assert that the count is zero, meaning the moon was deleted
+            if (count > 0) {
+                throw new AssertionError("Moon with name '" + moonName + "' still exists in the database.");
+            }
+
+        } finally {
+            // Ensure the connection is always closed
+            if (connection != null && !connection.isClosed()) {
+                connection.close();
+            }
+        }
     }
+
 
     @Then("Moon {string} is deleted Fail")
     public void moonLunaDeletedUnsuccessfully(String moonName) throws Throwable{
 
         Connection connection = Setup.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(
-                "DELETE FROM moons WHERE name = 'Luna'"
+                "DELETE FROM moons WHERE name = ?"
         );
+        preparedStatement.setString(1, moonName);
         preparedStatement.executeUpdate();
         connection.close();
     }
