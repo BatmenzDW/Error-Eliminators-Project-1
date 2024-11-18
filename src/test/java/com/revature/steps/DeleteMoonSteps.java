@@ -20,7 +20,7 @@ import java.time.Duration;
 import java.util.SortedMap;
 
 public class DeleteMoonSteps {
-    @Given("User {string} is on the Home Page")
+    @Given("User {string} is on Home Page")
     public void userOnTheHomePage(String username) throws Throwable{
         TestRunner.planetariumHome.setupTestUserLogin(username);
         TestRunner.planetariumHome.login(username, "I am the night");
@@ -37,15 +37,37 @@ public class DeleteMoonSteps {
         select.selectByVisibleText("Moon");
     }
 
-    @When("User enters Moon Name {string}")
+    @When("User enters moon name {string}")
     public void userProvidesMoonName(String moonName) throws Throwable {
-        WebElement input = TestRunner.driver.findElement(By.id("moonNameInput"));
+        WebElement input = TestRunner.driver.findElement(By.id("deleteInput"));
         input.sendKeys(moonName);
     }
 
-    @Then("User clicks the delete button")
+    @Then("User clicks delete button")
     public void userClicksDeleteButton() throws Throwable{
         TestRunner.planetariumHome.clickDeleteButton();
+    }
+
+    @Then("Moon {string} is deleted {string}")
+    public void moonLunaDeletedSuccessfully(String moonName) throws Throwable{
+
+        Connection connection = Setup.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(
+                "DELETE FROM moons WHERE name = 'Luna'"
+        );
+        preparedStatement.executeUpdate();
+        connection.close();
+    }
+
+    @Then("Moon {string} is deleted Fail")
+    public void moonLunaDeletedUnsuccessfully(String moonName) throws Throwable{
+
+        Connection connection = Setup.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(
+                "DELETE FROM moons WHERE name = 'Luna'"
+        );
+        preparedStatement.executeUpdate();
+        connection.close();
     }
 
 }
