@@ -16,4 +16,4 @@ Feature: Delete Moons
 		| Moon Name | Result  |
 		| Luna      | Success |
 		| Jira      | Fail    |
-		| <null>    | Fail    |
+		|     | Fail    |

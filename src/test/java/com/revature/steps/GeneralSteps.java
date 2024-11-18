@@ -6,6 +6,8 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
+import static com.revature.TestRunner.driver;
+
 public class GeneralSteps {
 
     @Given(".*User is on the Home Page")
@@ -24,5 +26,11 @@ public class GeneralSteps {
     public void userClicksPlanetFromTheDropdown() throws Throwable {
         Select select = new Select(TestRunner.driver.findElement(By.id("locationSelect")));
         select.selectByVisibleText("Planet");
+    }
+
+    @When("User selects moon from Dropdown")
+    public void userClicksMoonDropdownOption() throws Throwable {
+        Select select = new Select(driver.findElement(By.id("locationSelect")));
+        select.selectByVisibleText("Moon");
     }
 }

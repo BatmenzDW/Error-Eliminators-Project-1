@@ -18,6 +18,11 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.time.Duration;
+import java.util.Objects;
+import java.util.concurrent.TimeUnit;
+
+import static com.revature.TestRunner.driver;
+import static org.junit.Assert.assertTrue;
 
 public class AddPlanetSteps {
 
@@ -59,14 +64,28 @@ public class AddPlanetSteps {
 //        Assert.assertTrue(result.contains(alertText));
 //    }
 
-    @And("Planet Add Success")
-    public void planetAddSuccess() {
+    @And("Planet {string} Add Success")
+    public void planetAddSuccess(String planetName) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement table = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("celestialTable")));
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); // 1 second
 
+        boolean isPlanetPresent = (!table.findElements(By.xpath(".//tr/td[contains(text(),'" + planetName + "')]")).isEmpty()) && !(Objects.equals(planetName, ""));
+        System.out.println(isPlanetPresent);
+
+        assertTrue("Moon creation failed - the moon name should be present in the table", isPlanetPresent);
     }
 
-    @And("Planet Add Fail")
-    public void planetAddFailed() {
+    @And("Planet {string} Add Fail")
+    public void planetAddFailed(String planetName) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
+        WebElement table = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("celestialTable")));
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS); // 1 second
 
+        boolean isPlanetPresent = table.findElements(By.xpath(".//tr/td[contains(text(),'" + planetName + "')]")).isEmpty();
+        System.out.println(isPlanetPresent);
+
+        assertTrue("Moon creation should fail - the moon name should not be present in the table", isPlanetPresent);
     }
 
     @And("Planet with name {string} Exists in database")
@@ -109,6 +128,8 @@ public class AddPlanetSteps {
 
     @Then("User provides an image No")
     public void userCanProvideAnImageCanAddImageNo() throws Throwable {
-
+        WebElement imageInput = TestRunner.driver.findElement(By.id("planetImageInput"));
+        assertTrue("Expected no image to be provided.", imageInput.getAttribute("value").isEmpty());
     }
+
 }
