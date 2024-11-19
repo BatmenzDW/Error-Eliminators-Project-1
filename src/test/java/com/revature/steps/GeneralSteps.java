@@ -28,9 +28,9 @@ public class GeneralSteps {
         select.selectByVisibleText("Planet");
     }
 
-    @When("User selects moon from Dropdown")
-    public void userClicksMoonDropdownOption() throws Throwable {
-        Select select = new Select(driver.findElement(By.id("locationSelect")));
-        select.selectByVisibleText("Moon");
-    }
+//    @When("User selects moon from Dropdown")
+//    public void userClicksMoonDropdownOption() throws Throwable {
+//        Select select = new Select(driver.findElement(By.id("locationSelect")));
+//        select.selectByVisibleText("Moon");
+//    }
 }
