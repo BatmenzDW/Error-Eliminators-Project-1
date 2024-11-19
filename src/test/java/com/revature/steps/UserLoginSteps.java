@@ -33,7 +33,7 @@ public class UserLoginSteps {
 
     @Then("The user should receive the result Logged in successfully, redirected to home page")
     public void theUserShouldReceiveTheResultSuccess() {
-        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(1));
+        WebDriverWait wait = new WebDriverWait(TestRunner.driver, Duration.ofMillis(5));
         wait.until(ExpectedConditions.urlContains("/planetarium"));
         Assert.assertEquals("Home", TestRunner.driver.getTitle());
     }

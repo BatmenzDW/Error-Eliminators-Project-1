@@ -80,7 +80,6 @@ public class DeleteMoonSteps {
 
     @Then("Moon {string} is deleted Fail")
     public void moonLunaDeletedUnsuccessfully(String moonName) throws Throwable{
-
         Connection connection = Setup.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(
                 "DELETE FROM moons WHERE name = ?"
