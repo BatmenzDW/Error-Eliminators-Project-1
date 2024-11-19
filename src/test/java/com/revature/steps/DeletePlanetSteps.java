@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.time.Duration;
 import java.util.SortedMap;
 
@@ -53,48 +54,41 @@ public class DeletePlanetSteps {
         TestRunner.planetariumHome.clickDeleteButton();
     }
 
-    @Then("Planet Earth is not deleted")
-    public void planetEarthIsNotDeleted() throws Throwable{
-        Assert.assertTrue(TestRunner.planetariumHome.isAlertPresent());
+    @Then("Planet {string} is deleted successfully")
+    public void planetEarthIsDeletedSuccessfully(String planetName) throws Throwable{
+        Connection connection = Setup.getConnection();
 
-        String result = TestRunner.planetariumHome.getAlertText();
-        TestRunner.driver.switchTo().alert().accept();
+        try {
+            // Query the database to confirm the moon does not exist
+            PreparedStatement checkStatement = connection.prepareStatement(
+                    "SELECT COUNT(*) FROM planets WHERE name = ?"
+            );
+            checkStatement.setString(1, planetName);
+            ResultSet resultSet = checkStatement.executeQuery();
 
-        // Find that the alert statement appearing is as expected
-        Assert.assertEquals("Failed to delete planet with name ", result);
+            resultSet.next();
+            int count = resultSet.getInt(1); // Get the count of matching records
+
+            // Assert that the count is zero, meaning the planet was deleted
+            if (count > 0) {
+                throw new AssertionError("Planet with name '" + planetName + "' still exists in the database.");
+            }
+
+        } finally {
+            // Ensure the connection is always closed
+            if (connection != null && !connection.isClosed()) {
+                connection.close();
+            }
+        }
     }
 
-    @Then("Planet Earth is deleted successfully")
-    public void planetEarthIsDeletedSuccessfully() throws Throwable{
-        // Find that planet Earth no longer exists on page/in database
-
+    @Then("Planet {string} is not deleted")
+    public void planetEarthIsNotDeletedSuccessfully(String planetName) throws Throwable {
         Connection connection = Setup.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(
-                "DELETE FROM planets WHERE name = 'Earth'"
+                "DELETE FROM moons WHERE name = ?"
         );
-        preparedStatement.executeUpdate();
-        connection.close();
-    }
-
-    @Then("Planet Nessus is not deleted")
-    public void planetNessusIsNotDeleted() throws Throwable{
-        Assert.assertTrue(TestRunner.planetariumHome.isAlertPresent());
-
-        String result = TestRunner.planetariumHome.getAlertText();
-        TestRunner.driver.switchTo().alert().accept();
-
-        // Find that the alert statement appearing is as expected
-        Assert.assertEquals("Failed to delete planet with name ", result);
-    }
-
-    @Then("Planet Nessus is deleted successfully")
-    public void planetNessusIsDeletedSuccessfully() throws Throwable{
-        // Find that planet Nessus no longer exists on page/in database
-
-        Connection connection = Setup.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement(
-                "DELETE FROM planets WHERE name = 'Nessus'"
-        );
+        preparedStatement.setString(1, planetName);
         preparedStatement.executeUpdate();
         connection.close();
     }

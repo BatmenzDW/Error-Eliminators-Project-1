@@ -7,7 +7,7 @@ Feature: Delete Planets
 		When User clicks Planet from the dropdown
 		And User enters planet name "<Planet Name>"
 		And User clicks the delete button
-		Then Planet <Planet Name> is <Result>
+		Then Planet "<Planet Name>" is <Result>
 
 	Examples:
 		| Planet Name | Exists        | Result               |
@@ -21,7 +21,7 @@ Feature: Delete Planets
 		When User clicks Planet from the dropdown
 		And User enters planet name "<Planet Name>" having Owner Id 1
 		And User clicks the delete button
-		Then Planet <Planet Name> is <Result>
+		Then Planet "<Planet Name>" is <Result>
 
 	Examples:
 		| Username       | Planet Name | Exists        | Result               |
@@ -35,7 +35,7 @@ Feature: Delete Planets
 		When User clicks Planet from the dropdown
 		And User enters planet name "<Planet Name>" having Owner Id 1
 		And User clicks the delete button
-		Then Planet <Planet Name> is <Result>
+		Then Planet "<Planet Name>" is <Result>
 
 	Examples:
 		| Username       | Planet Name | Exists        | Result               |
