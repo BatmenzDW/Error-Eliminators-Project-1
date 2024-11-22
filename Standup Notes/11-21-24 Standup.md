@@ -1,8 +1,8 @@
-# Standup 11/20/24
+# Standup 11/21/24
 
-1. Start brainstorming test cases for parts of the source code to test
-2. Debugging parts of the code
-3. Spending time getting setting up jira
+1. Go over any more integration testing 
+2. Write up code for the automation processes
+3. Debugging parts of the code
 
 
 Member Duties:
@@ -10,5 +10,5 @@ Member Duties:
 - Ryan - Brainstorming test cases/writing/jira
 - Kevin - Brainstorming test cases/writing/jira
 - Jordon - Brainstorming test cases/writing/jira
-
+- Roshan - Brainstorming test cases/writing/jira
 
