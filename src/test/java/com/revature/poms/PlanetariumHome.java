@@ -154,4 +154,8 @@ public class PlanetariumHome {
         conn.close();
     }
 
+    public void goToPlanetariumLogin()
+    {
+        driver.get("http://localhost:8080/planetarium");
+    }
 }

@@ -25,8 +25,8 @@ Feature: Home
 
 		Examples:
 			| Session Result    | URL                               | Status | URL Result                    |
-			| already logged in | http://localhost:8080/planetarium | 201    | redirected and granted access |
-			| not logged in yet | http://localhost:8080/planetarium | 400    | redirected but denied access  |
+			| already logged in | http://localhost:8080/planetarium | 200    | redirected and granted access |
+			| not logged in yet | http://localhost:8080/planetarium | 401    | redirected but denied access  |
 
 	Scenario Outline: User Planetarium - User's planetarium is displayed correctly
 	The user planetarium is displayed with the correct user and celestial body
