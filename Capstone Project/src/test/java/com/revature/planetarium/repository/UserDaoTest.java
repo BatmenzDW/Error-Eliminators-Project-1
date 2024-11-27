@@ -18,12 +18,21 @@ public class UserDaoTest {
     private static String validGetUserUsername;
     private static User validGetUserData;
     private static String invalidGetUser;
+    private static User invalidNewUser;
+    private static User validNewUser;
+    private static User longUsernameUser;
+    private static User longPasswordUser;
+
 
     @BeforeClass
     public static void setupTestData(){
         validGetUserUsername = "Batman";
         validGetUserData = new User(1,"Batman","I am the night");
         invalidGetUser = "Joker";
+        invalidNewUser = new User(2, "Batman", "I am the night");
+        validNewUser = new User(2, "BatmanAndRobin", "JokerAndHarley");
+        longUsernameUser = new User(2, "BatmanAndRobinNaNaNaNaNaNaNaNaNaNaNaNaNaNa", "JokerAndHarley");
+        longPasswordUser = new User(2, "BatmanAndRobin", "JokerAndHarleyHaHaHaHaHaHaHaHaHaHaHaHaHaHa");
 
     }
 
@@ -60,6 +69,44 @@ public class UserDaoTest {
             the optional returned is empty
          */
         Optional<User> result = userDao.findUserByUsername(invalidGetUser);
+        Assert.assertTrue(result.isEmpty());
+    }
+
+    @Test
+    public void registerUserAlreadyExists(){
+        /*
+        Test fail expected: the user already exists so it should not be
+        created. A unique constraint failed in SQL accordingly.
+         */
+        Optional<User> result = userDao.createUser(invalidNewUser);
+        Assert.assertTrue(result.isEmpty());
+    }
+
+    @Test
+    public void registerUserDoesNotExist(){
+        Optional<User> result = userDao.createUser(validNewUser);
+        User user = result.get();
+
+        Assert.assertEquals(validNewUser, user);
+    }
+
+    @Test
+    public void longUsernameRegister(){
+        /*
+        Test fail expected: the username is too long according to the
+        system requirements. The check constraint fails in SQL.
+         */
+        Optional<User> result = userDao.createUser(longUsernameUser);
+        Assert.assertTrue(result.isEmpty());
+    }
+
+    @Test
+    public void longPasswordRegister(){
+        /*
+        Test fail expected: the password is too long according to the
+        system requirements. The check constraint fails in SQL.
+         */
+        Optional<User> result = userDao.createUser(longPasswordUser);
         Assert.assertTrue(result.isEmpty());
     }
 
